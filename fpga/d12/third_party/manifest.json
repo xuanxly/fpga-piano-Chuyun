@@ -1,0 +1,23 @@
+{
+  "helix": {
+    "repo": "ultraembedded/libhelix-mp3",
+    "revision": "master",
+    "sha256": "cc7c677ab9670f660617b4b976616227d298ef7b00e414a150320539856e101e"
+  },
+  "vexriscv": {
+    "repo": "litex-hub/pythondata-cpu-vexriscv",
+    "revision": "master",
+    "verilog_sha256": "90e0b8f5912df2532d12bc766b110a632c1b85dd82b8aecd431d715c25f4cbbe"
+  },
+  "fatfs": {
+    "version": "R0.16",
+    "url": "https://elm-chan.org/fsw/ff/arc/ff16.zip",
+    "sha256": "99f7dc1f7e095356e4a9e3dbe29959090d8b948afe2bbc5441e52fdf4b85449e"
+  },
+  "vexriscv_standard": {
+    "source": "https://raw.githubusercontent.com/litex-hub/pythondata-cpu-vexriscv/master/pythondata_cpu_vexriscv/verilog/VexRiscv.v",
+    "upstream_sha256": "29be0fd1072159749ada7bd16c410456830a302bec39480f1f4fe1a07da3372b",
+    "git_hash": "63430af99f84cc1d11d58b556debe1cc3f238c67",
+    "adaptations": "16KB I+D cache, 32-byte lines; Gowin RAM inference attributes"
+  }
+}

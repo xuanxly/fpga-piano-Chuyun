@@ -1,0 +1,21 @@
+* text=auto
+*.md text eol=lf
+*.csv text eol=lf
+# Preserve exported source bytes for SHA-256 verification
+*.json -text
+*.svg -text
+*.dxf -text
+*.stl binary
+*.blend binary
+*.epro2 binary
+*.eprj2 binary
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Preserve the archived D12 source and verification evidence byte for byte
+fpga/d12/** -text
+*.fs binary
+*.a binary

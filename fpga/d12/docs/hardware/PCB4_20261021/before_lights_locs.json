@@ -1,0 +1,102 @@
+{
+  "pa_en": [
+    "AB16"
+  ],
+  "dac_din": [
+    "AA16"
+  ],
+  "dac_ws": [
+    "AB17"
+  ],
+  "dac_bck": [
+    "Y17"
+  ],
+  "dark_led": [
+    "W22"
+  ],
+  "transpose_led[9]": [
+    "V17"
+  ],
+  "transpose_led[8]": [
+    "W17"
+  ],
+  "transpose_led[7]": [
+    "T18"
+  ],
+  "transpose_led[6]": [
+    "R18"
+  ],
+  "transpose_led[5]": [
+    "R17"
+  ],
+  "transpose_led[4]": [
+    "P16"
+  ],
+  "transpose_led[3]": [
+    "U21"
+  ],
+  "transpose_led[2]": [
+    "T21"
+  ],
+  "transpose_led[1]": [
+    "R19"
+  ],
+  "transpose_led[0]": [
+    "P19"
+  ],
+  "adc_mosi": [
+    "AB21"
+  ],
+  "adc_sck": [
+    "Y21"
+  ],
+  "adc_cs_n": [
+    "Y22"
+  ],
+  "dark_button_n": [
+    "W21"
+  ],
+  "enc_b": [
+    "N17"
+  ],
+  "enc_a": [
+    "P17"
+  ],
+  "adc_miso[0]": [
+    "AB22"
+  ],
+  "rst_n": [
+    "Y12"
+  ],
+  "sys_clk": [
+    "V22"
+  ],
+  "tmds_data_p[0]": [
+    "J14",
+    "H14"
+  ],
+  "tmds_data_p[1]": [
+    "J15",
+    "H15"
+  ],
+  "tmds_data_p[2]": [
+    "K17",
+    "J17"
+  ],
+  "tmds_clk_p": [
+    "G15",
+    "G16"
+  ],
+  "hpd_en": [
+    "K13"
+  ],
+  "adc_miso[1]": [
+    "AA20"
+  ],
+  "adc_miso[2]": [
+    "AA21"
+  ],
+  "adc_miso[3]": [
+    "AA19"
+  ]
+}

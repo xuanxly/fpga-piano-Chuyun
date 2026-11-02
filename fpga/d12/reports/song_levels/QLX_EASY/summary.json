@@ -1,0 +1,229 @@
+{
+  "file": "QLX_EASY.CSV",
+  "events": 203,
+  "duration_ms": 103755,
+  "title": "七里香：白键入门关卡",
+  "bpm": 80,
+  "tonic": "C4",
+  "transpose_default": 0,
+  "bars": 34,
+  "note_range": [
+    "C4",
+    "F5"
+  ],
+  "max_simultaneous_notes": 1,
+  "minimum_onset_gap_ms": 375,
+  "shortest_release_gap_ms": 90,
+  "timeline_end_ms": 103875,
+  "maximum_hold_ms": 3630,
+  "source_json_sha256": "6B3CBFB5EB2343190A0FCF190C57F6F212FF1950DAF8C9F02A2D49B68AD3DACA",
+  "csv_sha256": "9B849BE629BCFE3CCA287DF2453DF7FE4344A3A71F77EB2D8F1795203C8DCAB6",
+  "hardware_tested": false,
+  "adaptation": "略去前奏与第二段主歌；副歌保留一、二房结构。合并延音及部分密集同音，最短按键间隔为八分音符。不是原谱逐音等时转写。",
+  "section_bars": [
+    {
+      "bar": 1,
+      "section": "VERSE",
+      "local_bar": 1,
+      "time_ms": 1875
+    },
+    {
+      "bar": 2,
+      "section": "VERSE",
+      "local_bar": 2,
+      "time_ms": 4875
+    },
+    {
+      "bar": 3,
+      "section": "VERSE",
+      "local_bar": 3,
+      "time_ms": 7875
+    },
+    {
+      "bar": 4,
+      "section": "VERSE",
+      "local_bar": 4,
+      "time_ms": 10875
+    },
+    {
+      "bar": 5,
+      "section": "VERSE",
+      "local_bar": 5,
+      "time_ms": 13875
+    },
+    {
+      "bar": 6,
+      "section": "VERSE",
+      "local_bar": 6,
+      "time_ms": 16875
+    },
+    {
+      "bar": 7,
+      "section": "VERSE",
+      "local_bar": 7,
+      "time_ms": 19875
+    },
+    {
+      "bar": 8,
+      "section": "VERSE",
+      "local_bar": 8,
+      "time_ms": 22875
+    },
+    {
+      "bar": 9,
+      "section": "VERSE",
+      "local_bar": 9,
+      "time_ms": 25875
+    },
+    {
+      "bar": 10,
+      "section": "VERSE",
+      "local_bar": 10,
+      "time_ms": 28875
+    },
+    {
+      "bar": 11,
+      "section": "VERSE",
+      "local_bar": 11,
+      "time_ms": 31875
+    },
+    {
+      "bar": 12,
+      "section": "VERSE",
+      "local_bar": 12,
+      "time_ms": 34875
+    },
+    {
+      "bar": 13,
+      "section": "VERSE",
+      "local_bar": 13,
+      "time_ms": 37875
+    },
+    {
+      "bar": 14,
+      "section": "VERSE",
+      "local_bar": 14,
+      "time_ms": 40875
+    },
+    {
+      "bar": 15,
+      "section": "VERSE",
+      "local_bar": 15,
+      "time_ms": 43875
+    },
+    {
+      "bar": 16,
+      "section": "VERSE",
+      "local_bar": 16,
+      "time_ms": 46875
+    },
+    {
+      "bar": 17,
+      "section": "CHORUS",
+      "local_bar": 1,
+      "time_ms": 49875
+    },
+    {
+      "bar": 18,
+      "section": "CHORUS",
+      "local_bar": 2,
+      "time_ms": 52875
+    },
+    {
+      "bar": 19,
+      "section": "CHORUS",
+      "local_bar": 3,
+      "time_ms": 55875
+    },
+    {
+      "bar": 20,
+      "section": "CHORUS",
+      "local_bar": 4,
+      "time_ms": 58875
+    },
+    {
+      "bar": 21,
+      "section": "CHORUS",
+      "local_bar": 5,
+      "time_ms": 61875
+    },
+    {
+      "bar": 22,
+      "section": "CHORUS",
+      "local_bar": 6,
+      "time_ms": 64875
+    },
+    {
+      "bar": 23,
+      "section": "ENDING_1",
+      "local_bar": 1,
+      "time_ms": 67875
+    },
+    {
+      "bar": 24,
+      "section": "ENDING_1",
+      "local_bar": 2,
+      "time_ms": 70875
+    },
+    {
+      "bar": 25,
+      "section": "ENDING_1",
+      "local_bar": 3,
+      "time_ms": 73875
+    },
+    {
+      "bar": 26,
+      "section": "CHORUS",
+      "local_bar": 1,
+      "time_ms": 76875
+    },
+    {
+      "bar": 27,
+      "section": "CHORUS",
+      "local_bar": 2,
+      "time_ms": 79875
+    },
+    {
+      "bar": 28,
+      "section": "CHORUS",
+      "local_bar": 3,
+      "time_ms": 82875
+    },
+    {
+      "bar": 29,
+      "section": "CHORUS",
+      "local_bar": 4,
+      "time_ms": 85875
+    },
+    {
+      "bar": 30,
+      "section": "CHORUS",
+      "local_bar": 5,
+      "time_ms": 88875
+    },
+    {
+      "bar": 31,
+      "section": "CHORUS",
+      "local_bar": 6,
+      "time_ms": 91875
+    },
+    {
+      "bar": 32,
+      "section": "ENDING_2",
+      "local_bar": 1,
+      "time_ms": 94875
+    },
+    {
+      "bar": 33,
+      "section": "ENDING_2",
+      "local_bar": 2,
+      "time_ms": 97875
+    },
+    {
+      "bar": 34,
+      "section": "ENDING_2",
+      "local_bar": 3,
+      "time_ms": 100875
+    }
+  ]
+}

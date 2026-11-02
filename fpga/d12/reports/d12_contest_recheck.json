@@ -1,0 +1,38 @@
+{
+  "reviewed_at": "2026-11-02T12:33:49.539421",
+  "ppt_path": "D:\\Gowin\\FPGA2026_pre2(1).pptx",
+  "ppt_sha256": "9ca6b032ac4608e2a6f616b9744af594b1991195b8bd3a806a5f9ca3eebc07fc",
+  "slides_rechecked": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "implementation_boundary": {
+    "core_synthesis": "HDL DDS/FM/additive/envelope/filter/vibrato/mix/output;896clocks/frame;28voices",
+    "game": "HDL time/chord/hold/judgment/guide;CPU only validates/streams CSV",
+    "visualization": "HDL FFT,pixels,WS2812;CPU filenames/metadata are auxiliary",
+    "auxiliary_playback": "WAV only;not counted as synthesis work according to organizer clarification relayed by user"
+  },
+  "not_claimed_satisfied": [
+    "Standard I2S:PT8211 is LSBJ/right-justified;organizer acceptance pending",
+    "End-to-end control-to-analog latency<=10ms:unmeasured",
+    "32 polyphony or32 additive components per single note:not implemented",
+    "Reverb/delay/chorus:not implemented",
+    "CH569/iPhone USB disk compatibility:board acceptance pending"
+  ],
+  "post_timing_edit_candidate": "D:\\FPGA\\11_projects\\pressure_piano_game_d12_candidate_ac",
+  "candidate_source_sha256": {
+    "piano28_timbre_engine.v": "8c61ee160acf32325dbffe80d7dbe3da2bba06bbd847197ec8c7ffb07a679f92",
+    "media_soc.v": "686a5f2576836f6de31a6a60dbc4413acf1a2a1e98e755f58cb1445ad55e72e4",
+    "game_engine28.v": "8a5c75cf2c9ab46523aa239af707711c7592c78812643a9402400a64edc2fbd2",
+    "media_ui28.v": "1e68b1dbe49c54d9bdb0b9bdeb3c329804d1df4776a7e3ca206de8fb798a92a5"
+  },
+  "unchanged_requirements_review": "Core note synthesis remains entirelyRTL;CPUonlyfilesystem/chart/auxWAV/USBservices;no claim ofstandardI2S,32voiceextension,measured10msorphonehardwareverification.",
+  "I2S_requirement_location": "Slide9,Design requirements(original),item2;not optional extensions;distinct fromI2C",
+  "I2S_organizer_acceptance_confirmed": false,
+  "reviewed_after_parallel_game_predicates": true,
+  "review_note": "Freshly reread slides9..14 after ACfinal RTLedit. Core DDS/FM/envelope/filter/vibrato/mix andgamejudgmentremainHDL;CPUonlyauxiliaryfiles/chart/WAV/USBservices. PT8211LSBJacceptance andmeasuredendtoend10msremainunconfirmed."
+}

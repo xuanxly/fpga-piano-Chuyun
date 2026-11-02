@@ -1,0 +1,1248 @@
+{
+  "summary": {
+    "file": "QLX_EASY.CSV",
+    "events": 203,
+    "duration_ms": 103755,
+    "title": "七里香：白键入门关卡",
+    "bpm": 80,
+    "tonic": "C4",
+    "transpose_default": 0,
+    "bars": 34,
+    "note_range": [
+      "C4",
+      "F5"
+    ],
+    "max_simultaneous_notes": 1,
+    "minimum_onset_gap_ms": 375,
+    "shortest_release_gap_ms": 90,
+    "timeline_end_ms": 103875,
+    "maximum_hold_ms": 3630,
+    "source_json_sha256": "6B3CBFB5EB2343190A0FCF190C57F6F212FF1950DAF8C9F02A2D49B68AD3DACA",
+    "csv_sha256": "9B849BE629BCFE3CCA287DF2453DF7FE4344A3A71F77EB2D8F1795203C8DCAB6",
+    "hardware_tested": false,
+    "adaptation": "略去前奏与第二段主歌；副歌保留一、二房结构。合并延音及部分密集同音，最短按键间隔为八分音符。不是原谱逐音等时转写。",
+    "section_bars": [
+      {
+        "bar": 1,
+        "section": "VERSE",
+        "local_bar": 1,
+        "time_ms": 1875
+      },
+      {
+        "bar": 2,
+        "section": "VERSE",
+        "local_bar": 2,
+        "time_ms": 4875
+      },
+      {
+        "bar": 3,
+        "section": "VERSE",
+        "local_bar": 3,
+        "time_ms": 7875
+      },
+      {
+        "bar": 4,
+        "section": "VERSE",
+        "local_bar": 4,
+        "time_ms": 10875
+      },
+      {
+        "bar": 5,
+        "section": "VERSE",
+        "local_bar": 5,
+        "time_ms": 13875
+      },
+      {
+        "bar": 6,
+        "section": "VERSE",
+        "local_bar": 6,
+        "time_ms": 16875
+      },
+      {
+        "bar": 7,
+        "section": "VERSE",
+        "local_bar": 7,
+        "time_ms": 19875
+      },
+      {
+        "bar": 8,
+        "section": "VERSE",
+        "local_bar": 8,
+        "time_ms": 22875
+      },
+      {
+        "bar": 9,
+        "section": "VERSE",
+        "local_bar": 9,
+        "time_ms": 25875
+      },
+      {
+        "bar": 10,
+        "section": "VERSE",
+        "local_bar": 10,
+        "time_ms": 28875
+      },
+      {
+        "bar": 11,
+        "section": "VERSE",
+        "local_bar": 11,
+        "time_ms": 31875
+      },
+      {
+        "bar": 12,
+        "section": "VERSE",
+        "local_bar": 12,
+        "time_ms": 34875
+      },
+      {
+        "bar": 13,
+        "section": "VERSE",
+        "local_bar": 13,
+        "time_ms": 37875
+      },
+      {
+        "bar": 14,
+        "section": "VERSE",
+        "local_bar": 14,
+        "time_ms": 40875
+      },
+      {
+        "bar": 15,
+        "section": "VERSE",
+        "local_bar": 15,
+        "time_ms": 43875
+      },
+      {
+        "bar": 16,
+        "section": "VERSE",
+        "local_bar": 16,
+        "time_ms": 46875
+      },
+      {
+        "bar": 17,
+        "section": "CHORUS",
+        "local_bar": 1,
+        "time_ms": 49875
+      },
+      {
+        "bar": 18,
+        "section": "CHORUS",
+        "local_bar": 2,
+        "time_ms": 52875
+      },
+      {
+        "bar": 19,
+        "section": "CHORUS",
+        "local_bar": 3,
+        "time_ms": 55875
+      },
+      {
+        "bar": 20,
+        "section": "CHORUS",
+        "local_bar": 4,
+        "time_ms": 58875
+      },
+      {
+        "bar": 21,
+        "section": "CHORUS",
+        "local_bar": 5,
+        "time_ms": 61875
+      },
+      {
+        "bar": 22,
+        "section": "CHORUS",
+        "local_bar": 6,
+        "time_ms": 64875
+      },
+      {
+        "bar": 23,
+        "section": "ENDING_1",
+        "local_bar": 1,
+        "time_ms": 67875
+      },
+      {
+        "bar": 24,
+        "section": "ENDING_1",
+        "local_bar": 2,
+        "time_ms": 70875
+      },
+      {
+        "bar": 25,
+        "section": "ENDING_1",
+        "local_bar": 3,
+        "time_ms": 73875
+      },
+      {
+        "bar": 26,
+        "section": "CHORUS",
+        "local_bar": 1,
+        "time_ms": 76875
+      },
+      {
+        "bar": 27,
+        "section": "CHORUS",
+        "local_bar": 2,
+        "time_ms": 79875
+      },
+      {
+        "bar": 28,
+        "section": "CHORUS",
+        "local_bar": 3,
+        "time_ms": 82875
+      },
+      {
+        "bar": 29,
+        "section": "CHORUS",
+        "local_bar": 4,
+        "time_ms": 85875
+      },
+      {
+        "bar": 30,
+        "section": "CHORUS",
+        "local_bar": 5,
+        "time_ms": 88875
+      },
+      {
+        "bar": 31,
+        "section": "CHORUS",
+        "local_bar": 6,
+        "time_ms": 91875
+      },
+      {
+        "bar": 32,
+        "section": "ENDING_2",
+        "local_bar": 1,
+        "time_ms": 94875
+      },
+      {
+        "bar": 33,
+        "section": "ENDING_2",
+        "local_bar": 2,
+        "time_ms": 97875
+      },
+      {
+        "bar": 34,
+        "section": "ENDING_2",
+        "local_bar": 3,
+        "time_ms": 100875
+      }
+    ]
+  },
+  "events": [
+    {
+      "note": "G4",
+      "time_ms": 1500,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 1875,
+      "duration_ms": 630
+    },
+    {
+      "note": "B4",
+      "time_ms": 2625,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 3000,
+      "duration_ms": 1380
+    },
+    {
+      "note": "C5",
+      "time_ms": 4500,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 4875,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 5250,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 5625,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 6000,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 6375,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 6750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 7125,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 7500,
+      "duration_ms": 285
+    },
+    {
+      "note": "F4",
+      "time_ms": 7875,
+      "duration_ms": 630
+    },
+    {
+      "note": "F4",
+      "time_ms": 8625,
+      "duration_ms": 285
+    },
+    {
+      "note": "E4",
+      "time_ms": 9000,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 9375,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 9750,
+      "duration_ms": 630
+    },
+    {
+      "note": "G4",
+      "time_ms": 10500,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 10875,
+      "duration_ms": 285
+    },
+    {
+      "note": "D4",
+      "time_ms": 11250,
+      "duration_ms": 285
+    },
+    {
+      "note": "F4",
+      "time_ms": 11625,
+      "duration_ms": 285
+    },
+    {
+      "note": "F4",
+      "time_ms": 12000,
+      "duration_ms": 285
+    },
+    {
+      "note": "E4",
+      "time_ms": 12375,
+      "duration_ms": 285
+    },
+    {
+      "note": "E4",
+      "time_ms": 12750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 13500,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 13875,
+      "duration_ms": 630
+    },
+    {
+      "note": "B4",
+      "time_ms": 14625,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 15000,
+      "duration_ms": 1380
+    },
+    {
+      "note": "C5",
+      "time_ms": 16500,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 16875,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 17250,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 17625,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 18000,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 18375,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 18750,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 19125,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 19500,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 19875,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 20250,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 20625,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 21000,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 21375,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 21750,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 22125,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 22500,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 22875,
+      "duration_ms": 1755
+    },
+    {
+      "note": "G4",
+      "time_ms": 24750,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 25125,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 25500,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 25875,
+      "duration_ms": 630
+    },
+    {
+      "note": "E4",
+      "time_ms": 26625,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 27000,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 27375,
+      "duration_ms": 630
+    },
+    {
+      "note": "G4",
+      "time_ms": 28125,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 28500,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 28875,
+      "duration_ms": 630
+    },
+    {
+      "note": "D4",
+      "time_ms": 29625,
+      "duration_ms": 285
+    },
+    {
+      "note": "F4",
+      "time_ms": 30000,
+      "duration_ms": 1005
+    },
+    {
+      "note": "E4",
+      "time_ms": 31125,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 31500,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 31875,
+      "duration_ms": 285
+    },
+    {
+      "note": "F4",
+      "time_ms": 32250,
+      "duration_ms": 630
+    },
+    {
+      "note": "E4",
+      "time_ms": 33000,
+      "duration_ms": 630
+    },
+    {
+      "note": "D4",
+      "time_ms": 33750,
+      "duration_ms": 630
+    },
+    {
+      "note": "C4",
+      "time_ms": 34500,
+      "duration_ms": 285
+    },
+    {
+      "note": "E4",
+      "time_ms": 34875,
+      "duration_ms": 285
+    },
+    {
+      "note": "D4",
+      "time_ms": 35250,
+      "duration_ms": 630
+    },
+    {
+      "note": "F4",
+      "time_ms": 36000,
+      "duration_ms": 285
+    },
+    {
+      "note": "E4",
+      "time_ms": 36375,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 36750,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 37125,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 37500,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 37875,
+      "duration_ms": 285
+    },
+    {
+      "note": "E4",
+      "time_ms": 38250,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 38625,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 39000,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 39375,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 39750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 40125,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 40500,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 40875,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 41250,
+      "duration_ms": 285
+    },
+    {
+      "note": "E4",
+      "time_ms": 41625,
+      "duration_ms": 285
+    },
+    {
+      "note": "F4",
+      "time_ms": 42000,
+      "duration_ms": 285
+    },
+    {
+      "note": "F4",
+      "time_ms": 42375,
+      "duration_ms": 285
+    },
+    {
+      "note": "E4",
+      "time_ms": 42750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 43125,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 43500,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 43875,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 44250,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 44625,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 45000,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 45375,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 45750,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 46125,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 46500,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 46875,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 47250,
+      "duration_ms": 630
+    },
+    {
+      "note": "D5",
+      "time_ms": 48000,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 48750,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 49125,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 49500,
+      "duration_ms": 1380
+    },
+    {
+      "note": "C5",
+      "time_ms": 51000,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 51375,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 51750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 52125,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 52500,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 52875,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 53250,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 53625,
+      "duration_ms": 630
+    },
+    {
+      "note": "C5",
+      "time_ms": 54375,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 54750,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 55125,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 55500,
+      "duration_ms": 1380
+    },
+    {
+      "note": "C5",
+      "time_ms": 57000,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 57375,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 57750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 58125,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 58500,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 58875,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 59250,
+      "duration_ms": 285
+    },
+    {
+      "note": "F5",
+      "time_ms": 59625,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 60000,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 60750,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 61125,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 61500,
+      "duration_ms": 1380
+    },
+    {
+      "note": "C5",
+      "time_ms": 63000,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 63375,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 63750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 64125,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 64500,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 64875,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 65250,
+      "duration_ms": 285
+    },
+    {
+      "note": "F5",
+      "time_ms": 65625,
+      "duration_ms": 630
+    },
+    {
+      "note": "E5",
+      "time_ms": 66375,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 66750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 67125,
+      "duration_ms": 630
+    },
+    {
+      "note": "D5",
+      "time_ms": 67875,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 68250,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 68625,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 69000,
+      "duration_ms": 1380
+    },
+    {
+      "note": "C5",
+      "time_ms": 70500,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 70875,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 71250,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 71625,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 72000,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 72375,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 72750,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 73125,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 73500,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 73875,
+      "duration_ms": 1380
+    },
+    {
+      "note": "G4",
+      "time_ms": 75750,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 76125,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 76500,
+      "duration_ms": 1380
+    },
+    {
+      "note": "C5",
+      "time_ms": 78000,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 78375,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 78750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 79125,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 79500,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 79875,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 80250,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 80625,
+      "duration_ms": 630
+    },
+    {
+      "note": "C5",
+      "time_ms": 81375,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 81750,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 82125,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 82500,
+      "duration_ms": 1380
+    },
+    {
+      "note": "C5",
+      "time_ms": 84000,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 84375,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 84750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 85125,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 85500,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 85875,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 86250,
+      "duration_ms": 285
+    },
+    {
+      "note": "F5",
+      "time_ms": 86625,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 87000,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 87750,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 88125,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 88500,
+      "duration_ms": 1380
+    },
+    {
+      "note": "C5",
+      "time_ms": 90000,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 90375,
+      "duration_ms": 285
+    },
+    {
+      "note": "A4",
+      "time_ms": 90750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 91125,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 91500,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 91875,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 92250,
+      "duration_ms": 285
+    },
+    {
+      "note": "F5",
+      "time_ms": 92625,
+      "duration_ms": 630
+    },
+    {
+      "note": "E5",
+      "time_ms": 93375,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 93750,
+      "duration_ms": 285
+    },
+    {
+      "note": "G4",
+      "time_ms": 94125,
+      "duration_ms": 630
+    },
+    {
+      "note": "D5",
+      "time_ms": 94875,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 95250,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 95625,
+      "duration_ms": 285
+    },
+    {
+      "note": "F5",
+      "time_ms": 96000,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 96375,
+      "duration_ms": 630
+    },
+    {
+      "note": "C5",
+      "time_ms": 97125,
+      "duration_ms": 630
+    },
+    {
+      "note": "C5",
+      "time_ms": 97875,
+      "duration_ms": 285
+    },
+    {
+      "note": "E5",
+      "time_ms": 98250,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 98625,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 99000,
+      "duration_ms": 285
+    },
+    {
+      "note": "B4",
+      "time_ms": 99375,
+      "duration_ms": 285
+    },
+    {
+      "note": "D5",
+      "time_ms": 99750,
+      "duration_ms": 285
+    },
+    {
+      "note": "C5",
+      "time_ms": 100125,
+      "duration_ms": 3630
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://raw.githubusercontent.com/sipeed/TangMega-138K-example/06e7d8b118d345915ab6f257b7c22226f81575cd/ch569_hspi2cdc/CH569_HSPI_USB/obj/CH569_HSPI_USB.hex",
+  "commit": "06e7d8b118d345915ab6f257b7c22226f81575cd",
+  "sha256": "961694467f7a48ca7c8da5665de42726b93d561379319f87f56d721385e4a988",
+  "kind": "OFFICIAL_RECOVERY_IMAGE_NOT_UNIT_READBACK",
+  "board_readback_done": false
+}

@@ -1,0 +1,19 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 12:17:07 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_timbre_system/xsim_script.tcl
+# xsim {tb_timbre_system} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS timbre_system: real four ADCs, fifth app, global physical/touch tone, held-key silence, re-press, USB detach, 2425 PCM frames
+$finish called at time : 50502420 ns : File "D:/FPGA/11_projects/pressure_piano_game_d12_candidate_ac/sim/tb_timbre_system.sv" Line 35
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:06:13 . Memory (MB): peak = 222.402 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 15484 KB (Peak: 15484 KB), Simulation CPU Usage: 355468 ms
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 12:23:22 2026...

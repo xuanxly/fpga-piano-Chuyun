@@ -1,0 +1,102 @@
+{
+  "status": "PASS_STATIC_MAPPING",
+  "original_45_balls_unchanged": true,
+  "unique_balls": 58,
+  "new_connections": {
+    "ch_ready": {
+      "ball": [
+        "K21"
+      ],
+      "board_net": "HD[4]",
+      "CH569_GPIO": "PA2"
+    },
+    "ch_rx_req": {
+      "ball": [
+        "N18"
+      ],
+      "board_net": "HD[13]",
+      "CH569_GPIO": "PB16"
+    },
+    "ch_tx_ack": {
+      "ball": [
+        "G18"
+      ],
+      "board_net": "HTVLD",
+      "CH569_GPIO": "PA21"
+    },
+    "ch_rx_ack": {
+      "ball": [
+        "J21"
+      ],
+      "board_net": "HTREQ",
+      "CH569_GPIO": "PA9"
+    },
+    "ch_tx_req": {
+      "ball": [
+        "J20"
+      ],
+      "board_net": "HTCLK",
+      "CH569_GPIO": "PA11"
+    },
+    "ch_rx_data[0]": {
+      "ball": [
+        "G17"
+      ],
+      "board_net": "HD[0]",
+      "CH569_GPIO": "PA5"
+    },
+    "ch_rx_data[1]": {
+      "ball": [
+        "H22"
+      ],
+      "board_net": "HD[1]",
+      "CH569_GPIO": "PA4"
+    },
+    "ch_rx_data[2]": {
+      "ball": [
+        "L14"
+      ],
+      "board_net": "HD[2]",
+      "CH569_GPIO": "PA22"
+    },
+    "ch_rx_data[3]": {
+      "ball": [
+        "K22"
+      ],
+      "board_net": "HD[3]",
+      "CH569_GPIO": "PA3"
+    },
+    "ch_tx_data[0]": {
+      "ball": [
+        "K18"
+      ],
+      "board_net": "HD[5]",
+      "CH569_GPIO": "PA1"
+    },
+    "ch_tx_data[1]": {
+      "ball": [
+        "L21"
+      ],
+      "board_net": "HD[6]",
+      "CH569_GPIO": "PA0"
+    },
+    "ch_tx_data[2]": {
+      "ball": [
+        "M21"
+      ],
+      "board_net": "HD[7]",
+      "CH569_GPIO": "PB21"
+    },
+    "ch_tx_data[3]": {
+      "ball": [
+        "N19"
+      ],
+      "board_net": "HD[12]",
+      "CH569_GPIO": "PA17"
+    }
+  },
+  "dedicated_I2C_SSPI_pins_avoided": true,
+  "source_CST_SHA256": "117aad47457c13e53c06aa8a06d10c29da8db42d8261fa3d4e2e94879ec0f760",
+  "schematic": "NEO31005 page21, USB3_PHY; rendered/read in this session",
+  "physical_measurements": false
+}

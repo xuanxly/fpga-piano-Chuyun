@@ -1,0 +1,10 @@
+{
+  "source": "User supplied Qilixiang numbered score image",
+  "source_image_sha256": "D6EAB4DDDBFA122FE77A9B0FD4F40A0825FCF70D6E4BB390021B51460DF9EED3",
+  "archived_image": "docs\\song_sources\\QLX_EASY_20261102\\user_score.png",
+  "composer": "Jay Chou",
+  "arrangement": "Cmajor,80BPM,34bars,203singlekeyevents;intro andsecondverseomitted,densefigures simplified,tiesmerged",
+  "source_json_sha256": "6B3CBFB5EB2343190A0FCF190C57F6F212FF1950DAF8C9F02A2D49B68AD3DACA",
+  "CSV_sha256": "9B849BE629BCFE3CCA287DF2453DF7FE4344A3A71F77EB2D8F1795203C8DCAB6",
+  "original_audio_used": false
+}

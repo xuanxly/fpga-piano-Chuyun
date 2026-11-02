@@ -1,0 +1,47 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 10:04:54 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_physical_key_isolation28/xsim_script.tcl
+# xsim {tb_physical_key_isolation28} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+CHECK single key=0 only gate/voice, 3 pages exact; PCM=110
+CHECK single key=1 only gate/voice, 3 pages exact; PCM=104
+CHECK single key=2 only gate/voice, 3 pages exact; PCM=97
+CHECK single key=3 only gate/voice, 3 pages exact; PCM=92
+CHECK single key=4 only gate/voice, 3 pages exact; PCM=85
+CHECK single key=5 only gate/voice, 3 pages exact; PCM=78
+CHECK single key=6 only gate/voice, 3 pages exact; PCM=71
+CHECK single key=7 only gate/voice, 3 pages exact; PCM=112
+CHECK single key=8 only gate/voice, 3 pages exact; PCM=105
+CHECK single key=9 only gate/voice, 3 pages exact; PCM=98
+CHECK single key=10 only gate/voice, 3 pages exact; PCM=93
+CHECK single key=11 only gate/voice, 3 pages exact; PCM=86
+CHECK single key=12 only gate/voice, 3 pages exact; PCM=79
+CHECK single key=13 only gate/voice, 3 pages exact; PCM=73
+CHECK single key=14 only gate/voice, 3 pages exact; PCM=112
+CHECK single key=15 only gate/voice, 3 pages exact; PCM=105
+CHECK single key=16 only gate/voice, 3 pages exact; PCM=100
+CHECK single key=17 only gate/voice, 3 pages exact; PCM=94
+CHECK single key=18 only gate/voice, 3 pages exact; PCM=87
+CHECK single key=19 only gate/voice, 3 pages exact; PCM=79
+CHECK single key=20 only gate/voice, 3 pages exact; PCM=73
+CHECK single key=21 only gate/voice, 3 pages exact; PCM=113
+CHECK single key=22 only gate/voice, 3 pages exact; PCM=107
+CHECK single key=23 only gate/voice, 3 pages exact; PCM=98
+CHECK single key=24 only gate/voice, 3 pages exact; PCM=94
+CHECK single key=25 only gate/voice, 3 pages exact; PCM=87
+CHECK single key=26 only gate/voice, 3 pages exact; PCM=81
+CHECK single key=27 only gate/voice, 3 pages exact; PCM=73
+PASS physical_key_isolation28: all 28 individual ADC inputs, gates/audio voices, 2604 key pixels across 3 pages, F3+G3 chord and independent release; samples=8248 audio_frames=14011
+$finish called at time : 292593931 ns : File "D:/FPGA/11_projects/pressure_piano_game_d12_candidate_w/sim/tb_physical_key_isolation28.sv" Line 111
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:24 . Memory (MB): peak = 220.539 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 12284 KB (Peak: 12284 KB), Simulation CPU Usage: 82093 ms
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 10:06:20 2026...

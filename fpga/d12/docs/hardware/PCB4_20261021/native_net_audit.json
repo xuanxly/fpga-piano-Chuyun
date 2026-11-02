@@ -1,0 +1,859 @@
+{
+  "source_sha256": "d5f0b95f5d8ca90b69eb961a93fda79c734f0d4ec0a00fe1cc61a12144680d92",
+  "checks": [
+    [
+      "112 correct power pin maps",
+      true
+    ],
+    [
+      "111 ordered links",
+      true
+    ],
+    [
+      "last DOUT open",
+      true
+    ],
+    [
+      "header data to U1.2 via pull-down",
+      true
+    ],
+    [
+      "U1.3 via R2 to first LED",
+      true
+    ],
+    [
+      "power connector",
+      true
+    ],
+    [
+      "buffer used and unused pins",
+      true
+    ]
+  ],
+  "interface": {
+    "P1": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": 7323.149606,
+      "y": 5327.086614,
+      "angle": 0,
+      "attrs": {
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I147",
+        "Unique ID": "gge6",
+        "DeviceName": "{\"name\":\"WJ500V-5.08-2P\",\"source\":\"\",\"uuid\":\"d9cd5993d29f8d4e\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "b36a82b62e022ce1e19": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "b36a82b62e022ce1e20": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true,
+      "attributes": {
+        "Footprint": "fd5b0f6a08ac98d6",
+        "Designator": "P1",
+        "Device": "d9cd5993d29f8d4e",
+        "Assembly Note": "OFF-BOARD TERMINAL: solder supply wires to P1 pads; original terminal height 14.07mm exceeds 12mm enclosure limit."
+      },
+      "pads": {
+        "2": "GND",
+        "1": "+5V"
+      }
+    },
+    "U2": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": 8082.992126,
+      "y": 5354.645669,
+      "angle": 0,
+      "attrs": {
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I148",
+        "Unique ID": "gge7",
+        "DeviceName": "{\"name\":\"PZ2.54-1*4-WZ\",\"source\":\"\",\"uuid\":\"3d2485df16c6a0c5\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "f88b815fbba5f9dbe31": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f88b815fbba5f9dbe32": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f88b815fbba5f9dbe33": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "f88b815fbba5f9dbe34": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true,
+      "attributes": {
+        "Footprint": "58955046caff44cf",
+        "Designator": "U2",
+        "Device": "3d2485df16c6a0c5"
+      },
+      "pads": {
+        "1": "",
+        "2": "GND",
+        "3": "$1N5",
+        "4": ""
+      }
+    },
+    "U1": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": 8090.866142,
+      "y": 4953.070866,
+      "angle": 0,
+      "attrs": {
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I146",
+        "Unique ID": "gge5",
+        "DeviceName": "{\"name\":\"SN74HCT125N\",\"source\":\"\",\"uuid\":\"062f41ad6195e28e\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "1605c6576ca28686e52": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e53": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e54": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e55": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e56": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e57": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e58": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e59": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e60": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e61": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e62": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e63": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e64": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "1605c6576ca28686e65": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true,
+      "attributes": {
+        "Footprint": "ba9603ff42d70c87",
+        "Designator": "U1",
+        "Device": "062f41ad6195e28e"
+      },
+      "pads": {
+        "1": "GND",
+        "2": "$1N5",
+        "3": "$1N6",
+        "4": "+5V",
+        "5": "GND",
+        "6": "",
+        "7": "GND",
+        "14": "+5V",
+        "13": "+5V",
+        "12": "GND",
+        "11": "",
+        "10": "+5V",
+        "9": "GND",
+        "8": ""
+      }
+    },
+    "R2": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": 8090.8661,
+      "y": 5197.1654,
+      "angle": 0,
+      "attrs": {
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I463",
+        "Unique ID": "gge147",
+        "DeviceName": "{\"name\":\"CF1/4W-33Ω±5% T\",\"source\":\"\",\"uuid\":\"032791eb26848ff2\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "ddc5ddbc5bc7493ee13": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "ddc5ddbc5bc7493ee14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true,
+      "attributes": {
+        "Footprint": "eba9e8b40f6e17b5",
+        "Designator": "R2",
+        "Device": "032791eb26848ff2"
+      },
+      "pads": {
+        "1": "$1N7",
+        "2": "$1N6"
+      }
+    },
+    "R3": {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 2,
+      "x": 7657.795276,
+      "y": 5602.677165,
+      "angle": 0,
+      "attrs": {
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "$1I145",
+        "Unique ID": "gge4",
+        "DeviceName": "{\"name\":\"MF1/4W-10KΩ±1% T\",\"source\":\"\",\"uuid\":\"14cf95cc2f8aa227\"}"
+      },
+      "locked": false,
+      "zIndex": -1,
+      "pinSwap": false,
+      "pinSwapInfo": {
+        "65199e8c87bd02abe13": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        },
+        "65199e8c87bd02abe14": {
+          "pinClass": "",
+          "differentialPairClass": ""
+        }
+      },
+      "footprintPrimitives": true,
+      "attributes": {
+        "Footprint": "eba9e8b40f6e17b5",
+        "Designator": "R3",
+        "Device": "14cf95cc2f8aa227"
+      },
+      "pads": {
+        "1": "$1N5",
+        "2": "GND"
+      }
+    }
+  },
+  "chain": [
+    {
+      "led": "D001",
+      "di": "$1N7",
+      "do": "$1N65"
+    },
+    {
+      "led": "D002",
+      "di": "$1N65",
+      "do": "$1N66"
+    },
+    {
+      "led": "D003",
+      "di": "$1N66",
+      "do": "$1N67"
+    },
+    {
+      "led": "D004",
+      "di": "$1N67",
+      "do": "$1N70"
+    },
+    {
+      "led": "D005",
+      "di": "$1N70",
+      "do": "$1N71"
+    },
+    {
+      "led": "D006",
+      "di": "$1N71",
+      "do": "$1N72"
+    },
+    {
+      "led": "D007",
+      "di": "$1N72",
+      "do": "$1N73"
+    },
+    {
+      "led": "D008",
+      "di": "$1N73",
+      "do": "$1N74"
+    },
+    {
+      "led": "D009",
+      "di": "$1N74",
+      "do": "$1N75"
+    },
+    {
+      "led": "D010",
+      "di": "$1N75",
+      "do": "$1N76"
+    },
+    {
+      "led": "D011",
+      "di": "$1N76",
+      "do": "$1N77"
+    },
+    {
+      "led": "D012",
+      "di": "$1N77",
+      "do": "$1N78"
+    },
+    {
+      "led": "D013",
+      "di": "$1N78",
+      "do": "$1N79"
+    },
+    {
+      "led": "D014",
+      "di": "$1N79",
+      "do": "$1N80"
+    },
+    {
+      "led": "D015",
+      "di": "$1N80",
+      "do": "$1N81"
+    },
+    {
+      "led": "D016",
+      "di": "$1N81",
+      "do": "$1N82"
+    },
+    {
+      "led": "D017",
+      "di": "$1N82",
+      "do": "$1N83"
+    },
+    {
+      "led": "D018",
+      "di": "$1N83",
+      "do": "$1N84"
+    },
+    {
+      "led": "D019",
+      "di": "$1N84",
+      "do": "$1N85"
+    },
+    {
+      "led": "D020",
+      "di": "$1N85",
+      "do": "$1N86"
+    },
+    {
+      "led": "D021",
+      "di": "$1N86",
+      "do": "$1N87"
+    },
+    {
+      "led": "D022",
+      "di": "$1N87",
+      "do": "$1N88"
+    },
+    {
+      "led": "D023",
+      "di": "$1N88",
+      "do": "$1N89"
+    },
+    {
+      "led": "D024",
+      "di": "$1N89",
+      "do": "$1N90"
+    },
+    {
+      "led": "D025",
+      "di": "$1N90",
+      "do": "$1N91"
+    },
+    {
+      "led": "D026",
+      "di": "$1N91",
+      "do": "$1N92"
+    },
+    {
+      "led": "D027",
+      "di": "$1N92",
+      "do": "$1N93"
+    },
+    {
+      "led": "D028",
+      "di": "$1N93",
+      "do": "$1N94"
+    },
+    {
+      "led": "D029",
+      "di": "$1N94",
+      "do": "$1N95"
+    },
+    {
+      "led": "D030",
+      "di": "$1N95",
+      "do": "$1N96"
+    },
+    {
+      "led": "D031",
+      "di": "$1N96",
+      "do": "$1N97"
+    },
+    {
+      "led": "D032",
+      "di": "$1N97",
+      "do": "$1N98"
+    },
+    {
+      "led": "D033",
+      "di": "$1N98",
+      "do": "$1N99"
+    },
+    {
+      "led": "D034",
+      "di": "$1N99",
+      "do": "$1N100"
+    },
+    {
+      "led": "D035",
+      "di": "$1N100",
+      "do": "$1N101"
+    },
+    {
+      "led": "D036",
+      "di": "$1N101",
+      "do": "$1N102"
+    },
+    {
+      "led": "D037",
+      "di": "$1N102",
+      "do": "$1N103"
+    },
+    {
+      "led": "D038",
+      "di": "$1N103",
+      "do": "$1N104"
+    },
+    {
+      "led": "D039",
+      "di": "$1N104",
+      "do": "$1N105"
+    },
+    {
+      "led": "D040",
+      "di": "$1N105",
+      "do": "$1N106"
+    },
+    {
+      "led": "D041",
+      "di": "$1N106",
+      "do": "$1N107"
+    },
+    {
+      "led": "D042",
+      "di": "$1N107",
+      "do": "$1N108"
+    },
+    {
+      "led": "D043",
+      "di": "$1N108",
+      "do": "$1N109"
+    },
+    {
+      "led": "D044",
+      "di": "$1N109",
+      "do": "$1N110"
+    },
+    {
+      "led": "D045",
+      "di": "$1N110",
+      "do": "$1N111"
+    },
+    {
+      "led": "D046",
+      "di": "$1N111",
+      "do": "$1N112"
+    },
+    {
+      "led": "D047",
+      "di": "$1N112",
+      "do": "$1N113"
+    },
+    {
+      "led": "D048",
+      "di": "$1N113",
+      "do": "$1N114"
+    },
+    {
+      "led": "D049",
+      "di": "$1N114",
+      "do": "$1N115"
+    },
+    {
+      "led": "D050",
+      "di": "$1N115",
+      "do": "$1N116"
+    },
+    {
+      "led": "D051",
+      "di": "$1N116",
+      "do": "$1N117"
+    },
+    {
+      "led": "D052",
+      "di": "$1N117",
+      "do": "$1N118"
+    },
+    {
+      "led": "D053",
+      "di": "$1N118",
+      "do": "$1N119"
+    },
+    {
+      "led": "D054",
+      "di": "$1N119",
+      "do": "$1N120"
+    },
+    {
+      "led": "D055",
+      "di": "$1N120",
+      "do": "$1N121"
+    },
+    {
+      "led": "D056",
+      "di": "$1N121",
+      "do": "$1N122"
+    },
+    {
+      "led": "D057",
+      "di": "$1N122",
+      "do": "$1N123"
+    },
+    {
+      "led": "D058",
+      "di": "$1N123",
+      "do": "$1N124"
+    },
+    {
+      "led": "D059",
+      "di": "$1N124",
+      "do": "$1N125"
+    },
+    {
+      "led": "D060",
+      "di": "$1N125",
+      "do": "$1N126"
+    },
+    {
+      "led": "D061",
+      "di": "$1N126",
+      "do": "$1N127"
+    },
+    {
+      "led": "D062",
+      "di": "$1N127",
+      "do": "$1N129"
+    },
+    {
+      "led": "D063",
+      "di": "$1N129",
+      "do": "$1N130"
+    },
+    {
+      "led": "D064",
+      "di": "$1N130",
+      "do": "$1N131"
+    },
+    {
+      "led": "D065",
+      "di": "$1N131",
+      "do": "$1N132"
+    },
+    {
+      "led": "D066",
+      "di": "$1N132",
+      "do": "$1N133"
+    },
+    {
+      "led": "D067",
+      "di": "$1N133",
+      "do": "$1N134"
+    },
+    {
+      "led": "D068",
+      "di": "$1N134",
+      "do": "$1N135"
+    },
+    {
+      "led": "D069",
+      "di": "$1N135",
+      "do": "$1N136"
+    },
+    {
+      "led": "D070",
+      "di": "$1N136",
+      "do": "$1N137"
+    },
+    {
+      "led": "D071",
+      "di": "$1N137",
+      "do": "$1N138"
+    },
+    {
+      "led": "D072",
+      "di": "$1N138",
+      "do": "$1N139"
+    },
+    {
+      "led": "D073",
+      "di": "$1N139",
+      "do": "$1N140"
+    },
+    {
+      "led": "D074",
+      "di": "$1N140",
+      "do": "$1N141"
+    },
+    {
+      "led": "D075",
+      "di": "$1N141",
+      "do": "$1N142"
+    },
+    {
+      "led": "D076",
+      "di": "$1N142",
+      "do": "$1N143"
+    },
+    {
+      "led": "D077",
+      "di": "$1N143",
+      "do": "$1N144"
+    },
+    {
+      "led": "D078",
+      "di": "$1N144",
+      "do": "$1N145"
+    },
+    {
+      "led": "D079",
+      "di": "$1N145",
+      "do": "$1N146"
+    },
+    {
+      "led": "D080",
+      "di": "$1N146",
+      "do": "$1N147"
+    },
+    {
+      "led": "D081",
+      "di": "$1N147",
+      "do": "$1N149"
+    },
+    {
+      "led": "D082",
+      "di": "$1N149",
+      "do": "$1N151"
+    },
+    {
+      "led": "D083",
+      "di": "$1N151",
+      "do": "$1N152"
+    },
+    {
+      "led": "D084",
+      "di": "$1N152",
+      "do": "$1N153"
+    },
+    {
+      "led": "D085",
+      "di": "$1N153",
+      "do": "$1N154"
+    },
+    {
+      "led": "D086",
+      "di": "$1N154",
+      "do": "$1N155"
+    },
+    {
+      "led": "D087",
+      "di": "$1N155",
+      "do": "$1N156"
+    },
+    {
+      "led": "D088",
+      "di": "$1N156",
+      "do": "$1N157"
+    },
+    {
+      "led": "D089",
+      "di": "$1N157",
+      "do": "$1N158"
+    },
+    {
+      "led": "D090",
+      "di": "$1N158",
+      "do": "$1N159"
+    },
+    {
+      "led": "D091",
+      "di": "$1N159",
+      "do": "$1N160"
+    },
+    {
+      "led": "D092",
+      "di": "$1N160",
+      "do": "$1N161"
+    },
+    {
+      "led": "D093",
+      "di": "$1N161",
+      "do": "$1N162"
+    },
+    {
+      "led": "D094",
+      "di": "$1N162",
+      "do": "$1N163"
+    },
+    {
+      "led": "D095",
+      "di": "$1N163",
+      "do": "$1N164"
+    },
+    {
+      "led": "D096",
+      "di": "$1N164",
+      "do": "$1N165"
+    },
+    {
+      "led": "D097",
+      "di": "$1N165",
+      "do": "$1N166"
+    },
+    {
+      "led": "D098",
+      "di": "$1N166",
+      "do": "$1N167"
+    },
+    {
+      "led": "D099",
+      "di": "$1N167",
+      "do": "$1N168"
+    },
+    {
+      "led": "D100",
+      "di": "$1N168",
+      "do": "$1N169"
+    },
+    {
+      "led": "D101",
+      "di": "$1N169",
+      "do": "$1N170"
+    },
+    {
+      "led": "D102",
+      "di": "$1N170",
+      "do": "$1N171"
+    },
+    {
+      "led": "D103",
+      "di": "$1N171",
+      "do": "$1N172"
+    },
+    {
+      "led": "D104",
+      "di": "$1N172",
+      "do": "$1N173"
+    },
+    {
+      "led": "D105",
+      "di": "$1N173",
+      "do": "$1N174"
+    },
+    {
+      "led": "D106",
+      "di": "$1N174",
+      "do": "$1N175"
+    },
+    {
+      "led": "D107",
+      "di": "$1N175",
+      "do": "$1N176"
+    },
+    {
+      "led": "D108",
+      "di": "$1N176",
+      "do": "$1N177"
+    },
+    {
+      "led": "D109",
+      "di": "$1N177",
+      "do": "$1N178"
+    },
+    {
+      "led": "D110",
+      "di": "$1N178",
+      "do": "$1N179"
+    },
+    {
+      "led": "D111",
+      "di": "$1N179",
+      "do": "$1N180"
+    },
+    {
+      "led": "D112",
+      "di": "$1N180",
+      "do": ""
+    }
+  ],
+  "boundary": "Pad-net assignments only; not native ERC/DRC, not physical copper continuity or hardware verification."
+}

@@ -1,0 +1,34 @@
+# Local caches and editor backups
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.bak
+*.blend1
+*.blend2
+*.log
+node_modules/
+.venv/
+.idea/
+.vscode/
+
+# Credentials and local-only material
+.env
+.env.*
+!.env.example
+*.lic
+*.key
+*.eprj2-wal
+*.eprj2-shm
+
+# Build output
+build/
+dist/
+temp/
+tmp/
+
+# Keep the supplied D12 historical verification logs
+!fpga/d12/**/*.log

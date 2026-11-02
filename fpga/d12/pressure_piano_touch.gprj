@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project>
+  <Template>FPGA</Template>
+  <Version>5</Version>
+  <Device name="GW5AT-60B" pn="GW5AT-LV60PG484AC1/I0">gw5at60b-002</Device>
+  <FileList>
+    <File path="src/ch569_gpio_link.v" type="file.verilog" enable="1" />
+    <File path="src/game_engine28.v" type="file.verilog" enable="1" />
+    <File path="src/reset_sync.v" type="file.verilog" enable="1" />
+    <File path="src/debounce_bit.v" type="file.verilog" enable="1" />
+    <File path="src/instrument_controls.v" type="file.verilog" enable="1" />
+    <File path="src/mcp3008_scan.v" type="file.verilog" enable="1" />
+    <File path="src/pressure_frontend.v" type="file.verilog" enable="1" />
+    <File path="src/voice_allocator.v" type="file.verilog" enable="1" />
+    <File path="src/note_frequency.v" type="file.verilog" enable="1" />
+    <File path="src/piano_osc.v" type="file.verilog" enable="1" />
+    <File path="src/piano_voice.v" type="file.verilog" enable="1" />
+    <File path="src/tone_filter.v" type="file.verilog" enable="1" />
+    <File path="src/piano_engine.v" type="file.verilog" enable="1" />
+    <File path="src/pt8211_tx.v" type="file.verilog" enable="1" />
+    <File path="src/pressure_piano_top.v" type="file.verilog" enable="1" />
+    <File path="src/spectrum_fft.v" type="file.verilog" enable="1" />
+    <File path="src/spectrum_video.v" type="file.verilog" enable="1" />
+    <File path="src/spectrum_board.v" type="file.verilog" enable="1" />
+    <File path="src/pressure_piano_visual_top.v" type="file.verilog" enable="1" />
+    <File path="src/ip/DVI_TX_Top.v" type="file.verilog" enable="1" />
+    <File path="src/ip/spectrum_pll.v" type="file.verilog" enable="1" />
+    <File path="src/mcp3008_scan28.v" type="file.verilog" enable="1" />
+    <File path="src/pressure28_frontend.v" type="file.verilog" enable="1" />
+    <File path="src/sine28_shared.v" type="file.verilog" enable="1" />
+    <File path="src/note_frequency28.v" type="file.verilog" enable="1" />
+    <File path="src/piano28_engine.v" type="file.verilog" enable="1" />
+    <File path="src/piano28_core.v" type="file.verilog" enable="1" />
+    <File path="src/pressure_piano_28_top.v" type="file.verilog" enable="1" />
+    <File path="src/ws2812_frame_tx.v" type="file.verilog" enable="1" />
+    <File path="src/light_ripple28.v" type="file.verilog" enable="1" />
+    <File path="src/piano28_lights.v" type="file.verilog" enable="1" />
+    <File path="src/audio_status28.v" type="file.verilog" enable="1" />
+    <File path="src/touch_ui28.v" type="file.verilog" enable="1" />
+    <File path="src/piano_ui_renderer.v" type="file.verilog" enable="1" />
+    <File path="src/piano28_touch_system.v" type="file.verilog" enable="1" />
+    <File path="src/ws170120_reports.v" type="file.verilog" enable="1" />
+    <File path="src/usb_fs_phy60.v" type="file.verilog" enable="1" />
+    <File path="src/usb_fs_transaction.v" type="file.verilog" enable="1" />
+    <File path="src/ws170120_usb_host.v" type="file.verilog" enable="1" />
+    <File path="src/usb_touch_board.v" type="file.verilog" enable="1" />
+    <File path="src/usb_session_guard.v" type="file.verilog" enable="1" />
+    <File path="src/usb_pad_buffer.v" type="file.verilog" enable="1" />
+    <File path="src/usb_pad_pair_registered.v" type="file.verilog" enable="1" />
+    <File path="src/usb_diag_bridge.v" type="file.verilog" enable="1" />
+    <File path="src/ip/usb_pll60.v" type="file.verilog" enable="1" />
+    <File path="constraints/pressure_piano_touch.cst" type="file.cst" enable="1" />
+    <File path="constraints/pressure_piano_touch.sdc" type="file.sdc" enable="1" />
+    <File path="src/VexRiscv.v" type="file.verilog" enable="1" />
+    <File path="src/media_soc.v" type="file.verilog" enable="1" />
+    <File path="src/media_ui28.v" type="file.verilog" enable="1" />
+    <File path="src/media_ui_renderer.v" type="file.verilog" enable="1" />
+  <File path="src/media_memories.v" type="file.verilog" enable="1" />  <File path="src/piano28_timbre_engine.v" type="file.verilog" enable="1" />
+</FileList>
+</Project>

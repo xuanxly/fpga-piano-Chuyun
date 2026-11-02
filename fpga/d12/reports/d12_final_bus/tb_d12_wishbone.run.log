@@ -1,0 +1,17 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 12:17:04 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_d12_wishbone/xsim_script.tcl
+# xsim {tb_d12_wishbone} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS D12 Wishbone 1220 transactions:latched request,128 ROM reads,512 byte-mask RAM pairs,exactly-once MMIO,FIFO event order,record/play RAM with actual arbitration stalls,5min boundary,Home stop
+$finish called at time : 147 us : File "D:/FPGA/11_projects/pressure_piano_game_d12_candidate_ac/sim/tb_d12_wishbone.sv" Line 83
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 12:17:07 2026...

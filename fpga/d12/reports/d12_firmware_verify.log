@@ -1,0 +1,5 @@
+   text	   data	    bss	    dec	    hex	filename
+  34744	      8	  10776	  45528	   b1d8	D:\FPGA\11_projects\pressure_piano_game_d12\reports\firmware_verify\media.elf
+
+Firmware ROM bytes 34752 SHA256 575e80b6ad9d10e2205a8a9f5ce4f40dba316aa62a92a7320846ce2b55ed54ac
+PASS current C/headers/inc -> compiled ROM and all20 banks reproduce exactly; product files untouched

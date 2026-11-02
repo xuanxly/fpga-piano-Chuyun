@@ -1,0 +1,417 @@
+{
+  "status": "DIGITAL_VERIFIED_AWAITING_BOARD_AND_IPHONE",
+  "project": "D:\\FPGA\\11_projects\\pressure_piano_game_d12\\pressure_piano_touch.gprj",
+  "user_code": "0x0000925A",
+  "bitstream_sha256": "DF0A54A400462D98CB56B3CD41DC43CC94525A5A5BDFA38AC76419CD7162C820",
+  "tests": {
+    "tb_d12_effect_controls": {
+      "pass": [
+        "PASS D12 independent timbre memories, release short press, long suppression"
+      ],
+      "log": "reports\\xsim_d12_timing_final\\tb_d12_effect_controls.run.log",
+      "sha256": "C775FCB64F5B55CBD33729DBCF79F057FF0328F4FC2E82CE5C17678C886C55F3"
+    },
+    "tb_ch569_gpio_link": {
+      "pass": [
+        "PASS CH569 GPIO async handshake,1140 RX/TX bytes,512 FIFO backpressure+wrap,stalled ack,INIT highZ,async shutdown/reset"
+      ],
+      "log": "reports\\xsim_d12_timing_final\\tb_ch569_gpio_link.run.log",
+      "sha256": "AE477C9B713E2EDE485492D7ED58A7D124EC02FBBDCE1789D33B27A47BCB11D2"
+    },
+    "tb_ws2812_frame_tx": {
+      "pass": [
+        "PASS ws2812_frame_tx: 3 exact 112-pixel GRB frames, 0/1 timing and 320us latch, busy start ignored, midframe reset recovery"
+      ],
+      "log": "reports\\xsim_d12_timing_final\\tb_ws2812_frame_tx.run.log",
+      "sha256": "0081BF8A35E8ADE0B2297C317533437FCBCDA65D0266855F417CDABEA02BD80D"
+    },
+    "tb_ws170120_usb_host": {
+      "pass": [
+        "PASS ws170120_usb_host: actual device/config descriptors, EP0 two-packet report descriptor, optional STALL, 1ms SOF/CRC5, EP82, corrupt CRC not ACKed, duplicate DATA, five-finger chord, NAK hold, release and unplug; SOF=48 ACK=20"
+      ],
+      "log": "reports\\xsim_d12_r_ui_usb_final\\tb_ws170120_usb_host.run.log",
+      "sha256": "E760BF3BCCD93E10A629E12C0786D504AD5A9964094825C76CAA0102376D59D0"
+    },
+    "tb_usb_reject_pid": {
+      "pass": [
+        "PASS usb_reject_pid: unknown PID rejected before touch/configuration"
+      ],
+      "log": "reports\\xsim_d12_r_ui_usb_final\\tb_usb_reject_pid.run.log",
+      "sha256": "04DC3F4C6DEF69C4ACE9258CDBCD717E8C407C5E535E7F08CC4B09DD65A73EC9"
+    },
+    "tb_usb_reject_endpoint": {
+      "pass": [
+        "PASS usb_reject_endpoint: wrong interrupt endpoint rejected before touch"
+      ],
+      "log": "reports\\xsim_d12_r_ui_usb_final\\tb_usb_reject_endpoint.run.log",
+      "sha256": "5CA2A5E1D751B4EDEDCD9B65D1BFFB20CEF99820D61ECF48EB6FC59EBB2A81DA"
+    },
+    "tb_d12_key_decoder": {
+      "pass": [
+        "PASS D12 key decoder:all8388608 page/x/y combinations exact,includingallinvalidcoordinates"
+      ],
+      "log": "reports\\d12_final_ui\\tb_d12_key_decoder.run.log",
+      "sha256": "E25ED4BBAEC507A1981E9D6EEA6B5E4E4628BBC9FB04F4D7CCA0D7008EA09C43"
+    },
+    "tb_d12_ui_pipeline": {
+      "pass": [
+        "PASS D12 UI pipeline 16001 randomized frames: all8 pages,5 contacts,owner IDs,drag/release,command order,transpose,timbre,CPU nav/unplug"
+      ],
+      "log": "reports\\d12_final_ui\\tb_d12_ui_pipeline.run.log",
+      "sha256": "B2AEB46C5F5B62FB3D8AF8FDC64808F2F231F7856BAACC38E8B410E022D00690"
+    },
+    "tb_d12_ui": {
+      "pass": [
+        "PASS D12 UI 44 checks: six Home tiles,all28 GAME keys,one-shot commands,bar multitouch,USB owner lock/eject"
+      ],
+      "log": "reports\\d12_final_ui\\tb_d12_ui.run.log",
+      "sha256": "1EB5B80BF0C1D379ECDC372A0636BFC85966450154F8F94E91AADF6F00739AB9"
+    },
+    "tb_media_ui": {
+      "pass": [
+        "PASS media_ui: 127 touch frames; four apps, all28 recorder keys, one-shot actions, file rows/navigation, seek-on-release, player pitch lock, volume/multitouch"
+      ],
+      "log": "reports\\d12_final_ui\\tb_media_ui.run.log",
+      "sha256": "70018198F76129588BC52FC5763FCF6C88162D54CCB8211E8BA2E776A20EABDE"
+    },
+    "tb_timbre_ui": {
+      "pass": [
+        "PASS timbre_ui: five apps, all five profiles, held action, multi-touch, bars, Home, recorder/player coexistence"
+      ],
+      "log": "reports\\d12_final_ui\\tb_timbre_ui.run.log",
+      "sha256": "092394DBC7C1475A537D84DD370AEB9CC159EC8A8317C1F391619D2033F320E8"
+    },
+    "tb_d12_game_timing": {
+      "pass": [
+        "PASS D12 game timing:214405 exact cycles,hits480 misses9508 late160,all63 predicted comparisons equal committed state"
+      ],
+      "log": "reports\\d12_final_game\\tb_d12_game_timing.run.log",
+      "sha256": "20C46A3CAC73EE3B81B00741FF9CC08324C23E40CECA10CC331659CCBDE9BEC0"
+    },
+    "tb_game_engine28": {
+      "pass": [
+        "PASS game engine 22 scenarios: chords holds practice challenge pause EOF BCD underflow queue exit"
+      ],
+      "log": "reports\\d12_final_game\\tb_game_engine28.run.log",
+      "sha256": "2C061BDD6C069DCA84EB3FFC8490F35EA61AD3CF49E19DC40145639B51E1D481"
+    },
+    "tb_game_five_minutes": {
+      "pass": [
+        "PASS game five-minute chart boundary: late hit,sustained final note,EOF after300000ms,no premature timeout"
+      ],
+      "log": "reports\\d12_final_game\\tb_game_five_minutes.run.log",
+      "sha256": "21EEC7D1B6F25BF2B84047DE61F8641B06B18373A7061AAE8415AEEFE5A31CAC"
+    },
+    "tb_d12_guide_led": {
+      "pass": [
+        "PASS D12 guide LEDs:336 real decoded GRB pixels,PCB4 serpentine mapping,good/next/wrong colors,blank boot,exit clear"
+      ],
+      "log": "reports\\d12_final_game\\tb_d12_guide_led.run.log",
+      "sha256": "1E87A077984E92037BC1E4F8C4E932B2B39FE5C332834BE67AD56EF8DFCCE0C2"
+    },
+    "tb_d12_wishbone": {
+      "pass": [
+        "PASS D12 Wishbone 1220 transactions:latched request,128 ROM reads,512 byte-mask RAM pairs,exactly-once MMIO,FIFO event order,record/play RAM with actual arbitration stalls,5min boundary,Home stop"
+      ],
+      "log": "reports\\d12_final_bus\\tb_d12_wishbone.run.log",
+      "sha256": "34C3B9BC47CEA17E63F6F9D5EF6DB2411E95313189F2B7BDB14786BFA0B1002F"
+    },
+    "tb_media_boot": {
+      "pass": [
+        "PASS media_boot: actual VexRiscv firmware initializes data/BSS, commits UI, clocks SD initialization, handles absent card; edges=83 boot=d9000001"
+      ],
+      "log": "reports\\d12_final_bus\\tb_media_boot.run.log",
+      "sha256": "99FF166B4C54F8187E562681877CB2AFD32194B32004FB612BE95D08198CFA1C"
+    },
+    "tb_d12_game_cpu": {
+      "pass": [
+        "PASS D12 actual CPU game MMIO: practice/challenge pause+resume preserve mode and never clear score/queue"
+      ],
+      "log": "reports\\d12_final_bus\\tb_d12_game_cpu.run.log",
+      "sha256": "9A1D78C966ED425E2B7721FF555CE3A83C76FD7C7504526CA25A3164B65BF3AA"
+    },
+    "tb_timbre_system": {
+      "pass": [
+        "PASS timbre_system: real four ADCs, fifth app, global physical/touch tone, held-key silence, re-press, USB detach, 2425 PCM frames"
+      ],
+      "log": "reports\\d12_final_board\\tb_timbre_system.run.log",
+      "sha256": "BA583B86C5AB2F1CD5346AF3CF3BE95224E399A5A1D167621BBB72B6EB2E0AE4"
+    },
+    "tb_touch_manual_usb_system28": {
+      "pass": [
+        "PASS touch_manual_usb_system28: passive/manual arm -> actual USB pins -> five-finger chord/release -> UI/audio/DAC, NAK hold/unplug; PCM_nonzero=3030 DAC=3348"
+      ],
+      "log": "reports\\d12_final_board\\tb_touch_manual_usb_system28.run.log",
+      "sha256": "B6255BAE6E5DC0DB62BDB164BB8E3C54029303AB31E9E21BCF397813A463E1CB"
+    },
+    "tb_touch_usb_clock_fault28": {
+      "pass": [
+        "PASS touch_usb_clock_fault28: manual arm -> real-pin USB five-finger chord -> clock stops with LOCK high -> all touch gates released within 3ms, USB high-Z, system/DAC remain running"
+      ],
+      "log": "reports\\d12_final_board\\tb_touch_usb_clock_fault28.run.log",
+      "sha256": "D6442BAAE32EFFDBA831E2E6054875D1E7AF071A8C19E5970CB7F1833C3EEE38"
+    },
+    "tb_timbre_engine": {
+      "pass": [
+        "PASS timbre_engine: 11116 frames, five distinct profiles, all28, +/-5 transpose, held-key suppression, bounded switching"
+      ],
+      "log": "reports\\d12_final_audio\\tb_timbre_engine.run.log",
+      "sha256": "5E2BD9EB437F53D98010F9CE9454479AD02A773E908AAC793B5F6BB22574ECD4"
+    },
+    "tb_timbre_pressure": {
+      "pass": [
+        "PASS timbre_pressure: quarter force gives quarter RMS within5percent; organ tail fully releases"
+      ],
+      "log": "reports\\d12_final_audio\\tb_timbre_pressure.run.log",
+      "sha256": "CCD1E52455661E09C63CD53D7A1FD8A9A1F4A2A90C9B7D5469EF20E10A240A35"
+    },
+    "tb_d12_equivalence": {
+      "pass": [
+        "PASS d12_equivalence: 12500 bit-exact PCM/active comparisons for all five D11 profiles with vibrato off; 896-clock frames"
+      ],
+      "log": "reports\\d12_final_audio\\tb_d12_equivalence.run.log",
+      "sha256": "1640B80EAB0C383F404968105C3D4CE3AE9B4CAB28FB3A04E5DC0E2F48496336"
+    },
+    "tb_timbre_d11_context": {
+      "pass": [
+        "PASS d11_context: 61600 independent bell/brightness checks, interleaved notes/retrigger/all28, complete switch clear"
+      ],
+      "log": "reports\\d12_final_audio\\tb_timbre_d11_context.run.log",
+      "sha256": "7F7183BED94CBE2E79C14F93851A7A40396FE1EF525ADC906FAB0F54A96C0E30"
+    },
+    "tb_media_audio": {
+      "pass": [
+        "PASS media_audio: 438 pre-volume record samples identical at mute/unity, 439 stereo DAC frames; file exclusive, volume, synth return"
+      ],
+      "log": "reports\\d12_final_audio\\tb_media_audio.run.log",
+      "sha256": "9714158E96A96BC2186BC537B4F9ED33B8EECA49F129EC92CDD175F021F3BA22"
+    },
+    "tb_physical_key_isolation28": {
+      "pass": [
+        "PASS physical_key_isolation28: all 28 individual ADC inputs, gates/audio voices, 2604 key pixels across 3 pages, F3+G3 chord and independent release; samples=8248 audio_frames=14011"
+      ],
+      "log": "reports\\d12_final_audio\\tb_physical_key_isolation28.run.log",
+      "sha256": "514BCA70AEAFDB5FF4043EE8AB28234E1C698566FFAC0D412E392DAC4B4BEE15"
+    },
+    "tb_d12_volume_pipeline": {
+      "pass": [
+        "PASS D12 volume pipeline:all128 snapshot volumes,194560 exact bar/edge/digit pixels,unchangedtwo-cycle sync"
+      ],
+      "log": "reports\\d12_final_video\\tb_d12_volume_pipeline.run.log",
+      "sha256": "AB93A1A02F16A9AC84A096FFBBA7A31F7D0558267427B293896646D392353322"
+    },
+    "tb_media_video": {
+      "pass": [
+        "PASS media_video: eight complete 800x480 RTL-rendered pages, timbre selection, six Home apps, file names, record keys, progress, player pitch lock, two-cycle sync"
+      ],
+      "log": "reports\\d12_final_video\\tb_media_video.run.log",
+      "sha256": "08D0AD70B060D58F8FFC04D9336C8AFF41AF85E7462D66CDF2E1E2DA7CC3F43F"
+    },
+    "tb_progress_lookup": {
+      "pass": [
+        "PASS progress_lookup: all256 input values and 204800 pixels exactly equal original D9 multiply/divide renderer"
+      ],
+      "log": "reports\\d12_final_video\\tb_progress_lookup.run.log",
+      "sha256": "6F5017715C6CC28893935A9406699374EC807DC4E025120473272ADA9BD2C8AF"
+    }
+  },
+  "test_count": 30,
+  "baseline_D11_preserved": true,
+  "original45_balls_unchanged": true,
+  "new_board_only_balls": 13,
+  "global_device_cfg_unchanged": true,
+  "minimum_slack_ns": {
+    "Setup": 0.283,
+    "Hold": 0.001,
+    "Recovery": 0.312,
+    "Removal": 0.55
+  },
+  "extra_setup_uncertainty_ns": 0.3,
+  "resources": {
+    "Logic": "38648/59904",
+    "Register": "15271/60780",
+    "I/O Port": "58/297",
+    "BSRAM": "92/118",
+    "DSP": "72.5/118",
+    "PLLA": "2/8"
+  },
+  "pad_guards": {
+    "USB": {
+      "direct_INIT1_OEN_register": "\\u_usb2_pads/pad_oe_n_s0",
+      "pad_count": 2
+    },
+    "CH569": {
+      "direct_INIT1_OEN_register": "\\u_system/media.u_media/u_ch_link/pad_oe_n_s1",
+      "pad_count": 4
+    }
+  },
+  "firmware_ROM_bytes": 34752,
+  "firmware_ROM_allocated_bytes": 40960,
+  "firmware_RAM_allocated_bytes": 24576,
+  "vibrato": {
+    "guitar": {
+      "delay_ms": 50.0,
+      "measured_peak_cents": 1.6915441621553804,
+      "min_cents": -1.6915441621553804,
+      "max_cents": 1.6765943714825067,
+      "sample_frames": 39600,
+      "frame_cycles": 896,
+      "lfo_hz": 4.999995231628418,
+      "peak_mix": 11833
+    },
+    "strings": {
+      "delay_ms": 200.0,
+      "measured_peak_cents": 13.578410811920836,
+      "min_cents": -13.578410811920836,
+      "max_cents": 13.367804442460029,
+      "sample_frames": 39600,
+      "frame_cycles": 896,
+      "lfo_hz": 4.999995231628418,
+      "peak_mix": 9458
+    },
+    "evidence": "Actual Verilator RTL simulation; phase checks all28 voices including retrigger. Not hardware measurements."
+  },
+  "game_area_optimization": {
+    "wide": {
+      "Logic": 5400,
+      "Register": 3963,
+      "synthesis_report_sha256": "48BBBB55E9B3484FE2AA22C747E6455CF8048BB8498768781558F58A761CE75A",
+      "report": "reports/game_area_candidate/wide/impl/gwsynthesis/area_syn.rpt.html"
+    },
+    "narrow": {
+      "Logic": 4681,
+      "Register": 1750,
+      "synthesis_report_sha256": "BC51730110C464BE28C0EE1CC0CEA574561144C7DFACBEDADDF07C9332B04E02",
+      "report": "reports/game_area_candidate/final_timing/area_syn.rpt.html"
+    },
+    "source_sha256": "8A5C75CF2C9AB46523AA239AF707711C7592C78812643A9402400A64EDC2FBD2",
+    "five_minute_maximum_with_late_hold_ms": 360500,
+    "time_capacity_ms": 524287,
+    "status": "PASS_SOURCE_MATCHED_GAME_AND_PHYSICAL",
+    "scope": "Standalone game area only; final whole-FPGA utilization comes from final PnR report"
+  },
+  "physical_build_origin": "D:\\FPGA\\11_projects\\pressure_piano_game_d12_candidate_ac",
+  "FPGA_programmed": false,
+  "CH569_programmed": false,
+  "Flash_written": false,
+  "iphone_tested": false,
+  "source_hashes": {
+    "src/audio_status28.v": "3E6959CADD2DD7DFDCB93F7DF8E0EB5ED8DBCCB225777018A8E0971D57AD8B98",
+    "src/ch569_gpio_link.v": "CF82756EF3404AB422544354DEAA48F11115097E3962F641773A000EB6844B48",
+    "src/debounce_bit.v": "303BF4FD02D65A51F561376A2C727622E2EE46730C2D94CFAF0AF71DB5EAF884",
+    "src/game_engine28.v": "8A5C75CF2C9AB46523AA239AF707711C7592C78812643A9402400A64EDC2FBD2",
+    "src/instrument_controls.v": "9AEEC1695B7218C6BD1FF565F8E0A83EE4635D2C4426BBC3DDB5D3D1FDF64036",
+    "src/light_ripple28.v": "0888DDB1F20B276A722E95D355F544F01BA30766C5398FDBE4D88EB8B20AC7D1",
+    "src/mcp3008_scan.v": "13A2CD209A588FBB7980ABDEDA639794A6711DBA4F232C2C44351D8168429EEA",
+    "src/mcp3008_scan28.v": "C4C77DAE5A973F5E1E3E8D3950D08FAE349006C0C944F3E0F6780757607B5A63",
+    "src/media_memories.v": "B38CD752F009CE2E703AC5413DCFDC708674DAAB4301356F2884FFAEFFF51735",
+    "src/media_soc.v": "686A5F2576836F6DE31A6A60DBC4413ACF1A2A1E98E755F58CB1445AD55E72E4",
+    "src/media_ui28.v": "1E68B1DBE49C54D9BDB0B9BDEB3C329804D1DF4776A7E3CA206DE8FB798A92A5",
+    "src/media_ui_renderer.v": "557783330DCBB6F2858A69662F901C3EBA30EBF110E9D54597356D7FD9BBC0F7",
+    "src/note_frequency.v": "8C121C26CD7DBB0F12A70AD78B8284E33608C576069BD45AA40F745304884CAE",
+    "src/note_frequency28.v": "AE69F285CFDE34F480F2FBAAC17D9B44BA08BB7F7B1DD338C9AD855106E92896",
+    "src/piano28_core.v": "052611668C51518E5E46586EAB85A7A3BF96A51C2FD12AF3CEFD1162450501D5",
+    "src/piano28_engine.v": "0419AF1E1B0B43C0E5E8FAB5FDCEEDB383E2B7F034C1808F7A1078402E7C989B",
+    "src/piano28_lights.v": "AAED8C3648BC739F6A58DB20771B7E27744ABAEDA85D99E9E28205FDAACC8E3F",
+    "src/piano28_timbre_engine.v": "8C61EE160ACF32325DBFFE80D7DBE3DA2BBA06BBD847197EC8C7FFB07A679F92",
+    "src/piano28_touch_system.v": "781F757158BE9129F9F71F6400E517CF021051D44B54A381411CEC8F518FB2D7",
+    "src/piano_engine.v": "33D638003CCF0ED65E4E354A045D4E2CDAF1E4418734E5EAAD6296B345EB1AED",
+    "src/piano_osc.v": "9691761FCD0EA2C408EF72442C122C2199A3D80BF74206817D561E7D51D3A8C6",
+    "src/piano_ui_renderer.v": "A68E43FF84EF6A094E3991FA63F13FCB02F04773A5D6D910DD6905CF43239245",
+    "src/piano_voice.v": "1971AA6F8FBC6A5B6CBF36F546EA2CCB361048606AAF7ED0BD3BBF62485C2678",
+    "src/pressure28_frontend.v": "959C6989AE1FF327ACD2399919EC42E366212D59F45A6D73D00F54A75844A540",
+    "src/pressure_frontend.v": "590277174FDEDA66F9147E3CA4495C63005811F68CD21CEA97ADECC252BB67EE",
+    "src/pressure_piano_28_top.v": "DA49845D986F024BC406AE3130EC618A27FE060E3F978D978E242CE4C7538FD5",
+    "src/pressure_piano_top.v": "522B332AEAAF25F9CDBD40C5781E4B352531F67A94435BE6DBB6B127257BCBF0",
+    "src/pressure_piano_visual_top.v": "B61D97A290C17BCC7F9B65035113F8DB62BC96E046F5DACA6D9D083447E10D85",
+    "src/pt8211_tx.v": "CE92280CA1A924BF6C517B333F44ABFABFF46BFC052F637198A7322CCD0E3E3E",
+    "src/reset_sync.v": "0550D4CF72C4E21DB2BCADFAD8E4DFEF1D816BD9307E5B2439240F0A64FE1C79",
+    "src/sine28_shared.v": "FCF76EE9FEC39C5ECEB1D3F1A173E4788CEB5906EE58D479566E6D722AE287AC",
+    "src/spectrum_board.v": "81E3A22998D073B1C03A5C5E4EDA89F535928D8C4BEC3DA447CBD42AEC727E3D",
+    "src/spectrum_fft.v": "D73D2F9F1CE6E079F2FE8A7E415085A0D33C4BD85C111231932F38EC162A6381",
+    "src/spectrum_video.v": "79D2DA33D27CDC7CFD63ED3E720A0EDE7F18B12E2CDEE8D3D477902FA1A436C6",
+    "src/tone_filter.v": "6382904F4292FCE4D51877695EA76A3F6F07F10B8F7278CF099D84DD06FBBC32",
+    "src/touch_ui28.v": "188A8E939B321A9F0C6F9EF4FB8D2CB471A9B56C008897F774A585B7D3C1BFD5",
+    "src/usb_diag_bridge.v": "7F1557B9F0E9BFCC2089DCAE5611922569F0C9D00EC3123DF9CB53BE96C5E911",
+    "src/usb_fs_phy60.v": "911F7539720F6322CD9D38F33E4627B666ACADB59A9B2080A6C8A8F6BB453614",
+    "src/usb_fs_transaction.v": "592CA3AEE5F78D4D1744EFF1E95C093483ABA60EAC1C6DC3B60F48CBF7412FC3",
+    "src/usb_pad_buffer.v": "342A6B756D4F1B26186DFB02136D7A8B600CE7F0E32D3BDB614BCDB7DE628434",
+    "src/usb_pad_pair_registered.v": "AAC9394C0E6ABC4117E8EA32DE47965A1A4FFBC50F41817875F157D16A92065E",
+    "src/usb_session_guard.v": "A5DABEF9AA7F888DF55E47DAFDDD5800BFDE675C05E2FA2F499405D09429BA82",
+    "src/usb_touch_board.v": "214A0EB96502F06299F3D40F4ECF54575545CA9FD57BF180ABD2D774EDA57635",
+    "src/VexRiscv.v": "833DD0CC6247EF31A8F96886A1C9E9F474E3FD08DC404F7ED0A8ECB0C495E884",
+    "src/voice_allocator.v": "F03C6062C8D38DFE4B7C8989B419DB06D352E603BF72C35B5B22C0B12561A012",
+    "src/ws170120_reports.v": "BFD735B5D24DB4300CBB8D0A1D8F37E9DB385AED8A4C68B4D0745706FB2D7E60",
+    "src/ws170120_usb_host.v": "BF0EB228D38682F283D7E86B9986CFC7CF5402175A39C42DCCFE1195E26C895F",
+    "src/ws2812_frame_tx.v": "ED141D4D8FE2694723654DB514B8379ABF7DE01A1518975A6A85D664D43D6B2B",
+    "src/ip/DVI_TX_Top.v": "A2DC2F338438864307DC8DA6C8F50B582D412EEB5EA899AF9F047A8D6B46815F",
+    "src/ip/spectrum_pll.v": "2A3C144748A9B3F4A829DAB5C2F7C1ED87B7D41BFACF7B1AF89583B19B54B5E5",
+    "src/ip/usb_pll60.v": "E44B46C8EB3B3E0AE88B36CD47245D74486A458ADBCC3BD26B266EE04CBEDF66",
+    "constraints/pressure_piano.cst": "F60B6F13F9D4F29993D240DB2EA9FAD21DF84C416155F7166B4B0A2A6AA2FF00",
+    "constraints/pressure_piano.sdc": "EB8F65E9F4BE15AC81480ECE7318AA69D84EC0E4B3D2ABB0C6669740B21A14D7",
+    "constraints/pressure_piano_touch.cst": "0C3EC4FF84B343A0143A70F29D8068BC58939199F030B7F6D5A2AC8188522AF5",
+    "constraints/pressure_piano_touch.sdc": "6CFFE3B0BDE98F77904CA8934CE7C9B40C1993BF1EC99A49AC207E9A756E4B3B",
+    "rom/light_distance28.hex": "463B6ADD5B6DDA18633CD7C0F09BB2E458BBB15D9E96AED112B4038887E032BF",
+    "rom/media_firmware.hex": "B893EA177625A292A4BFAF82FC3A1853C534FA9E8B7F02547796885192FE36BD",
+    "rom/media_firmware.hex.b00": "7896AE148B4D7B3870FB9D54920F557FE56A911D1F15D9EC113A9ED9A0151F19",
+    "rom/media_firmware.hex.b01": "F9715B3E685F51A41ED5AA72E839A8D83F6CB133906F5D0FC1A5FDA0BB71D0A0",
+    "rom/media_firmware.hex.b02": "3A02FAACB95F3846DEC73EDD039D67A828052239B132F57F89989DCE77C9911B",
+    "rom/media_firmware.hex.b03": "F8C62B994B70B61E825DA874BB784D0E75A6B7A7FF4134E7409680715FD76B4F",
+    "rom/media_firmware.hex.b04": "65F31F6A8A3C40B77A48AA60FF522F3C7697DA600FCBD27B719E003FA964A33D",
+    "rom/media_firmware.hex.b05": "D6DC14587C98F10DA8C74FF5BB37028583D792EABF6D65C833D7F761563E43E2",
+    "rom/media_firmware.hex.b06": "08D5C493D378D23763B0D9544A42049909F7B1A0C432C68568175F83882CC46C",
+    "rom/media_firmware.hex.b07": "E768A16DBE416B102CD490A12826336F69474355818FBA682199BFF6E1A33E25",
+    "rom/media_firmware.hex.b08": "377076DF9FD49B3EA6D0C9B928238BEBA93255A60C307D71E49BB292FA652139",
+    "rom/media_firmware.hex.b09": "BD39BCAB6CF0CFE27C337BA5E27E4450135FEF43B4CF975D0C9996A8770CF159",
+    "rom/media_firmware.hex.b10": "D0ACB14124F6F91D4646134FFCF339974B524ABAE3653220E6B21CE738C909EC",
+    "rom/media_firmware.hex.b11": "CA3D40AB26795B2EFC9688B15450CF193A996D2BE7E14771DDF27E05AACA8150",
+    "rom/media_firmware.hex.b12": "F8B6011EA7B9CAA93ECA2799CDFE3DE2729C7AEAC7D055C36D0FD6986C1E7785",
+    "rom/media_firmware.hex.b13": "25B6275A1F1BAFADC0D1993570391A6CE604A9BF45B14C447970CD5D381A7366",
+    "rom/media_firmware.hex.b14": "7EF0087E704D524B9376B10547B1EF93C5A982449535DE9CD48B91FB801B254B",
+    "rom/media_firmware.hex.b15": "5D1856B967F11C15CF2CE68008A77E9A1EBE6BB9F5D1112AC798748FD0C422C3",
+    "rom/media_firmware.hex.b16": "8A63D3F9508AC9314DEA735A88C3C0548C68DBDA8A1EC6EE92C21D097232ADDA",
+    "rom/media_firmware.hex.b17": "1F6A5C0B3A79037CEB7FD76DB77A5EB1CD3AA4442B34A91E3A4480F0ED4E5B5B",
+    "rom/media_firmware.hex.b18": "1F6A5C0B3A79037CEB7FD76DB77A5EB1CD3AA4442B34A91E3A4480F0ED4E5B5B",
+    "rom/media_firmware.hex.b19": "1F6A5C0B3A79037CEB7FD76DB77A5EB1CD3AA4442B34A91E3A4480F0ED4E5B5B",
+    "rom/media_firmware.hex.b20": "4CD8E87C771E1B0DA5FB95B8B72C9F440E53C6A4DCC65804991A94E12E08C84A",
+    "rom/media_firmware.hex.b21": "80D5F74714B4C6D27E8B31876C16C4E1DADF7142054DCFAC6DCD045290B62554",
+    "rom/media_firmware.hex.b22": "BB318A9529FDBEFAD4876E4F844F3F80E0A9E77132C56C58D6C9EF36560E9C4D",
+    "rom/media_firmware.hex.b23": "9555C8454044C60E48DC9FA22D7BB21CD4AEFFB8C2E429F41C487FB716BA28A3",
+    "rom/media_firmware.hex.b24": "C31BBED288B97E023A5E668BEA3B8462FDC617AC7B8348FC592AF5301A50D924",
+    "rom/media_firmware.hex.b25": "BAF87DB45F7668CE6433F0FD54C4738555B2482777176EC0DB9DD3E668F6E7CC",
+    "rom/media_firmware.hex.b26": "19002ED158306D675FBF772D7F4BAF936CD935D4D7C908B788DB078D852FB8DD",
+    "rom/media_firmware.hex.b27": "04CCECF83974F2F18C9F099E71958B029682BA8AFA0CF8A0A42ED67A5591473B",
+    "rom/media_firmware.hex.b28": "4DC7FE8A129DB71998C7800E3CEC37C0BAF47C27D8E197E81741886B267E2C64",
+    "rom/media_firmware.hex.b29": "1C3B88623A9E70828416E374822BC07A131C5A81DEF42724213C7533F434E1EB",
+    "rom/media_firmware.hex.b30": "252D505C449C295883AEDAB97BFB7A971ECA08E2799515FE7AC3FE48866FE4C0",
+    "rom/media_firmware.hex.b31": "6CF09E65828DB649A5E9AA5628115EB7FCFA1BD6DBF4471E3DB4863ADB781BB2",
+    "rom/media_firmware.hex.b32": "E90FD06C0AB67D30D4405EFC811F68B2CF038E9BF8E58C1D2843C3A0DE546B3F",
+    "rom/media_firmware.hex.b33": "9F7C9DAB9C91E396CF88CA58F57E1B2442A53933F75B68B17729852125FDEB59",
+    "rom/media_firmware.hex.b34": "91E8452473435144BD30844CA30A96A62357DA2C4A95CA415E18C50A240BA883",
+    "rom/media_firmware.hex.b35": "2D9A59187CE2067397961D749237624207AA690DF760D7571585301EBA9276B2",
+    "rom/media_firmware.hex.b36": "73D57FBDC15DBD3E3B9B071240FAE6CB6151D5428FADEC8CFB52EAEE8BEBDB41",
+    "rom/media_firmware.hex.b37": "75BB4FF1F8EC62673212B779B00F1F43152B97EEC2DD2D6107591429B1C32D69",
+    "rom/spectrum_twiddle.hex": "337548B3516E6F568918215F5D1DC4E3374CA6F812141315A942475F823F2440",
+    "rom/spectrum_window.hex": "B73080B1391A6545354522D56E31C0EE696D5D5D24BA9B91E8F0E34FD6D1A9D7",
+    "firmware/game_chart.c": "5AA84B8E48B8573978A8D39EF33977248E5B041639114ED0F9FAC3E409CD7E5C",
+    "firmware/game_chart.h": "87EDBE2B05A2F95B9B4ACB1A73C057B5530B1B7D7CACD22F0B5662367F56481B",
+    "firmware/game_service.inc": "E772F5096F37BDC92E86647CCD1BF24127FD05D7F9E020031E58962DE3D93C27",
+    "firmware/link.ld": "D117D4117E471F87AB379AFAE90BA99F4CBD1309625F110CCF4C0CAF399010EE",
+    "firmware/main.c": "84C52D7CCA15F6504C8ABF05E486DA668FEB138815B5856613FD0E6D8F48309D",
+    "firmware/media_hw.h": "EE1A7E5E24B4E921D9C32C345141E83B883AF084DABC0D7445C34DB52A83CAA3",
+    "firmware/media_service.c": "5B58021CD91C3438C601EF1A9B49446BD74C2F09719F8044792B72691A22A450",
+    "firmware/minilib.c": "BC7E18398DBC8A30609FFBBE4751B4D2A1E2B389624746FF754AEED8D6A97014",
+    "firmware/sd_spi.c": "82D5CA3047229F06DA278835D060F816F523F7BB946AE09801502C2317BA72C3",
+    "firmware/start.S": "5DAD393A5AE6B72E6FDCA7D32D678C9140EED4D06DA9310FEDA9D9C029013253",
+    "firmware/usb_disk_service.inc": "9B33A8F81593A3B11E64EE0DCACEEFA124DDE67B17ECBA735F1C3812C7DDC090",
+    "firmware/ch569/link.c": "954C72CF60C03FE8F9546FA334CC175B46DC03D62587FF668FB5DB8EBD926459",
+    "firmware/ch569/link.ld": "033C0C6BA9E6075A5FDE701060E72B8733B1C02DCEE0AFB706265DAE9700AE80",
+    "firmware/ch569/main.c": "30FFAE01A6B5CAD94B92259BE464FAD48834E52D0472AE5D5FB07A4C6B735F0B",
+    "firmware/ch569/msc_bot.c": "64ECC2C40425DBAA2EDA27698CA6326077922C5D25B2F6EB56C322FC7839CFE8",
+    "firmware/ch569/msc_bot.h": "6832D2D1E474BF4A9C7283C9027AA24063FD2D3D4E4AE149201D1347393F879B",
+    "firmware/ch569/start.S": "72B8C5144F998F5863A6243281F92559BBC82FB1C30CF129156F45BE1566DC07",
+    "firmware/ch569/usb_device.c": "E4076CC47B41B51CA764675BF44330B491D7AD62EA244B95A8060A47483ABA76",
+    "firmware/ch569/usb_device.h": "BE4DAEAF4AA329E85854174F6ECF2E0CBEC7EC86397DEB3077C5E12AB242A957"
+  },
+  "verified_at": "2026-11-02T12:50:29.028269"
+}

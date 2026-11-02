@@ -1,0 +1,394 @@
+[
+  {
+    "serial_group": 6,
+    "leds": [
+      "D025",
+      "D026",
+      "D027",
+      "D028"
+    ],
+    "x_mm": 19.5080000111,
+    "y_mm": 118.5080000041,
+    "row_from_top": 0,
+    "col_from_left": 0,
+    "proposed_key_index": 0
+  },
+  {
+    "serial_group": 5,
+    "leds": [
+      "D021",
+      "D022",
+      "D023",
+      "D024"
+    ],
+    "x_mm": 50.5079999998,
+    "y_mm": 118.5080000041,
+    "row_from_top": 0,
+    "col_from_left": 1,
+    "proposed_key_index": 1
+  },
+  {
+    "serial_group": 4,
+    "leds": [
+      "D017",
+      "D018",
+      "D019",
+      "D020"
+    ],
+    "x_mm": 81.5079999885,
+    "y_mm": 118.5080000041,
+    "row_from_top": 0,
+    "col_from_left": 2,
+    "proposed_key_index": 2
+  },
+  {
+    "serial_group": 3,
+    "leds": [
+      "D013",
+      "D014",
+      "D015",
+      "D016"
+    ],
+    "x_mm": 112.5079999899,
+    "y_mm": 118.5080000041,
+    "row_from_top": 0,
+    "col_from_left": 3,
+    "proposed_key_index": 3
+  },
+  {
+    "serial_group": 2,
+    "leds": [
+      "D009",
+      "D010",
+      "D011",
+      "D012"
+    ],
+    "x_mm": 143.50799999129998,
+    "y_mm": 118.5080000041,
+    "row_from_top": 0,
+    "col_from_left": 4,
+    "proposed_key_index": 4
+  },
+  {
+    "serial_group": 1,
+    "leds": [
+      "D005",
+      "D006",
+      "D007",
+      "D008"
+    ],
+    "x_mm": 174.50799999269998,
+    "y_mm": 118.5080000041,
+    "row_from_top": 0,
+    "col_from_left": 5,
+    "proposed_key_index": 5
+  },
+  {
+    "serial_group": 0,
+    "leds": [
+      "D001",
+      "D002",
+      "D003",
+      "D004"
+    ],
+    "x_mm": 205.5079999941,
+    "y_mm": 118.5080000041,
+    "row_from_top": 0,
+    "col_from_left": 6,
+    "proposed_key_index": 6
+  },
+  {
+    "serial_group": 7,
+    "leds": [
+      "D029",
+      "D030",
+      "D031",
+      "D032"
+    ],
+    "x_mm": 19.5080000111,
+    "y_mm": 87.5080000027,
+    "row_from_top": 1,
+    "col_from_left": 0,
+    "proposed_key_index": 7
+  },
+  {
+    "serial_group": 8,
+    "leds": [
+      "D033",
+      "D034",
+      "D035",
+      "D036"
+    ],
+    "x_mm": 50.5079999998,
+    "y_mm": 87.5080000027,
+    "row_from_top": 1,
+    "col_from_left": 1,
+    "proposed_key_index": 8
+  },
+  {
+    "serial_group": 9,
+    "leds": [
+      "D037",
+      "D038",
+      "D039",
+      "D040"
+    ],
+    "x_mm": 81.5079999885,
+    "y_mm": 87.5080000027,
+    "row_from_top": 1,
+    "col_from_left": 2,
+    "proposed_key_index": 9
+  },
+  {
+    "serial_group": 10,
+    "leds": [
+      "D041",
+      "D042",
+      "D043",
+      "D044"
+    ],
+    "x_mm": 112.5079999899,
+    "y_mm": 87.5080000027,
+    "row_from_top": 1,
+    "col_from_left": 3,
+    "proposed_key_index": 10
+  },
+  {
+    "serial_group": 11,
+    "leds": [
+      "D045",
+      "D046",
+      "D047",
+      "D048"
+    ],
+    "x_mm": 143.50799999129998,
+    "y_mm": 87.5080000027,
+    "row_from_top": 1,
+    "col_from_left": 4,
+    "proposed_key_index": 11
+  },
+  {
+    "serial_group": 12,
+    "leds": [
+      "D049",
+      "D050",
+      "D051",
+      "D052"
+    ],
+    "x_mm": 174.50799999269998,
+    "y_mm": 87.5080000027,
+    "row_from_top": 1,
+    "col_from_left": 5,
+    "proposed_key_index": 12
+  },
+  {
+    "serial_group": 13,
+    "leds": [
+      "D053",
+      "D054",
+      "D055",
+      "D056"
+    ],
+    "x_mm": 205.5079999941,
+    "y_mm": 87.5080000027,
+    "row_from_top": 1,
+    "col_from_left": 6,
+    "proposed_key_index": 13
+  },
+  {
+    "serial_group": 20,
+    "leds": [
+      "D081",
+      "D082",
+      "D083",
+      "D084"
+    ],
+    "x_mm": 19.5080000111,
+    "y_mm": 56.50800000129999,
+    "row_from_top": 2,
+    "col_from_left": 0,
+    "proposed_key_index": 14
+  },
+  {
+    "serial_group": 19,
+    "leds": [
+      "D077",
+      "D078",
+      "D079",
+      "D080"
+    ],
+    "x_mm": 50.5079999998,
+    "y_mm": 56.50800000129999,
+    "row_from_top": 2,
+    "col_from_left": 1,
+    "proposed_key_index": 15
+  },
+  {
+    "serial_group": 18,
+    "leds": [
+      "D073",
+      "D074",
+      "D075",
+      "D076"
+    ],
+    "x_mm": 81.5079999885,
+    "y_mm": 56.50800000129999,
+    "row_from_top": 2,
+    "col_from_left": 2,
+    "proposed_key_index": 16
+  },
+  {
+    "serial_group": 17,
+    "leds": [
+      "D069",
+      "D070",
+      "D071",
+      "D072"
+    ],
+    "x_mm": 112.5079999899,
+    "y_mm": 56.50800000129999,
+    "row_from_top": 2,
+    "col_from_left": 3,
+    "proposed_key_index": 17
+  },
+  {
+    "serial_group": 16,
+    "leds": [
+      "D065",
+      "D066",
+      "D067",
+      "D068"
+    ],
+    "x_mm": 143.50799999129998,
+    "y_mm": 56.50800000129999,
+    "row_from_top": 2,
+    "col_from_left": 4,
+    "proposed_key_index": 18
+  },
+  {
+    "serial_group": 15,
+    "leds": [
+      "D061",
+      "D062",
+      "D063",
+      "D064"
+    ],
+    "x_mm": 174.50799999269998,
+    "y_mm": 56.50800000129999,
+    "row_from_top": 2,
+    "col_from_left": 5,
+    "proposed_key_index": 19
+  },
+  {
+    "serial_group": 14,
+    "leds": [
+      "D057",
+      "D058",
+      "D059",
+      "D060"
+    ],
+    "x_mm": 205.5079999941,
+    "y_mm": 56.50800000129999,
+    "row_from_top": 2,
+    "col_from_left": 6,
+    "proposed_key_index": 20
+  },
+  {
+    "serial_group": 21,
+    "leds": [
+      "D085",
+      "D086",
+      "D087",
+      "D088"
+    ],
+    "x_mm": 19.5080000111,
+    "y_mm": 25.507999999899997,
+    "row_from_top": 3,
+    "col_from_left": 0,
+    "proposed_key_index": 21
+  },
+  {
+    "serial_group": 22,
+    "leds": [
+      "D089",
+      "D090",
+      "D091",
+      "D092"
+    ],
+    "x_mm": 50.5079999998,
+    "y_mm": 25.507999999899997,
+    "row_from_top": 3,
+    "col_from_left": 1,
+    "proposed_key_index": 22
+  },
+  {
+    "serial_group": 23,
+    "leds": [
+      "D093",
+      "D094",
+      "D095",
+      "D096"
+    ],
+    "x_mm": 81.5079999885,
+    "y_mm": 25.507999999899997,
+    "row_from_top": 3,
+    "col_from_left": 2,
+    "proposed_key_index": 23
+  },
+  {
+    "serial_group": 24,
+    "leds": [
+      "D097",
+      "D098",
+      "D099",
+      "D100"
+    ],
+    "x_mm": 112.5079999899,
+    "y_mm": 25.507999999899997,
+    "row_from_top": 3,
+    "col_from_left": 3,
+    "proposed_key_index": 24
+  },
+  {
+    "serial_group": 25,
+    "leds": [
+      "D101",
+      "D102",
+      "D103",
+      "D104"
+    ],
+    "x_mm": 143.50799999129998,
+    "y_mm": 25.507999999899997,
+    "row_from_top": 3,
+    "col_from_left": 4,
+    "proposed_key_index": 25
+  },
+  {
+    "serial_group": 26,
+    "leds": [
+      "D105",
+      "D106",
+      "D107",
+      "D108"
+    ],
+    "x_mm": 174.50799999269998,
+    "y_mm": 25.507999999899997,
+    "row_from_top": 3,
+    "col_from_left": 5,
+    "proposed_key_index": 26
+  },
+  {
+    "serial_group": 27,
+    "leds": [
+      "D109",
+      "D110",
+      "D111",
+      "D112"
+    ],
+    "x_mm": 205.5079999941,
+    "y_mm": 25.507999999899997,
+    "row_from_top": 3,
+    "col_from_left": 6,
+    "proposed_key_index": 27
+  }
+]

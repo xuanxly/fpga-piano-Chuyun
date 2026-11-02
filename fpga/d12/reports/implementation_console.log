@@ -1,0 +1,298 @@
+*** GOWIN Tcl Command Line Console  *** 
+Open project D:/FPGA/11_projects/pressure_piano_game_d12_candidate_ac/pressure_piano_touch.gprj finished
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ch569_gpio_link.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\reset_sync.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\debounce_bit.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\instrument_controls.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\mcp3008_scan.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\pressure_frontend.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\voice_allocator.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\note_frequency.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_osc.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_voice.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\tone_filter.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_engine.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\pt8211_tx.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\pressure_piano_top.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_video.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_board.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\pressure_piano_visual_top.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ip\DVI_TX_Top.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ip\spectrum_pll.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\mcp3008_scan28.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\pressure28_frontend.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\sine28_shared.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\note_frequency28.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_engine.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_core.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\pressure_piano_28_top.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ws2812_frame_tx.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\light_ripple28.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_lights.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\audio_status28.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\touch_ui28.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_touch_system.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ws170120_reports.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_fs_phy60.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_fs_transaction.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ws170120_usb_host.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_touch_board.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_session_guard.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_pad_buffer.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_pad_pair_registered.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_diag_bridge.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ip\usb_pll60.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_soc.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui28.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui_renderer.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v'
+Analyzing Verilog file 'D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v'
+Compiling module 'pressure_piano_28_touch_top'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_touch_board.v":4)
+Compiling module 'usb_pll60'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ip\usb_pll60.v":13)
+Compiling module 'reset_sync'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\reset_sync.v":2)
+Compiling module 'usb_session_guard'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_session_guard.v":4)
+Compiling module 'usb_pad_pair_registered'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_pad_pair_registered.v":5)
+Compiling module 'usb_pad_buffer'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_pad_buffer.v":4)
+Compiling module 'ws170120_usb_host'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ws170120_usb_host.v":5)
+Compiling module 'usb_fs_phy60'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_fs_phy60.v":4)
+WARN  (EX3791) : Expression size 88 truncated to fit in target size 8("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_fs_phy60.v":20)
+Compiling module 'usb_fs_transaction'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_fs_transaction.v":4)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_fs_transaction.v":59)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 7("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_fs_transaction.v":69)
+Compiling module 'ws170120_reports'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ws170120_reports.v":5)
+Compiling module 'touch_frame_cdc'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ws170120_reports.v":79)
+Compiling module 'usb_diag_bridge'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\usb_diag_bridge.v":4)
+Compiling module 'spectrum_cdc(WIDTH=64)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_video.v":2)
+Compiling module 'piano28_touch_system(BOOT_CYCLES=1,ENABLE_USB_DIAG=1,ENABLE_MEDIA=1)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_touch_system.v":4)
+Compiling module 'media_ui28'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui28.v":3)
+Compiling module 'piano28_core(ENABLE_TOUCH=1,ENABLE_MEDIA=1,ENABLE_TIMBRE=1,ENABLE_EFFECTS=1,PRESSURE_BASELINE=280'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,PRESSURE_FULL_SCALE=280'b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_core.v":2)
+Compiling module 'touch_merge28'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\touch_ui28.v":216)
+Compiling module 'mcp3008_scan28'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\mcp3008_scan28.v":2)
+Compiling module 'mcp3008_scan'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\mcp3008_scan.v":3)
+Compiling module 'pressure28_frontend(BASELINE=280'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,FULL_SCALE=280'b1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\pressure28_frontend.v":2)
+Extracting RAM for identifier 'fifo'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\pressure28_frontend.v":10)
+Compiling module 'instrument_controls(ENABLE_TRANSPOSE_SET=1,ENABLE_TIMBRE_EFFECT=1)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\instrument_controls.v":2)
+Compiling module 'debounce_bit(STABLE_CYCLES=50000)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\debounce_bit.v":2)
+Compiling module 'debounce_bit'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\debounce_bit.v":2)
+Compiling module 'piano28_timbre_engine(ENABLE_VIBRATO=1)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":4)
+Extracting RAM for identifier 'context_mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":37)
+Extracting RAM for identifier 'tone_mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":40)
+Extracting RAM for identifier 'age_mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":42)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":107)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 24("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":127)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 24("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":134)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 24("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":140)
+Compiling module 'note_frequency28'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\note_frequency28.v":3)
+Compiling module 'sine28_shared'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\sine28_shared.v":2)
+WARN  (EX3791) : Expression size 28 truncated to fit in target size 16("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":232)
+WARN  (EX3791) : Expression size 33 truncated to fit in target size 32("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":241)
+WARN  (EX3791) : Expression size 21 truncated to fit in target size 20("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":249)
+WARN  (EX3791) : Expression size 34 truncated to fit in target size 22("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":259)
+WARN  (EX3791) : Expression size 31 truncated to fit in target size 26("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":180)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 16("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_timbre_engine.v":265)
+Compiling module 'tone_filter'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\tone_filter.v":2)
+Compiling module 'master_volume28'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\touch_ui28.v":228)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 9("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\touch_ui28.v":233)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 16("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\touch_ui28.v":245)
+Compiling module 'pt8211_tx'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\pt8211_tx.v":3)
+Compiling module 'media_soc'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_soc.v":3)
+Extracting RAM for identifier 'events'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_soc.v":76)
+Compiling module 'VexRiscv'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":7)
+Extracting RAM for identifier 'RegFilePlugin_regFile'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":1323)
+Compiling module 'InstructionCache'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":6023)
+Extracting RAM for identifier 'banks_0'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":6129)
+Extracting RAM for identifier 'ways_0_tags'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":6130)
+Compiling module 'DataCache'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5168)
+Extracting RAM for identifier 'ways_0_tags'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5382)
+Extracting RAM for identifier 'ways_0_data_symbol0'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5383)
+Extracting RAM for identifier 'ways_0_data_symbol1'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5384)
+Extracting RAM for identifier 'ways_0_data_symbol2'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5385)
+Extracting RAM for identifier 'ways_0_data_symbol3'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5386)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 18("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5542)
+WARN  (EX3858) : System task 'display' is ignored for synthesis("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5994)
+WARN  (EX3670) : Actual bit length 7 differs from formal bit length 9 for port 'io_cpu_flush_payload_lineId'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":1658)
+WARN  (EX1998) : Net 'IBusCachedPlugin_cache_io_cpu_fetch_isRemoved' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":67)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_SW' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":81)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_SR' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":82)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_SO' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":83)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_SI' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":84)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_PW' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":85)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_PR' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":86)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_PO' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":87)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_PI' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":88)
+WARN  (EX1998) : Net 'dataCache_1_io_cpu_writeBack_fence_FM[3]' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":89)
+WARN  (EX1998) : Net 'IBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":604)
+WARN  (EX1998) : Net 'dBus_rsp_payload_last' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":617)
+WARN  (EX1998) : Net 'DBusCachedPlugin_mmuBus_rsp_bypassTranslation' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":632)
+WARN  (EX1998) : Net 'CsrPlugin_mtvec_mode[1]' does not have a driver("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":930)
+Compiling module 'game_engine28'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v":4)
+Extracting RAM for identifier 'queue'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v":15)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 19("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v":79)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 19("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v":80)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 19("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v":81)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 19("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v":147)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 19("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v":148)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 19("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v":149)
+WARN  (EX3791) : Expression size 21 truncated to fit in target size 20("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\game_engine28.v":176)
+Compiling module 'ch569_gpio_link'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ch569_gpio_link.v":4)
+Extracting RAM for identifier 'rx_mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ch569_gpio_link.v":19)
+Extracting RAM for identifier 'tx_mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ch569_gpio_link.v":19)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 10("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ch569_gpio_link.v":28)
+Compiling module 'media_text_ram'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":77)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":79)
+Compiling module 'sd_spi_byte'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_soc.v":211)
+Compiling module 'media_rom(WORDS=10240)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":4)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":16)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":16)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":16)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":16)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":23)
+Compiling module 'media_ram(WORDS=6144)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":36)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":43)
+Compiling module 'media_audio_ram(WORDS=6144)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":55)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+Extracting RAM for identifier 'mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_memories.v":61)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_soc.v":108)
+Compiling module 'piano28_lights(ENABLE_GAME=1)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_lights.v":3)
+Compiling module 'light_ripple28'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\light_ripple28.v":4)
+Extracting RAM for identifier 'pixels'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\light_ripple28.v":19)
+Extracting RAM for identifier 'distances'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\light_ripple28.v":20)
+Compiling module 'ws2812_frame_tx'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ws2812_frame_tx.v":3)
+Compiling module 'spectrum_fft'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":3)
+Extracting RAM for identifier 'capture_mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":11)
+Extracting RAM for identifier 'fft_mem'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":12)
+Extracting RAM for identifier 'window_rom'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":13)
+Extracting RAM for identifier 'twiddle_rom'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":14)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":50)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":186)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":186)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":187)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":187)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_fft.v":196)
+Compiling module 'spectrum_pll'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ip\spectrum_pll.v":12)
+Compiling module 'spectrum_timing'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_video.v":30)
+Compiling module 'spectrum_cdc(WIDTH=299)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_video.v":2)
+Compiling module 'spectrum_cdc(WIDTH=72)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_video.v":2)
+Compiling module 'spectrum_cdc(WIDTH=2379)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_video.v":2)
+Compiling module 'media_ui_renderer'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui_renderer.v":3)
+Compiling module 'piano_ui_renderer(ENABLE_USB_DIAG=1)'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":3)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":155)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":161)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 6("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":319)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 7("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":322)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 7("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":315)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":408)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":434)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":213)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":470)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano_ui_renderer.v":473)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 7("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui_renderer.v":458)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 6("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui_renderer.v":547)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 6("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui_renderer.v":558)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 6("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui_renderer.v":564)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 6("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui_renderer.v":573)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 6("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui_renderer.v":608)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\media_ui_renderer.v":353)
+Compiling module 'spectrum_dvi'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\spectrum_board.v":2)
+Compiling module 'DVI_TX_Top'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ip\DVI_TX_Top.v":1089)
+Compiling module '**'("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\ip\DVI_TX_Top.v":1088)
+NOTE  (EX0101) : Current top module is "pressure_piano_28_touch_top"
+WARN  (EX0211) : The output port "io_cpu_writeBack_exclusiveOk" of module "DataCache" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5211)
+WARN  (EX0211) : The output port "io_cpu_writesPending" of module "DataCache" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\VexRiscv.v":5217)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "reset_sync" instantiated to "u_reset" is swept in optimizing("D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\src\piano28_core.v":30)
+[95%] Generate netlist file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\gwsynthesis\pressure_piano_touch.vg" completed
+[100%] Generate report file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\gwsynthesis\pressure_piano_touch_syn.rpt.html" completed
+GowinSynthesis finish
+Reading netlist file: "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\gwsynthesis\pressure_piano_touch.vg"
+Parsing netlist file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\gwsynthesis\pressure_piano_touch.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\constraints\pressure_piano_touch.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'sys_clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\pnr\pressure_piano_touch.power.html" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\pnr\pressure_piano_touch.pin.html" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\pnr\pressure_piano_touch.rpt.html" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\pnr\pressure_piano_touch.rpt.txt" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\pnr\pressure_piano_touch.sdf" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\pnr\pressure_piano_touch.vo" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_game_d12_candidate_ac\impl\pnr\pressure_piano_touch.tr.html" completed
+Mon Nov  2 12:45:57 2026
+
+CODEX_IMPLEMENTATION_FINISHED
+
+

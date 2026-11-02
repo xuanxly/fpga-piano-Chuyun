@@ -1,0 +1,70 @@
+[
+  {
+    "file": "hardware/electronics/pressure/pressure.epro2",
+    "archive_integrity": "ok",
+    "project_metadata": true,
+    "native_design_records": true
+  },
+  {
+    "file": "hardware/electronics/control/control.epro2",
+    "archive_integrity": "ok",
+    "project_metadata": true,
+    "native_design_records": true
+  },
+  {
+    "file": "hardware/electronics/lighting/lighting.epro2",
+    "archive_integrity": "ok",
+    "project_metadata": true,
+    "native_design_records": true
+  },
+  {
+    "file": "hardware/mechanical/stl/key_guide_29p8mm.stl",
+    "binary_STL": "ok",
+    "triangles": 2710,
+    "dimensions_mm": [
+      29.8,
+      29.8,
+      4.4
+    ],
+    "quantity": 28
+  },
+  {
+    "file": "hardware/mechanical/stl/key_tray_25mm.stl",
+    "binary_STL": "ok",
+    "triangles": 764,
+    "dimensions_mm": [
+      25.0,
+      25.0,
+      2.4
+    ],
+    "quantity": 28
+  },
+  {
+    "file": "hardware/mechanical/blender/assembly.blend",
+    "external_resources_missing": 0,
+    "guide_count": 28,
+    "tray_count": 28,
+    "lighting_PCB_direct_support": true
+  },
+  {
+    "file": "hardware/mechanical/blender/single-key.blend",
+    "external_resources_missing": 0
+  },
+  {
+    "check": "cad_file_count",
+    "count": 7,
+    "expected": 7
+  },
+  {
+    "check": "key_map_rows",
+    "count": 28,
+    "mapping_status": "待按实物补齐"
+  },
+  {
+    "check": "web_link",
+    "url": "https://proud-leaf-166f.2272419355.workers.dev/",
+    "http_status": 200,
+    "title": "触韵 · 录音工作室",
+    "checked_date": "2026-11-02"
+  }
+]

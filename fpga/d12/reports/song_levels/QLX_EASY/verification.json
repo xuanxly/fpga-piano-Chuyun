@@ -1,0 +1,19 @@
+{
+  "status": "PASS_PARSER_AND_FULL_GAME_PLAYTHROUGH",
+  "chart": {
+    "file": "QLX_EASY.CSV",
+    "events": 203,
+    "duration_ms": 103755
+  },
+  "csv_sha256": "9B849BE629BCFE3CCA287DF2453DF7FE4344A3A71F77EB2D8F1795203C8DCAB6",
+  "parser_source_sha256": "5AA84B8E48B8573978A8D39EF33977248E5B041639114ED0F9FAC3E409CD7E5C",
+  "game_source_sha256": "8A5C75CF2C9AB46523AA239AF707711C7592C78812643A9402400A64EDC2FBD2",
+  "loader_source_sha256": "E772F5096F37BDC92E86647CCD1BF24127FD05D7F9E020031E58962DE3D93C27",
+  "EOF_time_ms": 103756,
+  "EOF_rule": "chart.end+1, same as actual firmware loader",
+  "parser_log_sha256": "7BFFF8433328F46FB4CDBB57E7CD1D441431FA369C56938A0F1FFE0703BF13D4",
+  "rtl_log_sha256": "AC9185A2F20AB84713A27D37B191DFBB653B6EB2D3B7AEAC15FADC05658E3709",
+  "D12_product_inputs_unchanged": true,
+  "hardware_tested": false,
+  "note": "Simulated perfect player;not human difficulty or board acceptance"
+}
