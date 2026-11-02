@@ -69,7 +69,7 @@ chuyun-hardware/
 │   ├── design-status.md    文件适用范围和待补信息
 │   ├── software.md         D12功能与六张软件实拍
 │   ├── technical-report.docx
-│   └── figures/            小谢整理的电路标注图及可编辑SVG
+│   └── figures/            电路标注图及可编辑SVG
 ├── assets/
 │   ├── photos/             实物照片
 │   └── renders/            CAD预览、Blender渲染
@@ -86,7 +86,7 @@ chuyun-hardware/
 
 ## 资料状态
 
-三块电路板工程、七份 DXF、两种打印 STL、两份 Blender 模型以及图文资料均已归档。板端接口按小谢的资料列出，主控封装球位已按 D12 CST 补充；实装键位映射与完整制造输出见 [资料状态](docs/design-status.md)。
+
 
 D12 目录包含已发布 FPGA 位流、CH569 HEX、源码和验证记录。Gerber、贴片生产 BOM 及实板专项测量仍按 [资料状态](docs/design-status.md) 登记。代码与历史数字验证记录不替代整机实测。
 
@@ -95,7 +95,7 @@ D12 目录包含已发布 FPGA 位流、CH569 HEX、源码和验证记录。Gerb
 |成员|主要贡献|
 |---|---|
 |[xuanxly](https://github.com/xuanxly)|机械结构、按键组件、装配与实物记录，技术文档及项目资料整理|
-|[Fish-0319（小谢）](https://github.com/Fish-0319)|PCB设计、电路原理图、PCB工程与电路图文材料|
-|栋哥|FPGA应用开发、录音工作室与网站部署维护|
+|[Fish-0319](https://github.com/Fish-0319)|PCB设计、电路原理图、PCB工程与电路图文材料|
+|maru|FPGA应用开发、录音工作室与网站部署维护|
 
 本仓库尚未指定开源许可证。比赛标识、厂家资料和第三方器件资料的权利归各自权利人；厂家资料以 [官方参考链接](docs/references.md) 查阅。
