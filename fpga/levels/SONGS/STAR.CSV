@@ -1,0 +1,48 @@
+# STAR; BPM80; 1=C4; TRANS=0; right-hand single-note melody
+# Absolute milliseconds; 1500ms lead-in after game countdown
+# Release gap: 90ms below 1 beat,120ms at 1 beat or longer
+# C major; 1=C4; standard quarter/half-note rhythm inferred from melody-only image
+# Right-hand solo; six phrases; no backing audio
+PIANO28,1
+1500,630,C4
+2250,630,C4
+3000,630,G4
+3750,630,G4
+4500,630,A4
+5250,630,A4
+6000,1380,G4
+7500,630,F4
+8250,630,F4
+9000,630,E4
+9750,630,E4
+10500,630,D4
+11250,630,D4
+12000,1380,C4
+13500,630,G4
+14250,630,G4
+15000,630,F4
+15750,630,F4
+16500,630,E4
+17250,630,E4
+18000,1380,D4
+19500,630,G4
+20250,630,G4
+21000,630,F4
+21750,630,F4
+22500,630,E4
+23250,630,E4
+24000,1380,D4
+25500,630,C4
+26250,630,C4
+27000,630,G4
+27750,630,G4
+28500,630,A4
+29250,630,A4
+30000,1380,G4
+31500,630,F4
+32250,630,F4
+33000,630,E4
+33750,630,E4
+34500,630,D4
+35250,630,D4
+36000,1380,C4

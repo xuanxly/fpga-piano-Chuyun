@@ -1,10 +1,10 @@
 {
-  "package_version": "R2_D12_R6_20261102",
-  "local_links_checked": 91,
+  "package_version": "R3_D13_R8_20261103",
+  "local_links_checked": 93,
   "broken_links": 0,
   "D12_original_files_byte_identical": 765,
-  "technical_report": "R6, 33 pages",
-  "software_photos": 6,
+  "technical_report": "R8 submission, 35 pages; all rendered pages visually checked",
+  "software_photos": 8,
   "cad_audits": [
     {
       "file": "hardware/mechanical/cad/acquisition_tray_232x214_t5.dxf",
@@ -35,7 +35,9 @@
       "audit_errors": 0
     }
   ],
-  "remote_upload_performed": false,
   "build_or_flash_performed": false,
-  "source_archive_sha256": "fdd7bd217d488d93fca89ebef26f2c3172fb01ed234b1f5f6d5cd54efba6ec1c"
+  "source_archive_sha256": "0842efcc07d95ef86740c22174eacf3d844c61b52f1876215c12d6d30bf4b1c9",
+  "link_check_scope": "Repository entry points, project documentation, hardware READMEs, and added levels; supplied D12/D13 source documentation is preserved.",
+  "D13_original_files_byte_identical": 865,
+  "D13_historical_log_files_checked": 34
 }

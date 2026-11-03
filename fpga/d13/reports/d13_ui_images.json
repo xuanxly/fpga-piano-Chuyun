@@ -1,0 +1,29 @@
+[
+  {
+    "page": 0,
+    "size": [
+      800,
+      480
+    ],
+    "pixel_sha256": "79f9ff8cb4a838287e7d84d062423a98fee523b4a774ad4cac396f11b4f9e443",
+    "png_sha256": "0cb5ef139180f6dc120e8c0d0f5fa22c24fe590a88b92b1123a85dcd78c487b1"
+  },
+  {
+    "page": 8,
+    "size": [
+      800,
+      480
+    ],
+    "pixel_sha256": "d2807c77ba3d7b5be1347951d5274244897f2a9927be5134344afa9fe0e3a238",
+    "png_sha256": "646b61d332f51d29db40e4f854099ff9357cf7116df606161f38e71188fbe55e"
+  },
+  {
+    "page": 9,
+    "size": [
+      800,
+      480
+    ],
+    "pixel_sha256": "147276064721d4779a2003966dff45a49ce7eba469a8c6a5c9fb2f8157161477",
+    "png_sha256": "0201ff88d670d30b1510de45a29f0c9a0ffc99040c653b082b1f5362ae3069b4"
+  }
+]

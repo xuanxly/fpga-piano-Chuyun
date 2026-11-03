@@ -1,0 +1,16 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_d12_ui_pipeline -debug off -s tb_d12_ui_pipeline 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'validation_run' remains unconnected for this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_ui_pipeline.sv:9]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.media_ui28
+Compiling module work.d12_ui_pipeline_reference
+Compiling module work.tb_d12_ui_pipeline
+Built simulation snapshot tb_d12_ui_pipeline

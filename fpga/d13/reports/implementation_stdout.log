@@ -1,0 +1,35 @@
+*** GOWIN Tcl Command Line Console  *** 
+Open project D:/FPGA/11_projects/pressure_piano_validation_d13/pressure_piano_touch.gprj finished
+Reading netlist file: "D:\FPGA\11_projects\pressure_piano_validation_d13\impl\gwsynthesis\pressure_piano_touch.vg"
+Parsing netlist file "D:\FPGA\11_projects\pressure_piano_validation_d13\impl\gwsynthesis\pressure_piano_touch.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\FPGA\11_projects\pressure_piano_validation_d13\constraints\pressure_piano_touch.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'sys_clk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\FPGA\11_projects\pressure_piano_validation_d13\impl\pnr\pressure_piano_touch.power.html" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_validation_d13\impl\pnr\pressure_piano_touch.pin.html" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_validation_d13\impl\pnr\pressure_piano_touch.rpt.html" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_validation_d13\impl\pnr\pressure_piano_touch.rpt.txt" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_validation_d13\impl\pnr\pressure_piano_touch.sdf" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_validation_d13\impl\pnr\pressure_piano_touch.vo" completed
+Generate file "D:\FPGA\11_projects\pressure_piano_validation_d13\impl\pnr\pressure_piano_touch.tr.html" completed
+Mon Nov  2 19:38:06 2026
+
+CODEX_IMPLEMENTATION_FINISHED

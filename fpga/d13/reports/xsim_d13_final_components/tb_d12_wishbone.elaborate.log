@@ -1,0 +1,27 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_d12_wishbone -debug off -s tb_d12_wishbone 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'page' [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_wishbone.sv:8]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 9 for port 'io_cpu_flush_payload_lineId' [D:/FPGA/11_projects/pressure_piano_validation_d13/src/VexRiscv.v:1658]
+WARNING: [VRFC 10-3645] port 'ch_rx_ack' remains unconnected for this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_wishbone.sv:8]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.InstructionCache
+Compiling module work.DataCache
+Compiling module work.VexRiscv
+Compiling module work.game_engine28_default
+Compiling module work.ch569_gpio_link
+Compiling module work.media_text_ram
+Compiling module work.sd_spi_byte
+Compiling module work.media_rom(WORDS=10240)
+Compiling module work.media_ram(WORDS=6144)
+Compiling module work.media_audio_ram(WORDS=6144)
+Compiling module work.media_soc
+Compiling module work.tb_d12_wishbone
+Built simulation snapshot tb_d12_wishbone

@@ -1,0 +1,19 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:04:30 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_timbre_pressure/xsim_script.tcl
+# xsim {tb_timbre_pressure} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS timbre_pressure: quarter force gives quarter RMS within5percent; organ tail fully releases
+$finish called at time : 120584160 ns : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_pressure.sv" Line 19
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 219.684 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 12144 KB (Peak: 12144 KB), Simulation CPU Usage: 15030 ms
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:04:47 2026...

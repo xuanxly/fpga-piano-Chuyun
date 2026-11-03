@@ -1,0 +1,33 @@
+{
+  "removed_only_from_new_clean_folder": [
+    "d13_audio_driver.log",
+    "d13_audio_retest.log",
+    "d13_cdc_replicas_supervisor.log",
+    "d13_chain.log",
+    "d13_chain_final.log",
+    "d13_chain_probe.log",
+    "d13_components.log",
+    "d13_components_ram_optimized.log",
+    "d13_cpu_audio.log",
+    "d13_extended_monitor_stderr.log",
+    "d13_extended_monitor_stdout.log",
+    "d13_failed_native_sta.txt",
+    "d13_game_cache.log",
+    "d13_game_cache_supervisor.log",
+    "d13_i2s.log",
+    "d13_implementation_supervisor.log",
+    "d13_legacy.log",
+    "d13_legacy_final.log",
+    "d13_monitor_extension.json",
+    "d13_native_ram_supervisor.log",
+    "d13_physical.log",
+    "d13_route2_supervisor.log",
+    "d13_storage_system.log",
+    "d13_storage_usb.log",
+    "d13_touch_after.log",
+    "d13_touch_verify.log",
+    "d13_ui_driver.log",
+    "d13_usb.log"
+  ],
+  "full_archive_preserves_all": true
+}

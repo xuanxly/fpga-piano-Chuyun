@@ -1,0 +1,838 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/audio_effects28.v" into library work
+INFO: [VRFC 10-311] analyzing module audio_effects28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/audio_status28.v" into library work
+INFO: [VRFC 10-311] analyzing module audio_status28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/audio_verify_monitor.v" into library work
+INFO: [VRFC 10-311] analyzing module audio_verify_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/ch569_gpio_link.v" into library work
+INFO: [VRFC 10-311] analyzing module ch569_gpio_link
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/debounce_bit.v" into library work
+INFO: [VRFC 10-311] analyzing module debounce_bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/extended_ui_renderer.v" into library work
+INFO: [VRFC 10-311] analyzing module extended_ui_renderer
+INFO: [VRFC 10-311] analyzing module validation_decimal_formatter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/game_engine28.v" into library work
+INFO: [VRFC 10-311] analyzing module game_engine28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/i2s_standard_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module i2s_standard_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/instrument_controls.v" into library work
+INFO: [VRFC 10-311] analyzing module instrument_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/light_ripple28.v" into library work
+INFO: [VRFC 10-311] analyzing module light_ripple28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/mcp3008_scan.v" into library work
+INFO: [VRFC 10-311] analyzing module mcp3008_scan
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/mcp3008_scan28.v" into library work
+INFO: [VRFC 10-311] analyzing module mcp3008_scan28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/media_memories.v" into library work
+INFO: [VRFC 10-311] analyzing module media_rom
+INFO: [VRFC 10-311] analyzing module media_ram
+INFO: [VRFC 10-311] analyzing module media_audio_ram
+INFO: [VRFC 10-311] analyzing module media_text_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/media_soc.v" into library work
+INFO: [VRFC 10-311] analyzing module media_soc
+INFO: [VRFC 10-311] analyzing module sd_spi_byte
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/media_ui_renderer.v" into library work
+INFO: [VRFC 10-311] analyzing module media_ui_renderer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/media_ui28.v" into library work
+INFO: [VRFC 10-311] analyzing module media_ui28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/note_frequency.v" into library work
+INFO: [VRFC 10-311] analyzing module note_frequency
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/note_frequency28.v" into library work
+INFO: [VRFC 10-311] analyzing module note_frequency28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano_engine.v" into library work
+INFO: [VRFC 10-311] analyzing module piano_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano_osc.v" into library work
+INFO: [VRFC 10-311] analyzing module piano_osc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano_ui_renderer.v" into library work
+INFO: [VRFC 10-311] analyzing module piano_ui_renderer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano_voice.v" into library work
+INFO: [VRFC 10-311] analyzing module piano_voice
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_core.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_engine.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_lights.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_lights
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_timbre_engine.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_timbre_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_touch_system.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_touch_system
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure_frontend.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_frontend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure_piano_28_top.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_piano_28_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure_piano_top.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_piano_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure_piano_visual_top.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_piano_visual_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure28_frontend.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure28_frontend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pt8211_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module pt8211_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/reset_sync.v" into library work
+INFO: [VRFC 10-311] analyzing module reset_sync
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/sine28_shared.v" into library work
+INFO: [VRFC 10-311] analyzing module sine28_shared
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/spectrum_board.v" into library work
+INFO: [VRFC 10-311] analyzing module spectrum_dvi
+INFO: [VRFC 10-311] analyzing module spectrum_pll
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/spectrum_fft.v" into library work
+INFO: [VRFC 10-311] analyzing module spectrum_fft
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/spectrum_video.v" into library work
+INFO: [VRFC 10-311] analyzing module spectrum_cdc
+INFO: [VRFC 10-311] analyzing module spectrum_timing
+INFO: [VRFC 10-311] analyzing module spectrum_renderer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/tone_filter.v" into library work
+INFO: [VRFC 10-311] analyzing module tone_filter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/touch_ui28.v" into library work
+INFO: [VRFC 10-311] analyzing module touch_ui28
+INFO: [VRFC 10-311] analyzing module touch_merge28
+INFO: [VRFC 10-311] analyzing module master_volume28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_diag_bridge.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_diag_bridge
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_fs_phy60.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_fs_phy60
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_fs_transaction.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_fs_transaction
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_pad_buffer.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_pad_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_pad_pair_registered.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_pad_pair_registered
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_session_guard.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_session_guard
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_touch_board.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_piano_28_touch_top
+INFO: [VRFC 10-311] analyzing module usb_pll60
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/validation_tones32.v" into library work
+INFO: [VRFC 10-311] analyzing module validation_tones32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/VexRiscv.v" into library work
+INFO: [VRFC 10-311] analyzing module VexRiscv
+INFO: [VRFC 10-311] analyzing module DataCache
+INFO: [VRFC 10-311] analyzing module InstructionCache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/voice_allocator.v" into library work
+INFO: [VRFC 10-311] analyzing module voice_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/ws170120_reports.v" into library work
+INFO: [VRFC 10-311] analyzing module ws170120_reports
+INFO: [VRFC 10-311] analyzing module touch_frame_cdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/ws170120_usb_host.v" into library work
+INFO: [VRFC 10-311] analyzing module ws170120_usb_host
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/ws2812_frame_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module ws2812_frame_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/d12_base_volume_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module d12_base_volume_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/d12_game_timing_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module d12_game_timing_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/d12_ui_pipeline_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module d12_ui_pipeline_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/mcp3008_model.sv" into library work
+INFO: [VRFC 10-311] analyzing module mcp3008_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/media_renderer_d9_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module media_renderer_d9_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/media_soc_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module media_soc_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/media_ui28_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module media_ui28_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/piano_ui_renderer_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module piano_ui_renderer_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/piano28_timbre_engine_d10.sv" into library work
+INFO: [VRFC 10-311] analyzing module piano28_timbre_engine_d10
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/piano28_timbre_engine_d11.sv" into library work
+INFO: [VRFC 10-311] analyzing module piano28_timbre_engine_d11
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_audio_status28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_audio_status28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ch569_gpio_link.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ch569_gpio_link
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_controls_pressure_allocator.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_controls_pressure_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_effect_controls.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_effect_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_equivalence.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_game_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_game_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_game_timing.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_game_timing
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_guide_led.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_guide_led
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_key_decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_key_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_ui_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_ui_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_ui.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_ui
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_vibrato.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_vibrato
+WARNING: [VRFC 10-9277] overflow of 32-bit signed integer 3000000000; using -1294967296 instead [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_vibrato.sv:42]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_volume_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_volume_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_wishbone.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_wishbone
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d13_audio_chain.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d13_audio_chain
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d13_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d13_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d13_rom_equivalence.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d13_rom_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d13_ui.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d13_ui
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d13_video.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d13_video
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_effects28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_effects28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_engine28.sv" into library work
+INFO: [VRFC 10-311] analyzing module engine28_case
+INFO: [VRFC 10-311] analyzing module tb_engine28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_full_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_full_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_full28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_full28
+INFO: [VRFC 10-311] analyzing module tb_cold_start28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_game_engine28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_game_engine28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_game_five_minutes.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_game_five_minutes
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_i2s_standard.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_i2s_standard
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_light_ripple28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_light_ripple28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_master_volume28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_master_volume28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_mcp3008_scan.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_mcp3008_scan
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_audio.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_audio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_boot.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_boot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_fifo.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_mp3_cpu_clz.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_mp3_cpu_clz
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_mp3_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_mp3_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_mp3_stereo_cpu_clz.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_mp3_stereo_cpu_clz
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_mp3_stereo_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_mp3_stereo_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_pipeline_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_pipeline_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_ram_native.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_ram_native
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_rom_native.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_rom_native
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_rom.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_sd_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module sdxc_model_d9
+INFO: [VRFC 10-311] analyzing module tb_media_sd_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_sd_pipeline_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module sdxc_model_play
+INFO: [VRFC 10-311] analyzing module tb_media_sd_pipeline_cpu
+WARNING: [VRFC 10-8884] decimal constant 8000000000 should be smaller than 2147483648; using -589934592 instead [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_sd_pipeline_cpu.sv:79]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_soc_equivalence.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_soc_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_spi.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_spi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_text_bank.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_text_bank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_ui_equivalence.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_ui_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_ui.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_ui
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_video.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_video
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_physical_key_isolation28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_physical_key_isolation28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_piano_osc.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_piano_osc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pitch_audio28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pitch_audio28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pitch_controls28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pitch_controls28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pitch_ui28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pitch_ui28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pressure28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pressure28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_progress_lookup.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_progress_lookup
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pt8211_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pt8211_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_scan28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_scan28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_single_key28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_single_key28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_spectrum_animation.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_spectrum_animation
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_spectrum_fft.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_spectrum_fft
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_spectrum_video.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_spectrum_video
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_audio.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_audio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_d11_context.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_d11_context
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_d11_demo.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_d11_demo
+WARNING: [VRFC 10-8884] decimal constant 20000000000 should be smaller than 2147483648; using -1474836480 instead [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_d11_demo.sv:38]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_d11_equivalence.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_d11_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_demo.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_demo
+WARNING: [VRFC 10-8884] decimal constant 12000000000 should be smaller than 2147483648; using -884901888 instead [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_demo.sv:33]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_engine.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_pressure.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_pressure
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_system.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_system
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_ui.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_ui
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_continuity.sv" into library work
+INFO: [VRFC 10-311] analyzing module touch_continuity_case
+INFO: [VRFC 10-311] analyzing module tb_touch_same_stamp
+INFO: [VRFC 10-311] analyzing module tb_touch_incomplete_hold
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_frame_cdc.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch_frame_cdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_poll_toggle.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch_poll_toggle
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_system28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch_system28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_ui28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch_ui28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_video28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch_video28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_diag_bridge.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_diag_bridge
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_diag_no_response.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_diag_no_response
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_diag_video.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_diag_video
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_dual_path_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_dual_path_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_fs_phy60.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_fs_phy60
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_guarded_startup.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_guarded_startup
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_pad_pair_registered.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_pad_pair_registered
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_pad_vendor.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_pad_vendor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_session_guard.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_session_guard
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_validation32.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_validation32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_video28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_video28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_visual_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_visual_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_voice_engine_tone.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_voice_engine_tone
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_reports.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ws170120_reports
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ws170120_usb_host
+INFO: [VRFC 10-311] analyzing module tb_touch_usb_system28
+INFO: [VRFC 10-311] analyzing module tb_touch_manual_usb_system28
+INFO: [VRFC 10-311] analyzing module tb_touch_usb_clock_fault28
+INFO: [VRFC 10-311] analyzing module tb_usb_reject_pid
+INFO: [VRFC 10-311] analyzing module tb_usb_reject_endpoint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws2812_frame_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ws2812_frame_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/usb_device_bfm.sv" into library work
+INFO: [VRFC 10-311] analyzing module usb_device_bfm
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_touch_same_stamp -debug off -s tb_touch_same_stamp 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.ws170120_reports(INCOMPLETE_CYCL...
+Compiling module work.touch_continuity_case_default
+Compiling module work.tb_touch_same_stamp
+Built simulation snapshot tb_touch_same_stamp
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:02:03 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_touch_same_stamp/xsim_script.tcl
+# xsim {tb_touch_same_stamp} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS touch continuity case0: changed report vs timestamp, explicit release, incomplete retention and disconnect
+$finish called at time : 150 ns : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_continuity.sv" Line 25
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:02:05 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_touch_incomplete_hold -debug off -s tb_touch_incomplete_hold 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.ws170120_reports(INCOMPLETE_CYCL...
+Compiling module work.touch_continuity_case(CASE_ID=1)
+Compiling module work.tb_touch_incomplete_hold
+Built simulation snapshot tb_touch_incomplete_hold
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:02:09 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_touch_incomplete_hold/xsim_script.tcl
+# xsim {tb_touch_incomplete_hold} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS touch continuity case1: changed report vs timestamp, explicit release, incomplete retention and disconnect
+$finish called at time : 1170 ns : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_continuity.sv" Line 25
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:02:11 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_touch_poll_toggle -debug off -s tb_touch_poll_toggle 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'runtime_diagnostics' remains unconnected for this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_poll_toggle.sv:6]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.usb_fs_phy60
+Compiling module work.usb_fs_transaction
+Compiling module work.ws170120_usb_host_default
+Compiling module work.tb_touch_poll_toggle
+Built simulation snapshot tb_touch_poll_toggle
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:02:18 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_touch_poll_toggle/xsim_script.tcl
+# xsim {tb_touch_poll_toggle} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS touch USB decision: ACKed ZLP/short packet keep toggle sync and connection, next report accepted, duplicate and NAK ignored
+$finish called at time : 470 ns : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_poll_toggle.sv" Line 25
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:02:20 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_ws170120_reports -debug off -s tb_ws170120_reports 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.ws170120_reports(INCOMPLETE_CYCL...
+Compiling module work.tb_ws170120_reports
+Built simulation snapshot tb_ws170120_reports
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:02:24 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_ws170120_reports/xsim_script.tcl
+# xsim {tb_ws170120_reports} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS ws170120_reports: 7302 actual reports, 2039 complete frames, five contacts, release, duplicates, wrap, timeout, invalid length/coordinates
+$finish called at time : 491413676 ps : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_reports.sv" Line 35
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:02:26 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_ws170120_usb_host -debug off -s tb_ws170120_usb_host 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'debug_info' remains unconnected for this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv:17]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.usb_device_bfm
+Compiling module work.usb_fs_phy60
+Compiling module work.usb_fs_transaction
+Compiling module work.ws170120_usb_host(ATTACH_CYCLES=...
+Compiling module work.ws170120_reports
+Compiling module work.touch_ui28
+Compiling module work.tb_ws170120_usb_host
+Built simulation snapshot tb_ws170120_usb_host
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:02:32 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_ws170120_usb_host/xsim_script.tcl
+# xsim {tb_ws170120_usb_host} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS ws170120_usb_host: actual device/config descriptors, EP0 two-packet report descriptor, optional STALL, 1ms SOF/CRC5, EP82, corrupt CRC not ACKed, duplicate DATA, five-finger chord, NAK hold, release and unplug; SOF=48 ACK=20
+$finish called at time : 48709648068 ps : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv" Line 198
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:02:39 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_usb_reject_pid -debug off -s tb_usb_reject_pid 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'debug_info' remains unconnected for this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv:17]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.usb_device_bfm
+Compiling module work.usb_fs_phy60
+Compiling module work.usb_fs_transaction
+Compiling module work.ws170120_usb_host(ATTACH_CYCLES=...
+Compiling module work.ws170120_reports
+Compiling module work.touch_ui28
+Compiling module work.tb_ws170120_usb_host(BAD_PROFILE...
+Compiling module work.tb_usb_reject_pid
+Built simulation snapshot tb_usb_reject_pid
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:02:45 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_usb_reject_pid/xsim_script.tcl
+# xsim {tb_usb_reject_pid} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS usb_reject_pid: unknown PID rejected before touch/configuration
+$finish called at time : 3152982213 ps : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv" Line 188
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:02:47 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_usb_reject_endpoint -debug off -s tb_usb_reject_endpoint 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'debug_info' remains unconnected for this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv:17]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.usb_device_bfm
+Compiling module work.usb_fs_phy60
+Compiling module work.usb_fs_transaction
+Compiling module work.ws170120_usb_host(ATTACH_CYCLES=...
+Compiling module work.ws170120_reports
+Compiling module work.touch_ui28
+Compiling module work.tb_ws170120_usb_host(BAD_PROFILE...
+Compiling module work.tb_usb_reject_endpoint
+Built simulation snapshot tb_usb_reject_endpoint
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:02:53 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_usb_reject_endpoint/xsim_script.tcl
+# xsim {tb_usb_reject_endpoint} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS usb_reject_endpoint: wrong interrupt endpoint rejected before touch
+$finish called at time : 3209963267 ps : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv" Line 188
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:02:56 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_touch_manual_usb_system28 -debug off -s tb_touch_manual_usb_system28 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 9 for port 'io_cpu_flush_payload_lineId' [D:/FPGA/11_projects/pressure_piano_validation_d13/src/VexRiscv.v:1658]
+WARNING: [VRFC 10-5021] port 'ch_ready' is not connected on this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv:29]
+WARNING: [VRFC 10-3645] port 'ch_rx_ack' remains unconnected for this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv:29]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.usb_device_bfm
+Compiling module work.usb_pll60
+Compiling module work.reset_sync
+Compiling module work.usb_session_guard(ARM_CYCLES=50)
+Compiling module work.usb_pad_buffer
+Compiling module work.usb_pad_pair_registered
+Compiling module work.usb_fs_phy60
+Compiling module work.usb_fs_transaction
+Compiling module work.ws170120_usb_host(ATTACH_CYCLES=...
+Compiling module work.spectrum_cdc(WIDTH=16)
+Compiling module work.ws170120_reports
+Compiling module work.touch_frame_cdc
+Compiling module work.spectrum_cdc(WIDTH=64)
+Compiling module work.usb_diag_bridge
+Compiling module work.media_ui28(ENABLE_EXTRA_APPS=1)
+Compiling module work.touch_merge28
+Compiling module work.mcp3008_scan_default
+Compiling module work.mcp3008_scan28_default
+Compiling module work.pressure28_frontend
+Compiling module work.debounce_bit
+Compiling module work.instrument_controls(ENABLE_TRANS...
+Compiling module work.note_frequency28
+Compiling module work.sine28_shared
+Compiling module work.piano28_timbre_engine(ENABLE_VIB...
+Compiling module work.tone_filter
+Compiling module work.audio_effects28
+Compiling module work.validation_tones32
+Compiling module work.i2s_standard_tx_default
+Compiling module work.audio_verify_monitor
+Compiling module work.master_volume28
+Compiling module work.pt8211_tx_default
+Compiling module work.piano28_core(ENABLE_TOUCH=1,ENAB...
+Compiling module work.InstructionCache
+Compiling module work.DataCache
+Compiling module work.VexRiscv
+Compiling module work.game_engine28_default
+Compiling module work.ch569_gpio_link
+Compiling module work.media_text_ram
+Compiling module work.sd_spi_byte
+Compiling module work.media_rom(WORDS=10240)
+Compiling module work.media_ram(WORDS=6144)
+Compiling module work.media_audio_ram(WORDS=6144)
+Compiling module work.media_soc
+Compiling module work.light_ripple28
+Compiling module work.ws2812_frame_tx_default
+Compiling module work.piano28_lights(ENABLE_GAME=1)
+Compiling module work.spectrum_fft
+Compiling module work.spectrum_pll
+Compiling module work.spectrum_timing
+Compiling module work.spectrum_cdc(WIDTH=299)
+Compiling module work.spectrum_cdc(WIDTH=72)
+Compiling module work.spectrum_cdc(WIDTH=2379)
+Compiling module work.spectrum_cdc(WIDTH=256)
+Compiling module work.piano_ui_renderer(ENABLE_USB_DIA...
+Compiling module work.media_ui_renderer(ENABLE_EXTRA_A...
+Compiling module work.validation_decimal_formatter
+Compiling module work.extended_ui_renderer
+Compiling module work.spectrum_dvi
+Compiling module work.piano28_touch_system(BOOT_CYCLES...
+Compiling module work.pressure_piano_28_touch_top(BOOT...
+Compiling module work.tb_ws170120_usb_host(BOARD=1,MAN...
+Compiling module work.tb_touch_manual_usb_system28
+Built simulation snapshot tb_touch_manual_usb_system28
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:03:10 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_touch_manual_usb_system28/xsim_script.tcl
+# xsim {tb_touch_manual_usb_system28} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS touch_manual_usb_system28: passive/manual arm -> actual USB pins -> five-finger chord/release -> UI/audio/DAC, NAK hold/unplug; PCM_nonzero=3030 DAC=3348
+$finish called at time : 69767222398 ps : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv" Line 198
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:09:25 . Memory (MB): peak = 223.152 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 16144 KB (Peak: 16144 KB), Simulation CPU Usage: 547358 ms
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:12:38 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_touch_usb_clock_fault28 -debug off -s tb_touch_usb_clock_fault28 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 9 for port 'io_cpu_flush_payload_lineId' [D:/FPGA/11_projects/pressure_piano_validation_d13/src/VexRiscv.v:1658]
+WARNING: [VRFC 10-5021] port 'ch_ready' is not connected on this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv:29]
+WARNING: [VRFC 10-3645] port 'ch_rx_ack' remains unconnected for this instance [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv:29]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.usb_device_bfm
+Compiling module work.usb_pll60
+Compiling module work.reset_sync
+Compiling module work.usb_session_guard(ARM_CYCLES=50)
+Compiling module work.usb_pad_buffer
+Compiling module work.usb_pad_pair_registered
+Compiling module work.usb_fs_phy60
+Compiling module work.usb_fs_transaction
+Compiling module work.ws170120_usb_host(ATTACH_CYCLES=...
+Compiling module work.spectrum_cdc(WIDTH=16)
+Compiling module work.ws170120_reports
+Compiling module work.touch_frame_cdc
+Compiling module work.spectrum_cdc(WIDTH=64)
+Compiling module work.usb_diag_bridge
+Compiling module work.media_ui28(ENABLE_EXTRA_APPS=1)
+Compiling module work.touch_merge28
+Compiling module work.mcp3008_scan_default
+Compiling module work.mcp3008_scan28_default
+Compiling module work.pressure28_frontend
+Compiling module work.debounce_bit
+Compiling module work.instrument_controls(ENABLE_TRANS...
+Compiling module work.note_frequency28
+Compiling module work.sine28_shared
+Compiling module work.piano28_timbre_engine(ENABLE_VIB...
+Compiling module work.tone_filter
+Compiling module work.audio_effects28
+Compiling module work.validation_tones32
+Compiling module work.i2s_standard_tx_default
+Compiling module work.audio_verify_monitor
+Compiling module work.master_volume28
+Compiling module work.pt8211_tx_default
+Compiling module work.piano28_core(ENABLE_TOUCH=1,ENAB...
+Compiling module work.InstructionCache
+Compiling module work.DataCache
+Compiling module work.VexRiscv
+Compiling module work.game_engine28_default
+Compiling module work.ch569_gpio_link
+Compiling module work.media_text_ram
+Compiling module work.sd_spi_byte
+Compiling module work.media_rom(WORDS=10240)
+Compiling module work.media_ram(WORDS=6144)
+Compiling module work.media_audio_ram(WORDS=6144)
+Compiling module work.media_soc
+Compiling module work.light_ripple28
+Compiling module work.ws2812_frame_tx_default
+Compiling module work.piano28_lights(ENABLE_GAME=1)
+Compiling module work.spectrum_fft
+Compiling module work.spectrum_pll
+Compiling module work.spectrum_timing
+Compiling module work.spectrum_cdc(WIDTH=299)
+Compiling module work.spectrum_cdc(WIDTH=72)
+Compiling module work.spectrum_cdc(WIDTH=2379)
+Compiling module work.spectrum_cdc(WIDTH=256)
+Compiling module work.piano_ui_renderer(ENABLE_USB_DIA...
+Compiling module work.media_ui_renderer(ENABLE_EXTRA_A...
+Compiling module work.validation_decimal_formatter
+Compiling module work.extended_ui_renderer
+Compiling module work.spectrum_dvi
+Compiling module work.piano28_touch_system(BOOT_CYCLES...
+Compiling module work.pressure_piano_28_touch_top(BOOT...
+Compiling module work.tb_ws170120_usb_host(BOARD=1,MAN...
+Compiling module work.tb_touch_usb_clock_fault28
+Built simulation snapshot tb_touch_usb_clock_fault28
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:12:51 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_touch_usb_clock_fault28/xsim_script.tcl
+# xsim {tb_touch_usb_clock_fault28} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS touch_usb_clock_fault28: manual arm -> real-pin USB five-finger chord -> clock stops with LOCK high -> all touch gates released within 3ms, USB high-Z, system/DAC remain running
+$finish called at time : 54566910 ns : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv" Line 50
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:04:30 . Memory (MB): peak = 223.246 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 15960 KB (Peak: 15960 KB), Simulation CPU Usage: 268577 ms
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:17:23 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_ch569_gpio_link -debug off -s tb_ch569_gpio_link 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.ch569_gpio_link
+Compiling module work.tb_ch569_gpio_link
+Built simulation snapshot tb_ch569_gpio_link
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:17:27 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_ch569_gpio_link/xsim_script.tcl
+# xsim {tb_ch569_gpio_link} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS CH569 GPIO async handshake,1140 RX/TX bytes,512 FIFO backpressure+wrap,stalled ack,INIT highZ,async shutdown/reset
+$finish called at time : 424090 ns : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ch569_gpio_link.sv" Line 45
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:17:29 2026...
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_ws2812_frame_tx -debug off -s tb_ws2812_frame_tx 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.ws2812_frame_tx_default
+Compiling module work.tb_ws2812_frame_tx
+Built simulation snapshot tb_ws2812_frame_tx
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:17:33 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_ws2812_frame_tx/xsim_script.tcl
+# xsim {tb_ws2812_frame_tx} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS ws2812_frame_tx: 3 exact 112-pixel GRB frames, 0/1 timing and 320us latch, busy start ignored, midframe reset recovery
+$finish called at time : 11824350 ns : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws2812_frame_tx.sv" Line 57
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:17:35 2026...
+PASS: all 11 requested self-checking simulations

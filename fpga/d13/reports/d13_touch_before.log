@@ -1,0 +1,366 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/audio_effects28.v" into library work
+INFO: [VRFC 10-311] analyzing module audio_effects28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/audio_status28.v" into library work
+INFO: [VRFC 10-311] analyzing module audio_status28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/audio_verify_monitor.v" into library work
+INFO: [VRFC 10-311] analyzing module audio_verify_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/ch569_gpio_link.v" into library work
+INFO: [VRFC 10-311] analyzing module ch569_gpio_link
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/debounce_bit.v" into library work
+INFO: [VRFC 10-311] analyzing module debounce_bit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/extended_ui_renderer.v" into library work
+INFO: [VRFC 10-311] analyzing module extended_ui_renderer
+INFO: [VRFC 10-311] analyzing module validation_decimal_formatter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/game_engine28.v" into library work
+INFO: [VRFC 10-311] analyzing module game_engine28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/i2s_standard_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module i2s_standard_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/instrument_controls.v" into library work
+INFO: [VRFC 10-311] analyzing module instrument_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/light_ripple28.v" into library work
+INFO: [VRFC 10-311] analyzing module light_ripple28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/mcp3008_scan.v" into library work
+INFO: [VRFC 10-311] analyzing module mcp3008_scan
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/mcp3008_scan28.v" into library work
+INFO: [VRFC 10-311] analyzing module mcp3008_scan28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/media_memories.v" into library work
+INFO: [VRFC 10-311] analyzing module media_rom
+INFO: [VRFC 10-311] analyzing module media_ram
+INFO: [VRFC 10-311] analyzing module media_audio_ram
+INFO: [VRFC 10-311] analyzing module media_text_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/media_soc.v" into library work
+INFO: [VRFC 10-311] analyzing module media_soc
+INFO: [VRFC 10-311] analyzing module sd_spi_byte
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/media_ui_renderer.v" into library work
+INFO: [VRFC 10-311] analyzing module media_ui_renderer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/media_ui28.v" into library work
+INFO: [VRFC 10-311] analyzing module media_ui28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/note_frequency.v" into library work
+INFO: [VRFC 10-311] analyzing module note_frequency
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/note_frequency28.v" into library work
+INFO: [VRFC 10-311] analyzing module note_frequency28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano_engine.v" into library work
+INFO: [VRFC 10-311] analyzing module piano_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano_osc.v" into library work
+INFO: [VRFC 10-311] analyzing module piano_osc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano_ui_renderer.v" into library work
+INFO: [VRFC 10-311] analyzing module piano_ui_renderer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano_voice.v" into library work
+INFO: [VRFC 10-311] analyzing module piano_voice
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_core.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_engine.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_lights.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_lights
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_timbre_engine.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_timbre_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/piano28_touch_system.v" into library work
+INFO: [VRFC 10-311] analyzing module piano28_touch_system
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure_frontend.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_frontend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure_piano_28_top.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_piano_28_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure_piano_top.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_piano_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure_piano_visual_top.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_piano_visual_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pressure28_frontend.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure28_frontend
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/pt8211_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module pt8211_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/reset_sync.v" into library work
+INFO: [VRFC 10-311] analyzing module reset_sync
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/sine28_shared.v" into library work
+INFO: [VRFC 10-311] analyzing module sine28_shared
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/spectrum_board.v" into library work
+INFO: [VRFC 10-311] analyzing module spectrum_dvi
+INFO: [VRFC 10-311] analyzing module spectrum_pll
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/spectrum_fft.v" into library work
+INFO: [VRFC 10-311] analyzing module spectrum_fft
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/spectrum_video.v" into library work
+INFO: [VRFC 10-311] analyzing module spectrum_cdc
+INFO: [VRFC 10-311] analyzing module spectrum_timing
+INFO: [VRFC 10-311] analyzing module spectrum_renderer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/tone_filter.v" into library work
+INFO: [VRFC 10-311] analyzing module tone_filter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/touch_ui28.v" into library work
+INFO: [VRFC 10-311] analyzing module touch_ui28
+INFO: [VRFC 10-311] analyzing module touch_merge28
+INFO: [VRFC 10-311] analyzing module master_volume28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_diag_bridge.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_diag_bridge
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_fs_phy60.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_fs_phy60
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_fs_transaction.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_fs_transaction
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_pad_buffer.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_pad_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_pad_pair_registered.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_pad_pair_registered
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_session_guard.v" into library work
+INFO: [VRFC 10-311] analyzing module usb_session_guard
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/usb_touch_board.v" into library work
+INFO: [VRFC 10-311] analyzing module pressure_piano_28_touch_top
+INFO: [VRFC 10-311] analyzing module usb_pll60
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/validation_tones32.v" into library work
+INFO: [VRFC 10-311] analyzing module validation_tones32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/VexRiscv.v" into library work
+INFO: [VRFC 10-311] analyzing module VexRiscv
+INFO: [VRFC 10-311] analyzing module DataCache
+INFO: [VRFC 10-311] analyzing module InstructionCache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/voice_allocator.v" into library work
+INFO: [VRFC 10-311] analyzing module voice_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/ws170120_reports.v" into library work
+INFO: [VRFC 10-311] analyzing module ws170120_reports
+INFO: [VRFC 10-311] analyzing module touch_frame_cdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/ws170120_usb_host.v" into library work
+INFO: [VRFC 10-311] analyzing module ws170120_usb_host
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/src/ws2812_frame_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module ws2812_frame_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/d12_base_volume_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module d12_base_volume_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/d12_game_timing_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module d12_game_timing_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/d12_ui_pipeline_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module d12_ui_pipeline_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/mcp3008_model.sv" into library work
+INFO: [VRFC 10-311] analyzing module mcp3008_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/media_renderer_d9_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module media_renderer_d9_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/media_soc_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module media_soc_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/media_ui28_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module media_ui28_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/piano_ui_renderer_reference.sv" into library work
+INFO: [VRFC 10-311] analyzing module piano_ui_renderer_reference
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/piano28_timbre_engine_d10.sv" into library work
+INFO: [VRFC 10-311] analyzing module piano28_timbre_engine_d10
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/piano28_timbre_engine_d11.sv" into library work
+INFO: [VRFC 10-311] analyzing module piano28_timbre_engine_d11
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_audio_status28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_audio_status28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ch569_gpio_link.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ch569_gpio_link
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_controls_pressure_allocator.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_controls_pressure_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_effect_controls.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_effect_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_equivalence.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_game_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_game_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_game_timing.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_game_timing
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_guide_led.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_guide_led
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_key_decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_key_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_ui_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_ui_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_ui.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_ui
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_vibrato.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_vibrato
+WARNING: [VRFC 10-9277] overflow of 32-bit signed integer 3000000000; using -1294967296 instead [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_vibrato.sv:42]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_volume_pipeline.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_volume_pipeline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d12_wishbone.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d12_wishbone
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d13_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d13_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d13_ui.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_d13_ui
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_effects28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_effects28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_engine28.sv" into library work
+INFO: [VRFC 10-311] analyzing module engine28_case
+INFO: [VRFC 10-311] analyzing module tb_engine28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_full_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_full_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_full28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_full28
+INFO: [VRFC 10-311] analyzing module tb_cold_start28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_game_engine28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_game_engine28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_game_five_minutes.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_game_five_minutes
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_i2s_standard.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_i2s_standard
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_light_ripple28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_light_ripple28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_master_volume28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_master_volume28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_mcp3008_scan.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_mcp3008_scan
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_audio.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_audio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_boot.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_boot
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_fifo.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_mp3_cpu_clz.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_mp3_cpu_clz
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_mp3_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_mp3_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_mp3_stereo_cpu_clz.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_mp3_stereo_cpu_clz
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_mp3_stereo_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_mp3_stereo_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_pipeline_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_pipeline_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_ram_native.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_ram_native
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_rom_native.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_rom_native
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_rom.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_sd_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module sdxc_model_d9
+INFO: [VRFC 10-311] analyzing module tb_media_sd_cpu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_sd_pipeline_cpu.sv" into library work
+INFO: [VRFC 10-311] analyzing module sdxc_model_play
+INFO: [VRFC 10-311] analyzing module tb_media_sd_pipeline_cpu
+WARNING: [VRFC 10-8884] decimal constant 8000000000 should be smaller than 2147483648; using -589934592 instead [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_sd_pipeline_cpu.sv:79]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_soc_equivalence.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_soc_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_spi.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_spi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_text_bank.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_text_bank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_ui_equivalence.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_ui_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_ui.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_ui
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_media_video.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_media_video
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_physical_key_isolation28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_physical_key_isolation28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_piano_osc.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_piano_osc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pitch_audio28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pitch_audio28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pitch_controls28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pitch_controls28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pitch_ui28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pitch_ui28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pressure28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pressure28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_progress_lookup.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_progress_lookup
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_pt8211_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_pt8211_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_scan28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_scan28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_single_key28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_single_key28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_spectrum_animation.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_spectrum_animation
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_spectrum_fft.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_spectrum_fft
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_spectrum_video.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_spectrum_video
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_audio.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_audio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_d11_context.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_d11_context
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_d11_demo.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_d11_demo
+WARNING: [VRFC 10-8884] decimal constant 20000000000 should be smaller than 2147483648; using -1474836480 instead [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_d11_demo.sv:38]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_d11_equivalence.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_d11_equivalence
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_demo.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_demo
+WARNING: [VRFC 10-8884] decimal constant 12000000000 should be smaller than 2147483648; using -884901888 instead [D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_demo.sv:33]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_engine.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_pressure.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_pressure
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_system.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_system
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_timbre_ui.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_timbre_ui
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_continuity.sv" into library work
+INFO: [VRFC 10-311] analyzing module touch_continuity_case
+INFO: [VRFC 10-311] analyzing module tb_touch_same_stamp
+INFO: [VRFC 10-311] analyzing module tb_touch_incomplete_hold
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_frame_cdc.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch_frame_cdc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_system28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch_system28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_ui28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch_ui28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_video28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_touch_video28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_diag_bridge.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_diag_bridge
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_diag_no_response.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_diag_no_response
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_diag_video.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_diag_video
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_dual_path_monitor.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_dual_path_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_fs_phy60.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_fs_phy60
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_guarded_startup.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_guarded_startup
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_pad_pair_registered.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_pad_pair_registered
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_pad_vendor.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_pad_vendor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_usb_session_guard.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_usb_session_guard
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_validation32.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_validation32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_video28.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_video28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_visual_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_visual_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_voice_engine_tone.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_voice_engine_tone
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_reports.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ws170120_reports
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws170120_usb_host.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ws170120_usb_host
+INFO: [VRFC 10-311] analyzing module tb_touch_usb_system28
+INFO: [VRFC 10-311] analyzing module tb_touch_manual_usb_system28
+INFO: [VRFC 10-311] analyzing module tb_touch_usb_clock_fault28
+INFO: [VRFC 10-311] analyzing module tb_usb_reject_pid
+INFO: [VRFC 10-311] analyzing module tb_usb_reject_endpoint
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_ws2812_frame_tx.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ws2812_frame_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/usb_device_bfm.sv" into library work
+INFO: [VRFC 10-311] analyzing module usb_device_bfm
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe tb_touch_same_stamp -debug off -s tb_touch_same_stamp 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.ws170120_reports(INCOMPLETE_CYCL...
+Compiling module work.touch_continuity_case_default
+Compiling module work.tb_touch_same_stamp
+Built simulation snapshot tb_touch_same_stamp
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 15:30:09 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_touch_same_stamp/xsim_script.tcl
+# xsim {tb_touch_same_stamp} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Fatal: new DATA with same scan time discarded: drag freezes
+Time: 60 ns  Iteration: 0  Process: /tb_touch_same_stamp/c/Initial11_2  Scope: tb_touch_same_stamp.c  File: D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_touch_continuity.sv Line: 14
+$finish called at time : 60 ns
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 15:30:11 2026...

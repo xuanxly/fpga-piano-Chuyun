@@ -1,6 +1,6 @@
 # 触韵 CHUYUN
 
-**28 键声光交互电子琴 · 硬件设计、机械装配与 D12 FPGA 工程**
+**28 键声光交互电子琴 · 硬件设计、机械装配与 D13 FPGA 工程**
 
 ![触韵作品展示](assets/cover.png)
 
@@ -8,20 +8,22 @@
 
 **压力感知演奏 · 双人协同弹奏 · 声光同步交互**
 
-[在线录音工作室](https://proud-leaf-166f.2272419355.workers.dev/) · [机械装配](docs/assembly.md) · [电路与接线](docs/wiring.md) · [硬件图文说明](docs/hardware.md) · [完整技术文档](docs/technical-report.docx) · [D12 工程入口](fpga/README.md) · [软件功能与实拍](docs/software.md)
+[在线录音工作室](https://proud-leaf-166f.2272419355.workers.dev/) · [机械装配](docs/assembly.md) · [电路与接线](docs/wiring.md) · [硬件图文说明](docs/hardware.md) · [完整技术文档](docs/technical-report.docx) · [D13 工程入口](fpga/README.md) · [软件功能与实拍](docs/software.md)
 
 ## 项目功能
 
 - 28 键压力感知演奏，力度与音量联动。
 - 实体琴键和触摸屏双人协同弹奏。
 - 五种合成音色、28 声部，48 kHz / 16 位 PCM 输出。
+- 混响、回声、合唱三种硬件效果，可独立启用并调节强度；录音保留效果。
 - 最长 5 分钟 WAV 演奏录音与文件回放。
 - CSV 谱面练习/挑战模式与灯光指引。
 - CH569 USB 磁盘模式，实现 SD 文件双向复制。
 - 屏幕频谱可视化、琴键触发水波扩散灯效。
+- VERIFY 数字状态监测与 1/4/8/16/28/32 路测试音，J13 标准 I²S 输出。
 - 通过控制板和触摸屏调节音量、音高和音色，并显示对应状态。
 
-本仓库以硬件工程、机械文件及装配资料为主，附上项目提供的 D12 FPGA、软核与 CH569 配套工程。PCB 设计和电路图文资料由**小谢（Fish-0319）**完成，按提供的工程导出归档；FPGA 应用工程和录音工作室由项目对应成员维护，D13 尚在开发，本包以 D12 为版本依据。网站以以上链接访问，网页源码及域名部署配置不在本仓库内。
+本仓库包含硬件工程、机械文件、装配资料、D13 FPGA 与软核源码、CH569 配套固件及验证记录。网站通过以上链接访问，网页源码及域名部署配置不在本仓库内。
 
 ## 硬件组成
 
@@ -41,7 +43,7 @@
 2. 打开 `hardware/electronics/` 中的三个 `.epro2` 工程。压力采集与 Control 的有效布局是 **PCB2**，灯板为 **PCB1**。
 3. 使用 `hardware/mechanical/cad/` 的七份毫米 DXF 查看亚克力切割轮廓；使用 `hardware/mechanical/stl/` 的两种 STL 查看打印件。
 4. 用 Blender 打开 `hardware/mechanical/blender/`，结合 [装配说明](docs/assembly.md) 查看层级关系。
-5. 按 [D12 工程入口](fpga/README.md) 打开 Gowin 工程，配合 [接线说明](docs/wiring.md) 核对封装球位，并登记 [28键通道映射表](docs/key-channel-map.csv)。
+5. 按 [D13 工程入口](fpga/README.md) 打开 Gowin 工程，配合 [接线说明](docs/wiring.md) 核对封装球位，并登记 [28键通道映射表](docs/key-channel-map.csv)。
 
 ## 目录
 
@@ -58,8 +60,10 @@ chuyun-hardware/
 │       ├── stl/            定位座与圆形传力托盘，各28件
 │       └── blender/        整机与单键可编辑模型
 ├── fpga/
-│   ├── README.md           D12工程入口与复现说明
-│   └── d12/                原始D12源码、约束、ROM、固件及验证记录
+│   ├── README.md           D13工程入口与复现说明
+│   ├── d13/                D13源码、约束、ROM、固件及验证记录
+│   ├── d12/                D12历史版本
+│   └── levels/             三首右手主旋律附加关卡
 ├── docs/
 │   ├── hardware.md         总体到局部的硬件说明
 │   ├── assembly.md         装配顺序、关键方向与配合
@@ -67,7 +71,7 @@ chuyun-hardware/
 │   ├── parts-list.csv      系统级物料清单
 │   ├── key-channel-map.csv 实物键位与采集通道登记表
 │   ├── design-status.md    文件适用范围和待补信息
-│   ├── software.md         D12功能与六张软件实拍
+│   ├── software.md         D13功能与软件实拍
 │   ├── technical-report.docx
 │   └── figures/            电路标注图及可编辑SVG
 ├── assets/
@@ -88,14 +92,8 @@ chuyun-hardware/
 
 
 
-D12 目录包含已发布 FPGA 位流、CH569 HEX、源码和验证记录。Gerber、贴片生产 BOM 及实板专项测量仍按 [资料状态](docs/design-status.md) 登记。代码与历史数字验证记录不替代整机实测。
+D13 目录包含已发布 FPGA 位流、CH569 HEX、全部源码和 34 项历史 RTL 验证记录；技术文档为 35 页提交版。Gerber、贴片生产 BOM 及实板专项测量仍按 [资料状态](docs/design-status.md) 登记。代码与历史数字验证记录不替代整机实测。
 
-## 贡献与资料使用
-
-|成员|主要贡献|
-|---|---|
-|[xuanxly](https://github.com/xuanxly)|机械结构、按键组件、装配与实物记录，技术文档及项目资料整理|
-|[Fish-0319](https://github.com/Fish-0319)|PCB设计、电路原理图、PCB工程与电路图文材料|
-|maru|FPGA应用开发、录音工作室与网站部署维护|
+## 资料使用
 
 本仓库尚未指定开源许可证。比赛标识、厂家资料和第三方器件资料的权利归各自权利人；厂家资料以 [官方参考链接](docs/references.md) 查阅。

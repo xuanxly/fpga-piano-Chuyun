@@ -1,0 +1,9 @@
+{
+  "CompletedTcl": true,
+  "ValidatedFreshBitstream": true,
+  "SetupHoldZero": true,
+  "RequestedPnROnly": true,
+  "ReusedSynthesis": true,
+  "SupervisorReattached": false,
+  "ShellStoppedAfterCompleted": false
+}

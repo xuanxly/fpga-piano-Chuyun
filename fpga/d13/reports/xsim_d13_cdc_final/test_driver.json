@@ -1,0 +1,7 @@
+{
+  "Status": "PASS",
+  "Benches": [
+    "tb_touch_frame_cdc"
+  ],
+  "FinishedUtc": "2026-11-02T11:25:57.9703662Z"
+}

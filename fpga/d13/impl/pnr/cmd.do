@@ -1,0 +1,20 @@
+-d D:\FPGA\11_projects\pressure_piano_validation_d13\impl\gwsynthesis\pressure_piano_touch.vg
+-p GW5AT-60B-PBGA484A-1
+-pn GW5AT-LV60PG484AC1/I0
+-cst D:\FPGA\11_projects\pressure_piano_validation_d13\constraints\pressure_piano_touch.cst
+-cfg D:\FPGA\11_projects\pressure_piano_validation_d13\impl\pnr\device.cfg
+-sdc D:\FPGA\11_projects\pressure_piano_validation_d13\constraints\pressure_piano_touch.sdc
+-bit
+-tr
+-ph
+-sdf
+-o
+-timing
+-replicate
+-cst_error
+-place_option 3
+-route_option 2
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

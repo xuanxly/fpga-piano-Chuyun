@@ -1,0 +1,7 @@
+# D12 original practice exercise; time_ms,duration_ms,notes
+PIANO28,1
+0,3000,C3
+500,1000,E3
+1000,800,G3
+2000,800,C4
+3500,500,C3+E3+G3+C4

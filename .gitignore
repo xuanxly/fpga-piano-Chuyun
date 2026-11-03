@@ -32,3 +32,6 @@ tmp/
 
 # Keep the supplied D12 historical verification logs
 !fpga/d12/**/*.log
+
+# Keep D13 historical verification evidence
+!fpga/d13/**/*.log

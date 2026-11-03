@@ -7,4 +7,4 @@
 - [Microchip MCP3004/3008 数据手册 DS21295D](https://www.microchip.com/content/dam/mchp/documents/APID/ProductDocuments/DataSheets/21295d.pdf)：ADC引脚和器件参数参考。
 - [Waveshare 5inch HDMI LCD(H) 官方说明](https://www.waveshare.com/wiki/5inch_HDMI_LCD_(H))：屏幕接口与产品说明。
 
-本仓库仅链接厂家资料，主控板和屏幕本身的原始设计权利归相应厂家。具体自制板端连接以小谢的工程导出为准。
+本仓库仅链接厂家资料，主控板和屏幕本身的原始设计权利归相应厂家。具体自制板端连接以原生工程导出为准。

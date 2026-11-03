@@ -1,0 +1,22 @@
+{
+  "kind": "clean",
+  "preserved_original_files": 820,
+  "original_file_count": 14484,
+  "original_source": "D:\\FPGA\\11_projects\\pressure_piano_validation_d13",
+  "current_product_inputs": 121,
+  "historical_test_logs": 34,
+  "project_references": 58,
+  "new_relocated_checks": [
+    "Gowin open",
+    "all-sources XSim compile",
+    "FX exact",
+    "ROM equivalence",
+    "game equivalence",
+    "C ROM reproduction",
+    "CH569 HEX reproduction"
+  ],
+  "fpga_sha256": "065BDDD3654E0265ABBB3CC54C5DD1021EBD49B6E1336ED688BE5E37649A1E46",
+  "ch569_hex_sha256": "32A1A44B66B82F75DF07F9CBE4BD8E78CFBD2A951D2C342DD48AD58F77CDE68E",
+  "user_code": "0x0000C02F",
+  "hardware_programmed": false
+}

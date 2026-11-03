@@ -1,0 +1,429 @@
+{
+  "u_system": {
+    "TLVDS_OBUF": 4,
+    "logic": 36861,
+    "FF": 13721,
+    "BSRAM": 103,
+    "MULT12X12": 109,
+    "MUX2_LUT5": 507,
+    "INV": 17,
+    "MUX2_LUT6": 166,
+    "MUX2_LUT7": 49,
+    "MULT27X36": 1,
+    "MULTALU27X18": 29,
+    "PLLA": 1,
+    "MUX2_LUT8": 4,
+    "OSER10": 4
+  },
+  "u_system/media_video.u_renderer": {
+    "logic": 12514,
+    "FF": 1474,
+    "MULT12X12": 102,
+    "INV": 6,
+    "BSRAM": 2,
+    "MUX2_LUT8": 4,
+    "MUX2_LUT7": 9,
+    "MUX2_LUT6": 21,
+    "MUX2_LUT5": 52
+  },
+  "u_system/media_video.u_renderer/u_base": {
+    "logic": 10863,
+    "FF": 1093,
+    "BSRAM": 2,
+    "MULT12X12": 100,
+    "MUX2_LUT8": 4,
+    "MUX2_LUT7": 9,
+    "MUX2_LUT6": 21,
+    "MUX2_LUT5": 52,
+    "INV": 4
+  },
+  "u_system/media.u_media": {
+    "logic": 9779,
+    "FF": 4450,
+    "BSRAM": 64,
+    "MULTALU27X18": 4,
+    "MUX2_LUT5": 140,
+    "INV": 2,
+    "MUX2_LUT6": 34
+  },
+  "u_system/u_piano": {
+    "logic": 8378,
+    "FF": 3761,
+    "MUX2_LUT5": 164,
+    "MUX2_LUT6": 72,
+    "MUX2_LUT7": 30,
+    "INV": 4,
+    "BSRAM": 17,
+    "MULT27X36": 1,
+    "MULTALU27X18": 20
+  },
+  "u_system/media_video.u_renderer/u_base/u_base_0": {
+    "logic": 5435,
+    "FF": 892,
+    "BSRAM": 1,
+    "MULT12X12": 99,
+    "MUX2_LUT5": 15,
+    "MUX2_LUT6": 5,
+    "MUX2_LUT7": 1,
+    "INV": 2
+  },
+  "u_system/media.u_media/u_game": {
+    "logic": 4575,
+    "FF": 1862,
+    "MUX2_LUT5": 4,
+    "INV": 1
+  },
+  "u_system/u_ui": {
+    "logic": 3890,
+    "FF": 887,
+    "BSRAM": 5,
+    "MULT12X12": 5,
+    "MUX2_LUT5": 59,
+    "INV": 1
+  },
+  "u_system/u_piano/timbre_engine.u_engine": {
+    "logic": 3330,
+    "FF": 1368,
+    "BSRAM": 2,
+    "MULT27X36": 1,
+    "MULTALU27X18": 7,
+    "MUX2_LUT5": 14,
+    "MUX2_LUT6": 3,
+    "MUX2_LUT7": 1,
+    "INV": 2
+  },
+  "u_system/media.u_media/u_cpu": {
+    "logic": 2827,
+    "FF": 1296,
+    "BSRAM": 20,
+    "MULTALU27X18": 4,
+    "MUX2_LUT5": 34,
+    "INV": 1
+  },
+  "u_system/u_piano/new_apps.u_fx": {
+    "logic": 1901,
+    "FF": 402,
+    "BSRAM": 15,
+    "MULTALU27X18": 8,
+    "MUX2_LUT5": 64,
+    "MUX2_LUT6": 32,
+    "MUX2_LUT7": 16
+  },
+  "u_usb": {
+    "logic": 1694,
+    "FF": 1964,
+    "INV": 1,
+    "MUX2_LUT5": 16,
+    "MUX2_LUT6": 8
+  },
+  "u_system/u_lights": {
+    "logic": 1102,
+    "FF": 707,
+    "MUX2_LUT5": 70,
+    "MUX2_LUT6": 30,
+    "MUX2_LUT7": 10,
+    "BSRAM": 3,
+    "MULT12X12": 2
+  },
+  "u_system/u_lights/u_render": {
+    "logic": 833,
+    "FF": 496,
+    "BSRAM": 3,
+    "MULT12X12": 2,
+    "MUX2_LUT5": 49,
+    "MUX2_LUT6": 21,
+    "MUX2_LUT7": 7
+  },
+  "u_system/u_fft": {
+    "logic": 789,
+    "FF": 831,
+    "BSRAM": 12,
+    "MULTALU27X18": 5,
+    "MUX2_LUT5": 19,
+    "MUX2_LUT6": 9
+  },
+  "u_system/media.u_media/u_rom": {
+    "logic": 753,
+    "FF": 577,
+    "BSRAM": 17
+  },
+  "u_reports": {
+    "logic": 697,
+    "FF": 516,
+    "MULT12X12": 1
+  },
+  "u_system/u_piano/u_adc": {
+    "logic": 696,
+    "FF": 456
+  },
+  "u_system/u_piano/u_merge": {
+    "logic": 476
+  },
+  "u_system/u_piano/u_pressure": {
+    "logic": 457,
+    "FF": 769,
+    "MUX2_LUT5": 77,
+    "MUX2_LUT6": 33,
+    "MUX2_LUT7": 11,
+    "INV": 1
+  },
+  "u_usb/u_transaction": {
+    "logic": 388,
+    "FF": 558
+  },
+  "u_system/u_piano/new_apps.u_test": {
+    "logic": 365,
+    "FF": 162,
+    "MULTALU27X18": 2,
+    "INV": 1
+  },
+  "u_usb/u_phy": {
+    "logic": 320,
+    "FF": 778,
+    "MUX2_LUT5": 16,
+    "MUX2_LUT6": 8
+  },
+  "u_system/u_piano/new_apps.u_meter": {
+    "logic": 319,
+    "FF": 227
+  },
+  "u_system/u_piano/timbre_engine.u_engine/u_frequency": {
+    "logic": 302,
+    "MUX2_LUT5": 7
+  },
+  "u_system/u_dvi": {
+    "TLVDS_OBUF": 4,
+    "OSER10": 4,
+    "logic": 295,
+    "INV": 4,
+    "FF": 73,
+    "MUX2_LUT5": 3
+  },
+  "u_system/u_dvi/u_tx": {
+    "TLVDS_OBUF": 4,
+    "OSER10": 4,
+    "logic": 295,
+    "INV": 4,
+    "FF": 73,
+    "MUX2_LUT5": 3
+  },
+  "u_system/u_dvi/u_tx/rgb2dvi_inst": {
+    "TLVDS_OBUF": 4,
+    "OSER10": 4,
+    "logic": 295,
+    "INV": 4,
+    "FF": 73,
+    "MUX2_LUT5": 3
+  },
+  "u_system/media.u_media/u_audio": {
+    "logic": 248,
+    "FF": 17,
+    "BSRAM": 12,
+    "MUX2_LUT5": 102,
+    "MUX2_LUT6": 34
+  },
+  "u_system/media_video.u_renderer/u_numbers": {
+    "logic": 224,
+    "FF": 329,
+    "MULT12X12": 1
+  },
+  "u_system/u_piano/u_controls": {
+    "logic": 214,
+    "FF": 109,
+    "MUX2_LUT5": 1
+  },
+  "u_system/media.u_media/u_ch_link": {
+    "logic": 180,
+    "FF": 83,
+    "BSRAM": 2
+  },
+  "u_system/u_piano/u_adc/bank[0].rx": {
+    "logic": 175,
+    "FF": 114
+  },
+  "u_system/media.u_media/u_cpu/dataCache_1": {
+    "logic": 166,
+    "FF": 62,
+    "BSRAM": 9
+  },
+  "u_system/u_piano/u_adc/bank[1].rx": {
+    "logic": 158,
+    "FF": 93
+  },
+  "u_system/u_piano/u_adc/bank[2].rx": {
+    "logic": 158,
+    "FF": 93
+  },
+  "u_system/u_piano/u_adc/bank[3].rx": {
+    "logic": 158,
+    "FF": 93
+  },
+  "u_system/u_piano/timbre_engine.u_engine/u_sine": {
+    "logic": 157,
+    "FF": 64,
+    "MULTALU27X18": 1,
+    "INV": 1
+  },
+  "u_system/u_piano/new_apps.u_test/u_sine": {
+    "logic": 157,
+    "FF": 48,
+    "MULTALU27X18": 1,
+    "INV": 1
+  },
+  "u_system/u_piano/volume_enabled.u_volume": {
+    "logic": 138,
+    "FF": 26,
+    "MULTALU27X18": 1
+  },
+  "u_system/u_lights/u_tx": {
+    "logic": 136,
+    "FF": 73
+  },
+  "u_system/media.u_media/u_spi": {
+    "logic": 123,
+    "FF": 38
+  },
+  "u_guard": {
+    "logic": 107,
+    "FF": 56
+  },
+  "u_system/u_dvi/u_tx/rgb2dvi_inst/TMDS8b10b_inst_b": {
+    "logic": 100,
+    "FF": 25,
+    "MUX2_LUT5": 1,
+    "INV": 1
+  },
+  "u_system/u_dvi/u_tx/rgb2dvi_inst/TMDS8b10b_inst_r": {
+    "logic": 98,
+    "FF": 25,
+    "MUX2_LUT5": 1,
+    "INV": 1
+  },
+  "u_system/u_piano/u_tone": {
+    "logic": 97,
+    "FF": 47,
+    "MULTALU27X18": 1
+  },
+  "u_system/u_dvi/u_tx/rgb2dvi_inst/TMDS8b10b_inst_g": {
+    "logic": 96,
+    "FF": 23,
+    "MUX2_LUT5": 1,
+    "INV": 1
+  },
+  "u_system/u_piano/u_pt8211_tx": {
+    "logic": 94,
+    "FF": 69
+  },
+  "u_system/u_piano/new_apps.u_i2s": {
+    "logic": 80,
+    "FF": 66,
+    "MUX2_LUT5": 8,
+    "MUX2_LUT6": 4,
+    "MUX2_LUT7": 2
+  },
+  "u_system/media.u_media/u_cpu/IBusCachedPlugin_cache": {
+    "logic": 75,
+    "FF": 77,
+    "BSRAM": 9,
+    "INV": 1
+  },
+  "u_usb_diag": {
+    "logic": 65,
+    "FF": 139
+  },
+  "u_system/u_timing": {
+    "logic": 56,
+    "FF": 73
+  },
+  "u_system/u_piano/volume_enabled.stereo.u_volume_r": {
+    "logic": 54,
+    "FF": 25,
+    "MULTALU27X18": 1
+  },
+  "u_system/u_piano/u_controls/u_button": {
+    "logic": 37,
+    "FF": 21
+  },
+  "u_system/u_piano/u_controls/u_a": {
+    "logic": 31,
+    "FF": 19
+  },
+  "u_system/u_piano/u_controls/u_b": {
+    "logic": 31,
+    "FF": 19
+  },
+  "u_system/media.u_media/u_ram": {
+    "logic": 18,
+    "FF": 4,
+    "BSRAM": 12
+  },
+  "u_touch_cdc": {
+    "logic": 10,
+    "FF": 460
+  },
+  "u_runtime_bridge": {
+    "logic": 3,
+    "FF": 38
+  },
+  "u_usb_diag/u_cdc": {
+    "logic": 3,
+    "FF": 109
+  },
+  "u_system/media.u_media/u_text": {
+    "logic": 3,
+    "BSRAM": 1
+  },
+  "u_system/u_snapshot": {
+    "logic": 3,
+    "FF": 616
+  },
+  "u_system/u_diag_snapshot": {
+    "logic": 3,
+    "FF": 128
+  },
+  "u_system/u_media_snapshot": {
+    "logic": 3,
+    "FF": 346
+  },
+  "u_system/u_extension_snapshot": {
+    "logic": 3,
+    "FF": 338
+  },
+  "u_usb2_pads": {
+    "IOBUF": 2,
+    "logic": 2,
+    "FF": 3
+  },
+  "u_usb_reset": {
+    "logic": 1,
+    "FF": 2
+  },
+  "u_ui_reset": {
+    "logic": 1,
+    "FF": 2
+  },
+  "u_host_reset": {
+    "logic": 1,
+    "FF": 2
+  },
+  "u_system/u_sys_reset": {
+    "logic": 1,
+    "FF": 2
+  },
+  "u_system/u_pixel_reset": {
+    "logic": 1,
+    "FF": 2
+  },
+  "u_usb2_pads/u_dp": {
+    "IOBUF": 1
+  },
+  "u_usb2_pads/u_dm": {
+    "IOBUF": 1
+  },
+  "u_usb_pll": {
+    "PLLA": 1
+  },
+  "u_system/u_video_pll": {
+    "PLLA": 1
+  }
+}

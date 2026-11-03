@@ -19,3 +19,6 @@
 fpga/d12/** -text
 *.fs binary
 *.a binary
+
+# Preserve the supplied D13 release bytes
+fpga/d13/** -text

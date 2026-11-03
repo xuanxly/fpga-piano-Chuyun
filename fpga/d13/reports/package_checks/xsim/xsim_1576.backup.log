@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Nov  2 19:52:44 2026
+# Process ID         : 1576
+# Current directory  : D:/Gowin/tmp/d13_package_check_20261102/xsim
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/tb_effects28/xsim_script.tcl}
+# Log file           : D:/Gowin/tmp/d13_package_check_20261102/xsim/xsim.log
+# Journal file       : D:/Gowin/tmp/d13_package_check_20261102/xsim\xsim.jou
+# Running On         : DESKTOP-8RT274N
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13500HX
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 16858 MB
+# Swap memory        : 26375 MB
+# Total Virtual      : 43233 MB
+# Available Virtual  : 11350 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_effects28/xsim_script.tcl
+# xsim {tb_effects28} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS effects28: 91300 samples, exact bypass, bounded latency, independent and stacked effects; compare independent model next
+$finish called at time : 24804616 ns : File "D:/Gowin/outputs/pressure_piano_D13_clean_20261102/sim/tb_effects28.sv" Line 23
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 220.656 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:52:53 2026...

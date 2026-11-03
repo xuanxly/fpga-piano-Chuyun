@@ -1,0 +1,45 @@
+{
+  "u_touch_cdc": {
+    "direct_original_registers": 146,
+    "replicas_checked": 13,
+    "max_delay_ns": 16.667,
+    "same_data_clock_handshake_CE": true,
+    "replica_names": [
+      "u_touch_cdc/gowin_replicate_reg_touch_xs[34]_1",
+      "u_touch_cdc/gowin_replicate_reg_touch_xs[34]_2",
+      "u_touch_cdc/gowin_replicate_reg_touch_xs[44]_1",
+      "u_touch_cdc/gowin_replicate_reg_touch_xs[44]_2",
+      "u_touch_cdc/gowin_replicate_reg_touch_ys[47]_1",
+      "u_touch_cdc/gowin_replicate_reg_touch_ys[47]_2",
+      "u_touch_cdc/gowin_replicate_reg_touch_xs[14]_1",
+      "u_touch_cdc/gowin_replicate_reg_touch_xs[14]_2",
+      "u_touch_cdc/gowin_replicate_reg_touch_xs[24]_1",
+      "u_touch_cdc/gowin_replicate_reg_touch_xs[24]_2",
+      "u_touch_cdc/gowin_replicate_reg_touch_ys[27]_1",
+      "u_touch_cdc/gowin_replicate_reg_touch_ys[27]_2",
+      "u_touch_cdc/gowin_replicate_reg_touch_xs[4]_1"
+    ]
+  },
+  "u_system/u_media_snapshot": {
+    "direct_original_registers": 163,
+    "replicas_checked": 14,
+    "max_delay_ns": 30,
+    "same_data_clock_handshake_CE": true,
+    "replica_names": [
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2177]_1",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2177]_2",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2056]_1",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2056]_2",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2057]_1",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2057]_2",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2058]_1",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2058]_2",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2059]_1",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2059]_2",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2176]_1",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2176]_2",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2178]_1",
+      "u_system/u_media_snapshot/gowin_replicate_reg_pixel_media[2178]_2"
+    ]
+  }
+}

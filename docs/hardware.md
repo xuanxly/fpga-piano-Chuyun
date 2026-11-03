@@ -2,7 +2,7 @@
 
 [返回项目首页](../README.md) · [接线说明](wiring.md) · [装配说明](assembly.md)
 
-电路工程与本页电路图文由小谢（Fish-0319）提供。文件按原有设计归档，原生工程位于 `hardware/electronics/`；PNG便于查看，SVG保留可编辑标注。
+本页电路图文依据项目原生电路工程整理。文件按原有设计归档，原生工程位于 `hardware/electronics/`；PNG便于查看，SVG保留可编辑标注。
 
 ## 总体连接
 

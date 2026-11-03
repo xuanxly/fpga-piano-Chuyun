@@ -4,23 +4,20 @@
     "export_date": "2026-11-01",
     "editor_version": "4.1.71",
     "format": "嘉立创EDA专业版epro2",
-    "PCB": "PCB2",
-    "contributor": "小谢"
+    "PCB": "PCB2"
   },
   {
     "module": "control",
     "export_date": "2026-11-01",
     "editor_version": "4.1.71",
     "format": "嘉立创EDA专业版epro2",
-    "PCB": "PCB2",
-    "contributor": "小谢"
+    "PCB": "PCB2"
   },
   {
     "module": "lighting",
     "export_date": "2026-11-01",
     "editor_version": "4.1.71",
     "format": "嘉立创EDA专业版epro2",
-    "PCB": "PCB1",
-    "contributor": "小谢"
+    "PCB": "PCB1"
   }
 ]

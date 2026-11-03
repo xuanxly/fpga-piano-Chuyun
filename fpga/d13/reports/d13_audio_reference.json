@@ -1,0 +1,179 @@
+{
+  "effect_samples_exact": 91300,
+  "nonzero_tail_samples": [
+    0,
+    20203,
+    602,
+    0,
+    1113,
+    0,
+    0,
+    19990
+  ],
+  "peak": 32768,
+  "saturations": 0,
+  "test_tone_PCM_samples": 4096,
+  "independently_observed_tones": [
+    {
+      "Hz": 375,
+      "FFT_bin": 16,
+      "amplitude": 512.0034396353357
+    },
+    {
+      "Hz": 750,
+      "FFT_bin": 32,
+      "amplitude": 512.063418183193
+    },
+    {
+      "Hz": 1125,
+      "FFT_bin": 48,
+      "amplitude": 511.6469480807043
+    },
+    {
+      "Hz": 1500,
+      "FFT_bin": 64,
+      "amplitude": 512.5029306337254
+    },
+    {
+      "Hz": 1875,
+      "FFT_bin": 80,
+      "amplitude": 512.1948223094186
+    },
+    {
+      "Hz": 2250,
+      "FFT_bin": 96,
+      "amplitude": 511.7969681369706
+    },
+    {
+      "Hz": 2625,
+      "FFT_bin": 112,
+      "amplitude": 511.6861873413604
+    },
+    {
+      "Hz": 3000,
+      "FFT_bin": 128,
+      "amplitude": 512.7536198346575
+    },
+    {
+      "Hz": 3375,
+      "FFT_bin": 144,
+      "amplitude": 511.3650489542866
+    },
+    {
+      "Hz": 3750,
+      "FFT_bin": 160,
+      "amplitude": 512.4079717225347
+    },
+    {
+      "Hz": 4125,
+      "FFT_bin": 176,
+      "amplitude": 511.4743768973962
+    },
+    {
+      "Hz": 4500,
+      "FFT_bin": 192,
+      "amplitude": 511.61941345439817
+    },
+    {
+      "Hz": 4875,
+      "FFT_bin": 208,
+      "amplitude": 511.33498636083834
+    },
+    {
+      "Hz": 5250,
+      "FFT_bin": 224,
+      "amplitude": 511.7349562258123
+    },
+    {
+      "Hz": 5625,
+      "FFT_bin": 240,
+      "amplitude": 512.0575520129146
+    },
+    {
+      "Hz": 6000,
+      "FFT_bin": 256,
+      "amplitude": 512.0771845963584
+    },
+    {
+      "Hz": 6375,
+      "FFT_bin": 272,
+      "amplitude": 511.95048829750385
+    },
+    {
+      "Hz": 6750,
+      "FFT_bin": 288,
+      "amplitude": 511.47405063562456
+    },
+    {
+      "Hz": 7125,
+      "FFT_bin": 304,
+      "amplitude": 511.8398612336402
+    },
+    {
+      "Hz": 7500,
+      "FFT_bin": 320,
+      "amplitude": 512.1657230273902
+    },
+    {
+      "Hz": 7875,
+      "FFT_bin": 336,
+      "amplitude": 511.47130048625115
+    },
+    {
+      "Hz": 8250,
+      "FFT_bin": 352,
+      "amplitude": 512.1804380679351
+    },
+    {
+      "Hz": 8625,
+      "FFT_bin": 368,
+      "amplitude": 511.15660031110195
+    },
+    {
+      "Hz": 9000,
+      "FFT_bin": 384,
+      "amplitude": 512.1714638392054
+    },
+    {
+      "Hz": 9375,
+      "FFT_bin": 400,
+      "amplitude": 511.6369903067978
+    },
+    {
+      "Hz": 9750,
+      "FFT_bin": 416,
+      "amplitude": 511.5813414451164
+    },
+    {
+      "Hz": 10125,
+      "FFT_bin": 432,
+      "amplitude": 511.58648078386256
+    },
+    {
+      "Hz": 10500,
+      "FFT_bin": 448,
+      "amplitude": 512.1594056564761
+    },
+    {
+      "Hz": 10875,
+      "FFT_bin": 464,
+      "amplitude": 511.8021497431123
+    },
+    {
+      "Hz": 11250,
+      "FFT_bin": 480,
+      "amplitude": 512.1424986235722
+    },
+    {
+      "Hz": 11625,
+      "FFT_bin": 496,
+      "amplitude": 511.5952413361259
+    },
+    {
+      "Hz": 12000,
+      "FFT_bin": 512,
+      "amplitude": 511.5015273681977
+    }
+  ],
+  "boundary": "RTL/model verification, not hardware or analog measurement"
+}

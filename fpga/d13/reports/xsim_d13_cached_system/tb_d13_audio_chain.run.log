@@ -1,0 +1,20 @@
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Nov  2 19:04:58 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_d13_audio_chain/xsim_script.tcl
+# xsim {tb_d13_audio_chain} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+D13 chain coverage postFX=8000 nonzeroPCM=7595 frames=8001 different=7038
+PASS D13 actual audio chain: 8302 postFX record samples,16605 exact I2S words,allFX audible,file stereo bypass,32test isolation/exit
+$finish called at time : 172985340 ns : File "D:/FPGA/11_projects/pressure_piano_validation_d13/sim/tb_d13_audio_chain.sv" Line 44
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:16 . Memory (MB): peak = 220.078 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 12692 KB (Peak: 12692 KB), Simulation CPU Usage: 74452 ms
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 19:06:17 2026...

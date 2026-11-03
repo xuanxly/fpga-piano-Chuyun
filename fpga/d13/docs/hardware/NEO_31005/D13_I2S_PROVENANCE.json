@@ -1,0 +1,31 @@
+{
+  "schematic_pages": [
+    7,
+    19
+  ],
+  "pins": {
+    "J13-1": [
+      "SDRAM0_D0",
+      "E14",
+      "BCLK"
+    ],
+    "J13-2": [
+      "SDRAM0_D1",
+      "E13",
+      "WS"
+    ],
+    "J13-3": [
+      "SDRAM0_D2",
+      "C15",
+      "DATA"
+    ],
+    "J13-12": [
+      "GND"
+    ]
+  },
+  "files": {
+    "NEO_31005.pdf": "ade025e2c30b23d9fa820346cabd5ee3f90e6b9bfbc083d48bc691e1d3977d1e",
+    "README.md": "15ac20ada5df35d477b1630d913562b5edb05c1b637d0132f32acf4206144be2",
+    "tang_mega_60K_pins.cst": "dcaced4a5d15d60a3615190138ad3522b562c82748e35ffd150139bc7542ff4c"
+  }
+}

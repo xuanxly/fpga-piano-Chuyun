@@ -1,0 +1,17 @@
+PASS independent FX model: 91300 exact samples; 32 DFT peaks at375..12000Hz
+   text	   data	    bss	    dec	    hex	filename
+  34780	      8	  10776	  45564	   b1fc	D:\FPGA\11_projects\pressure_piano_validation_d13\reports\firmware_verify\media.elf
+
+Firmware ROM bytes 34788 SHA256 e52d2d7c74cf6d76a6e495c87e18390e348a60b3e9dac44eb349383fee6919fa
+PASS current C/headers/inc -> compiled ROM and all20 banks reproduce exactly; product files untouched
+PASS three exact RTL RGB images converted without CRLF pixel shift
+PASS direct held-bus replica constraint coverage: {'u_touch_cdc': 13, 'u_system/u_media_snapshot': 14}
+PASS D13 release audit 34 tests {'Setup': 2.529, 'Hold': 0.14, 'Recovery': 0.674, 'Removal': 0.743} {'Logic': '40581/59904', 'Register': '16953/60780', 'I/O Port': '61/297', 'BSRAM': '103/118', 'DSP': '86/118', 'PLLA': '2/8'}
+{
+  "files": 1112,
+  "FPGA": "D:\\Gowin\\outputs\\pressure_piano_28_touch_D13_validation_fx_20261102.fs",
+  "FPGA_sha256": "065BDDD3654E0265ABBB3CC54C5DD1021EBD49B6E1336ED688BE5E37649A1E46",
+  "archive": "D:\\Gowin\\outputs\\pressure_piano_D13_validation_fx_20261102.zip",
+  "archive_sha256": "D92891849642A52B8F0CA1EC741C5EA3ABCD1C0E47FD99F54B3B0C0CC56994E9",
+  "user_code": "0x0000C02F"
+}
