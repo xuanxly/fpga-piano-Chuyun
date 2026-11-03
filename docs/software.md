@@ -33,9 +33,9 @@ HOME、VERIFY 与 EFFECTS 使用最新 D13 实拍，其余照片记录延续功�
 
 ![触摸演奏与32频段可视化](../assets/photos/software/spectrum.png)
 
-## TF卡目录及REC录音保存文件夹
+## TF卡目录浏览
 
-![TF卡目录及REC录音保存文件夹](../assets/photos/software/files.png)
+![TF卡目录浏览](../assets/photos/software/files.png)
 
 ## CSV选曲、挑战模式与28键区域
 
@@ -52,3 +52,17 @@ HOME、VERIFY 与 EFFECTS 使用最新 D13 实拍，其余照片记录延续功�
 ![EFFECTS 混响回声合唱](../assets/photos/software/effects.jpg)
 
 三种效果可同时打开，照片显示强度为 40%、35%、35%。页面切换保留本次运行的参数；录音捕获效果输出，监听音量不影响录音文件幅度。文件播放器沿独立通道回放。
+
+## 软件流程与关键函数
+
+![主循环与媒体服务调度](figures/software-main-flow.png)
+
+`main()` 初始化后循环执行 `media_step()`。每轮先处理 USB 协议；磁盘导出期间只接受磁盘命令，本地媒体访问停止。普通模式按页面状态调度录音排空、回放供数及谱面事件队列。
+
+![实体触屏输入与实时声音](figures/realtime-signal-flow.png)
+
+实体压力与触点状态合并后进入 28 声部合成。录音捕获效果器之后、监听主音量之前的 PCM，声音与频谱路径保持各自节拍。
+
+![录放谱面与USB磁盘的关键函数](figures/media-function-flows.png)
+
+D13 录音保存到 TF 卡根目录，例如 `/REC0001.WAV`；`/SONGS/` 存放游戏 CSV。`REC` 目录是否存在取决于卡内目录内容，当前代码的录音写入路径为根目录。

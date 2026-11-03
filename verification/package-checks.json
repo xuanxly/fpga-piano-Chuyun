@@ -1,9 +1,9 @@
 {
-  "package_version": "R3_D13_R9_20261103",
-  "local_links_checked": 93,
+  "package_version": "R4_D13_R10_20261103",
+  "local_links_checked": 96,
   "broken_links": 0,
   "D12_original_files_byte_identical": 765,
-  "technical_report": "R9 submission, 35 pages; rendered pages checked, 32 pages pixel-identical to prior reviewed output and 3 changed pages inspected",
+  "technical_report": "R10 submission review, 40 pages; all 40 rendered page images visually inspected",
   "software_photos": 8,
   "cad_audits": [
     {
@@ -39,5 +39,10 @@
   "source_archive_sha256": "0842efcc07d95ef86740c22174eacf3d844c61b52f1876215c12d6d30bf4b1c9",
   "link_check_scope": "Repository entry points, project documentation, hardware READMEs, and added levels; supplied D12/D13 source documentation is preserved.",
   "D13_original_files_byte_identical": 865,
-  "D13_historical_log_files_checked": 34
+  "D13_historical_log_files_checked": 34,
+  "report_images": 37,
+  "report_tables": 21,
+  "report_figure_captions": 34,
+  "template_header_footer_preserved": true,
+  "report_placeholder_or_identity_hits": 0
 }

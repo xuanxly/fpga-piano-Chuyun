@@ -92,7 +92,7 @@ chuyun-hardware/
 
 
 
-D13 目录包含已发布 FPGA 位流、CH569 HEX、全部源码和 34 项历史 RTL 验证记录；技术文档为 35 页提交版。Gerber、贴片生产 BOM 及实板专项测量仍按 [资料状态](docs/design-status.md) 登记。代码与历史数字验证记录不替代整机实测。
+D13 目录包含已发布 FPGA 位流、CH569 HEX、全部源码和 34 项历史 RTL 验证记录；技术文档为 40 页复核提交版。Gerber、贴片生产 BOM 及实板专项测量仍按 [资料状态](docs/design-status.md) 登记。代码与历史数字验证记录不替代整机实测。
 
 ## 资料使用
 

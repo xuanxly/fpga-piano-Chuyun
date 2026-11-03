@@ -1,7 +1,7 @@
 file,source,bytes,sha256
 .gitattributes,"Project documentation, diagrams, renders, or verification index",445,546ddb524028d8d65f745306337358571f022ffd1bee14b142292a64a46a633b
 .gitignore,"Project documentation, diagrams, renders, or verification index",444,9452a98f10ae34096d66197acaf386f8edb2f99699d62c112a0fa05b538e54dc
-README.md,"Project documentation, diagrams, renders, or verification index",5520,7cfc337e2d7f6c49de4dcc8165cb5543e6f4d502ace07994e1d69a6e57eea279
+README.md,"Project documentation, diagrams, renders, or verification index",5526,a5735f991fe19fe4510a46bdef3af6461f6b522b9b5850f9ab578fd36d89dcee
 assets/cover.png,"Project documentation, diagrams, renders, or verification index",2356656,3adcb40c853daf4eb9541902f4de17c436c2719556b7e6e645bec09ec562295c
 assets/photos/control-board.jpg,Project prototype photographs,1019618,656969690b1f5bb037600b038bf7ff65b81f02d86ef1ecd553b1116dc8501cd3
 assets/photos/fpga-back.jpg,Project prototype photographs,4993047,4bbab5d6ec912a473d8921258c90e260325c121d78375dbe398cfe45bddbee82
@@ -20,6 +20,7 @@ assets/photos/software/recorder.png,Project prototype photographs,2084449,7e31b5
 assets/photos/software/spectrum.png,Project prototype photographs,2714233,4b4cad92e9a4eb26f141f715aeb900b9742cd14b3b1d99566baf0173ff469ed5
 assets/photos/software/timbre.jpg,Project prototype photographs,201588,b303fdb602816915eee378df3de731e3ea04f46569814f395985a3f3facc1d54
 assets/photos/software/verify.jpg,Project prototype photographs,698953,58a13d1130329780fbf202ac001f81aac509203fbbdf1cd36f63d4a0a2a1d330
+assets/photos/whole-angle.jpg,Project prototype photograph,405415,6769043f5033288044c0844ad036973f5c2afb4b9e06c58ee97ad8476df3a569
 assets/photos/whole-front.jpg,Project prototype photographs,520163,3e6b0c3167eabc71059ccf82725191cd10aa106b3af4e45f62083eb85a11a2e4
 assets/photos/whole-inside.jpg,Project prototype photographs,536386,b0bd8cadec79c547a63a8c5aea2134fe5eadcf3243a4174ea96e2f5d6eccb8a3
 assets/renders/assembled-cutaway.png,"Project documentation, diagrams, renders, or verification index",2262694,cc644227bb71702526e3beb10fe7d87ccd19c58eee84000444eaf7ee424895a6
@@ -27,31 +28,37 @@ assets/renders/internal-plates-cad.png,"Project documentation, diagrams, renders
 assets/renders/key-exploded.png,"Project documentation, diagrams, renders, or verification index",1738899,cedbb04edb0fe4b05201f50251b830d47615a0a8e97c38ea7f98b214f175ce92
 assets/renders/layered-assembly.png,"Project documentation, diagrams, renders, or verification index",1939586,385e5a93b5d8a54718e1721ac941aea54faf70c4c1d86436d23c85052a44f88a
 docs/assembly.md,"Project documentation, diagrams, renders, or verification index",4348,25e4c6f610cc8dadd965f64dbc42e8ade90ffe67aa586ff3ca8da9928c02344b
-docs/design-status.md,"Project documentation, diagrams, renders, or verification index",2584,a6d20206fba70a9bf31cac21fdf1bde2c8f7427a797264c709085f96b6faaa50
+docs/design-status.md,"Project documentation, diagrams, renders, or verification index",2591,8ebe7b484e60f6ab3ea25de941694c0cc4a272f7637aded1d1d61b8b6c9eba20
 docs/figures/01-system-overview.png,"Project documentation, diagrams, renders, or verification index",249388,95f8575e2e2c5420194db065412ee38dbf0fe9e1743df69e14e438d6bbacdd64
 docs/figures/01-system-overview.svg,"Project documentation, diagrams, renders, or verification index",10048,3fe63d9d6261b64290ee38dee35a62921e5eebec613fae47fa810ba2d7857622
-docs/figures/02-pressure-board.png,"Project documentation, diagrams, renders, or verification index",1093099,2ef8ab8a07c641eb875862fd4ed6e7dddef1540d515b21f07b1c91873f87f6b2
-docs/figures/02-pressure-board.svg,"Project documentation, diagrams, renders, or verification index",500616,ece9e19d7e09aa6e9d370b3ef4c277c99315df79d563f53e60ba9c9b499d8d77
+docs/figures/02-pressure-board.png,"Project documentation, diagrams, renders, or verification index",2761091,2349515f4d8841e1cae9fc9ec8a62bb2a11a30569fb86a26f127cc0f8ac4e2d7
+docs/figures/02-pressure-board.svg,"Project documentation, diagrams, renders, or verification index",500647,98252a383625d05f70002f48c4ee1b8c2f54bb530427e7a3e8f2ee49b3d958e7
 docs/figures/03-pressure-spi.png,"Project documentation, diagrams, renders, or verification index",989317,0f5aebc8a3f61015c4dd5c00e1d01919030edcf684fd9db7434802905b7ed619
 docs/figures/03-pressure-spi.svg,"Project documentation, diagrams, renders, or verification index",686474,3d4b1d5b56559231b07582537d7525c58a0a58d4d31683edd82a1faad8404089
-docs/figures/04-control-layout.png,"Project documentation, diagrams, renders, or verification index",1569240,00316a2767006a4d6dea4b4e609250bec9739290a060936f5fc37f08158e1c07
-docs/figures/04-control-layout.svg,"Project documentation, diagrams, renders, or verification index",625630,a8024d5212397a51cbfbb218cf134b279aedf55d94f7d9386655ad75a92d5a61
+docs/figures/04-control-layout.png,"Project documentation, diagrams, renders, or verification index",4293930,fed170d8460915fdcd16affd7e1210b12a284cbf6d44afaa5e4e5e064917e297
+docs/figures/04-control-layout.svg,"Project documentation, diagrams, renders, or verification index",625661,01baa6e6f68fe0e7cdbce2df1e76171d3ea98998ceb048c7cad9fe793e428f16
 docs/figures/05-control-pinout.png,"Project documentation, diagrams, renders, or verification index",1063130,8cd5d96f306bd59944e05e79ace165661eee9995521ead1a4af44d88062c9b42
 docs/figures/05-control-pinout.svg,"Project documentation, diagrams, renders, or verification index",796327,4d4acf31a52678fbbb903b32bf05f8ce3b0aa9e55e3e02a8c391bdd5a54e0e30
-docs/figures/06-lighting-layout.png,"Project documentation, diagrams, renders, or verification index",1076132,897775d52459d545d16d8ad1ce52ff5cb2bdaa1ec902629f16ea03309b095db9
-docs/figures/06-lighting-layout.svg,"Project documentation, diagrams, renders, or verification index",713362,5bcd7e0d042aa2fc5897f09e3b7bf46aa1f8ff24513d6ab6c1443ac36dd9e45b
+docs/figures/06-lighting-layout.png,"Project documentation, diagrams, renders, or verification index",4210200,f4cc63703aa0d6e610bfca52cfebc8970b14ba96ec7966c970f95c7a31f82ff3
+docs/figures/06-lighting-layout.svg,"Project documentation, diagrams, renders, or verification index",713338,397d492f165f8bbce2f17ccd8a15d4ecdb031ad90f02d22ee87531d6e64f554b
 docs/figures/07-lighting-input.png,"Project documentation, diagrams, renders, or verification index",1092125,fbd6ebee10027769946cd371609f261073f5ecfbfb06cf59c31ce59a34cf5919
 docs/figures/07-lighting-input.svg,"Project documentation, diagrams, renders, or verification index",838840,49c3c3d76c761f8fe808879a3ffaa8d2aaa7dbbb665d7cf5e73954280e5cd171
 docs/figures/08-wiring.png,"Project documentation, diagrams, renders, or verification index",2161856,6b3bb1e32857131a876d558afdf6a2da4240b471bdcb4f9ea0cf161069747530
 docs/figures/08-wiring.svg,"Project documentation, diagrams, renders, or verification index",98293,42b1650b0bd2a744781544b79fc8381b01b341f548d6dd9e8c3994eb877e21b4
 docs/figures/09-peripherals.png,"Project documentation, diagrams, renders, or verification index",3067536,9918eb220f113ae0edfb6945bee5d50c089571fd6d1f76cf96257d6be81a0065
 docs/figures/09-peripherals.svg,"Project documentation, diagrams, renders, or verification index",83272,d53509017bdc1b7ab514a76f4815a1efc7cc189d558ba3bb51a93a5762d0fdff
+docs/figures/media-function-flows.png,Project software flow diagram,527533,61a8e83d3db54b5f082caca6307625e4dbe7ed3805aba93868e148692da53475
+docs/figures/media-function-flows.svg,Project software flow diagram,9178,7692f54445402bf04c214752f0c881127ae6caece5a59122d117cb3dcf56b41f
+docs/figures/realtime-signal-flow.png,Project software flow diagram,439235,718bf6ff6289547002e8d41dd6115935493f81925d235c8a76d71ba61ff3c276
+docs/figures/realtime-signal-flow.svg,Project software flow diagram,6471,75dacb91c3f34d226a5ab5329a86b076eea0c8bfb8074ed5c7d2ccdc676a87fc
+docs/figures/software-main-flow.png,Project software flow diagram,283307,e8ba28097d7e65719eb7fd569f3149bfab9b7895f9d045ed754997a349d4921a
+docs/figures/software-main-flow.svg,Project software flow diagram,4227,7ad5d3d9ab2b6a05f288b29cb6b638d2abd774015a58e254cf4d7a6932d03b64
 docs/hardware.md,"Project documentation, diagrams, renders, or verification index",3237,4803a665346bc5e8e97b09c31cbe12167e0bf964baa0c42130cc2f1f0fa72365
 docs/key-channel-map.csv,"Project documentation, diagrams, renders, or verification index",1875,66872ee4db5cfdca5aed2d4f7a4f4e1be07ac4b9a9a0ebe7678bebf9f0a790b1
 docs/parts-list.csv,"Project documentation, diagrams, renders, or verification index",1222,d30cdc4e72813ff65ff4dcbeb4acb3c5bde34652f39bebcb896c9fc38bbd8423
 docs/references.md,"Project documentation, diagrams, renders, or verification index",809,2e77763bc48173ae7bcf9415455bc60c8cf0bed6e37e482b445d162bd3b5a015
-docs/software.md,"Project documentation, diagrams, renders, or verification index",2735,82e218ec708fb58a6cbe8291e65593dcb962fd93ca96a860c50de4fbe1e30c33
-docs/technical-report.docx,"R9 technical report, 35 pages",7432786,9c4ab36e99cfad07fcbd12b862ba038690b43802d0a53548effbfaefffbb2a47
+docs/software.md,"Project documentation, diagrams, renders, or verification index",3538,81a8e6a21446efb0a8c116a8fa3579e0344a6fb06a3f20f9dca3f64e6f851a2b
+docs/technical-report.docx,"R10 technical report, 40 pages",36874126,3ae68137e0356a0bbc92eafbb047d4b07a33173b47107a3c9b20e9c7aecd4482
 docs/wiring.md,"Project documentation, diagrams, renders, or verification index",4533,5dd08d022c77769cbcd5d21ed3e63ba8b1054342e271b091975c3478e5bbd928
 fpga/README.md,"Project documentation, diagrams, renders, or verification index",2242,4cb207c913b4bb27e76da8b8208702e64ece90e3e97adfebce8d09c6cf4055a1
 fpga/d12/README_请先看.md,D12 historical release archive,4233,cab27abb93afdfbfa58e4de08a11a4d1e0a932c4d9bd24d042077a39987cf023
@@ -1720,4 +1727,4 @@ hardware/mechanical/cad/side_right_221x111_t3.dxf,"Mechanical CAD, print, and Bl
 hardware/mechanical/stl/key_guide_29p8mm.stl,"Mechanical CAD, print, and Blender sources",135584,32ca9a3892738c2397da9492c8cecf7167085b33c676ea5ee4df225650b96eb3
 hardware/mechanical/stl/key_tray_25mm.stl,"Mechanical CAD, print, and Blender sources",38284,702e8e6e982ea600f17f24115eea19f47c111284d65dd10135c35b869cbf50e5
 verification/file-checks.json,"Project documentation, diagrams, renders, or verification index",1616,d6f86144e1d51b7b7bb836469b94d20891c14d7e3ddf0efc2d6d9439961e817b
-verification/package-checks.json,"Project documentation, diagrams, renders, or verification index",1438,cf53bdbb34845e31784428321cbad94e67f72090b95c381e7167319c313289c3
+verification/package-checks.json,"Project documentation, diagrams, renders, or verification index",1556,23f6a6bb07e085658013ef532621104f1d54dbb41d33ef3d465274696a7cfd63
