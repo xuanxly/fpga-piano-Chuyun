@@ -27,7 +27,7 @@ assets/renders/internal-plates-cad.png,"Project documentation, diagrams, renders
 assets/renders/key-exploded.png,"Project documentation, diagrams, renders, or verification index",1738899,cedbb04edb0fe4b05201f50251b830d47615a0a8e97c38ea7f98b214f175ce92
 assets/renders/layered-assembly.png,"Project documentation, diagrams, renders, or verification index",1939586,385e5a93b5d8a54718e1721ac941aea54faf70c4c1d86436d23c85052a44f88a
 docs/assembly.md,"Project documentation, diagrams, renders, or verification index",4348,25e4c6f610cc8dadd965f64dbc42e8ade90ffe67aa586ff3ca8da9928c02344b
-docs/design-status.md,"Project documentation, diagrams, renders, or verification index",2584,906d3f99a6673022715e76d0fdca86adc4faba719d5aa7c0117163ce96be4ab6
+docs/design-status.md,"Project documentation, diagrams, renders, or verification index",2584,a6d20206fba70a9bf31cac21fdf1bde2c8f7427a797264c709085f96b6faaa50
 docs/figures/01-system-overview.png,"Project documentation, diagrams, renders, or verification index",249388,95f8575e2e2c5420194db065412ee38dbf0fe9e1743df69e14e438d6bbacdd64
 docs/figures/01-system-overview.svg,"Project documentation, diagrams, renders, or verification index",10048,3fe63d9d6261b64290ee38dee35a62921e5eebec613fae47fa810ba2d7857622
 docs/figures/02-pressure-board.png,"Project documentation, diagrams, renders, or verification index",1093099,2ef8ab8a07c641eb875862fd4ed6e7dddef1540d515b21f07b1c91873f87f6b2
@@ -50,8 +50,8 @@ docs/hardware.md,"Project documentation, diagrams, renders, or verification inde
 docs/key-channel-map.csv,"Project documentation, diagrams, renders, or verification index",1875,66872ee4db5cfdca5aed2d4f7a4f4e1be07ac4b9a9a0ebe7678bebf9f0a790b1
 docs/parts-list.csv,"Project documentation, diagrams, renders, or verification index",1222,d30cdc4e72813ff65ff4dcbeb4acb3c5bde34652f39bebcb896c9fc38bbd8423
 docs/references.md,"Project documentation, diagrams, renders, or verification index",809,2e77763bc48173ae7bcf9415455bc60c8cf0bed6e37e482b445d162bd3b5a015
-docs/software.md,"Project documentation, diagrams, renders, or verification index",2621,9af55e91c9287b2de33f34f34f66cee6ef48c900d4e6e44deda9f347b239ecdd
-docs/technical-report.docx,"R8 technical report, 35 pages",7432544,cef2bc9274eea873040d87c780b182a47e23cc16bec8107fd2aac276accf0e68
+docs/software.md,"Project documentation, diagrams, renders, or verification index",2735,82e218ec708fb58a6cbe8291e65593dcb962fd93ca96a860c50de4fbe1e30c33
+docs/technical-report.docx,"R9 technical report, 35 pages",7432786,9c4ab36e99cfad07fcbd12b862ba038690b43802d0a53548effbfaefffbb2a47
 docs/wiring.md,"Project documentation, diagrams, renders, or verification index",4533,5dd08d022c77769cbcd5d21ed3e63ba8b1054342e271b091975c3478e5bbd928
 fpga/README.md,"Project documentation, diagrams, renders, or verification index",2242,4cb207c913b4bb27e76da8b8208702e64ece90e3e97adfebce8d09c6cf4055a1
 fpga/d12/README_请先看.md,D12 historical release archive,4233,cab27abb93afdfbfa58e4de08a11a4d1e0a932c4d9bd24d042077a39987cf023
@@ -1720,4 +1720,4 @@ hardware/mechanical/cad/side_right_221x111_t3.dxf,"Mechanical CAD, print, and Bl
 hardware/mechanical/stl/key_guide_29p8mm.stl,"Mechanical CAD, print, and Blender sources",135584,32ca9a3892738c2397da9492c8cecf7167085b33c676ea5ee4df225650b96eb3
 hardware/mechanical/stl/key_tray_25mm.stl,"Mechanical CAD, print, and Blender sources",38284,702e8e6e982ea600f17f24115eea19f47c111284d65dd10135c35b869cbf50e5
 verification/file-checks.json,"Project documentation, diagrams, renders, or verification index",1616,d6f86144e1d51b7b7bb836469b94d20891c14d7e3ddf0efc2d6d9439961e817b
-verification/package-checks.json,"Project documentation, diagrams, renders, or verification index",1370,a98971659beb515aa87dc4301e137667998ffabdf14f4a782d14d41779f11f40
+verification/package-checks.json,"Project documentation, diagrams, renders, or verification index",1438,cf53bdbb34845e31784428321cbad94e67f72090b95c381e7167319c313289c3
